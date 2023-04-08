@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AFE70273-7A79-4815-AF95-1E02E2675E37}</ProjectGuid>
+    <RootNamespace>xml2</RootNamespace>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="smp_winrt_deps.props" />
+    <Import Project="libxml2_files.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugWinRT|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>IN_LIBXML;LIBXML_STATIC;HAVE_LIBLZMA;HAVE_LZMA_H;HAVE_LIBZ;HAVE_ZLIB_H;HAVE_CONFIG_H;LZMA_API_STATIC;DEBUG;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\include;$(OutDir)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4005;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libzlibd_winrt.lib;libiconvd_winrt.lib;liblzmad_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\libxml2
+mkdir "$(OutDir)"\include\libxml2\libxml
+copy ..\include\libxml\*.h "$(OutDir)"\include\libxml2\libxml
+copy .\libxml\xmlversion.h "$(OutDir)"\include\libxml2\libxml
+mkdir $(OutDir)\licenses
+copy ..\Copyright $(OutDir)\licenses\libxml2.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\include\libxml\xmlversion.h (
+del ..\include\libxml\xmlversion.h
+)
+if exist "$(OutDir)"\include\libxml2 (
+rd /s /q "$(OutDir)"\include\libxml2
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\libxml2 (
+rmdir /s /q "$(OutDir)"\include\libxml2
+)
+if exist $(OutDir)\licenses\libxml2.txt (
+del /f /q $(OutDir)\licenses\libxml2.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugWinRT|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>IN_LIBXML;LIBXML_STATIC;HAVE_LIBLZMA;HAVE_LZMA_H;HAVE_LIBZ;HAVE_ZLIB_H;HAVE_CONFIG_H;LZMA_API_STATIC;DEBUG;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\include;$(OutDir)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4005;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libzlibd_winrt.lib;libiconvd_winrt.lib;liblzmad_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\libxml2
+mkdir "$(OutDir)"\include\libxml2\libxml
+copy ..\include\libxml\*.h "$(OutDir)"\include\libxml2\libxml
+copy .\libxml\xmlversion.h "$(OutDir)"\include\libxml2\libxml
+mkdir $(OutDir)\licenses
+copy ..\Copyright $(OutDir)\licenses\libxml2.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\include\libxml\xmlversion.h (
+del ..\include\libxml\xmlversion.h
+)
+if exist "$(OutDir)"\include\libxml2 (
+rd /s /q "$(OutDir)"\include\libxml2
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\libxml2 (
+rmdir /s /q "$(OutDir)"\include\libxml2
+)
+if exist $(OutDir)\licenses\libxml2.txt (
+del /f /q $(OutDir)\licenses\libxml2.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLLWinRT|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>IN_LIBXML;HAVE_LIBLZMA;HAVE_LZMA_H;HAVE_LIBZ;HAVE_ZLIB_H;HAVE_CONFIG_H;DEBUG;_WINSOCK_DEPRECATED_NO_WARNINGS;LIBXML_STATIC_FOR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\include;$(OutDir)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4005;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>zlibd_winrt.lib;iconvd_winrt.lib;lzmad_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\libxml2
+mkdir "$(OutDir)"\include\libxml2\libxml
+copy ..\include\libxml\*.h "$(OutDir)"\include\libxml2\libxml
+copy .\libxml\xmlversion.h "$(OutDir)"\include\libxml2\libxml
+mkdir $(OutDir)\licenses
+copy ..\Copyright $(OutDir)\licenses\libxml2.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\include\libxml\xmlversion.h (
+del ..\include\libxml\xmlversion.h
+)
+if exist "$(OutDir)"\include\libxml2 (
+rd /s /q "$(OutDir)"\include\libxml2
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\libxml2 (
+rmdir /s /q "$(OutDir)"\include\libxml2
+)
+if exist $(OutDir)\licenses\libxml2.txt (
+del /f /q $(OutDir)\licenses\libxml2.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLLWinRT|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>IN_LIBXML;HAVE_LIBLZMA;HAVE_LZMA_H;HAVE_LIBZ;HAVE_ZLIB_H;HAVE_CONFIG_H;DEBUG;_WINSOCK_DEPRECATED_NO_WARNINGS;LIBXML_STATIC_FOR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\include;$(OutDir)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4005;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>zlibd_winrt.lib;iconvd_winrt.lib;lzmad_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\libxml2
+mkdir "$(OutDir)"\include\libxml2\libxml
+copy ..\include\libxml\*.h "$(OutDir)"\include\libxml2\libxml
+copy .\libxml\xmlversion.h "$(OutDir)"\include\libxml2\libxml
+mkdir $(OutDir)\licenses
+copy ..\Copyright $(OutDir)\licenses\libxml2.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\include\libxml\xmlversion.h (
+del ..\include\libxml\xmlversion.h
+)
+if exist "$(OutDir)"\include\libxml2 (
+rd /s /q "$(OutDir)"\include\libxml2
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\libxml2 (
+rmdir /s /q "$(OutDir)"\include\libxml2
+)
+if exist $(OutDir)\licenses\libxml2.txt (
+del /f /q $(OutDir)\licenses\libxml2.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWinRT|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>IN_LIBXML;LIBXML_STATIC;HAVE_LIBLZMA;HAVE_LZMA_H;HAVE_LIBZ;HAVE_ZLIB_H;HAVE_CONFIG_H;LZMA_API_STATIC;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\include;$(OutDir)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4005;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libzlib_winrt.lib;libiconv_winrt.lib;liblzma_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\libxml2
+mkdir "$(OutDir)"\include\libxml2\libxml
+copy ..\include\libxml\*.h "$(OutDir)"\include\libxml2\libxml
+copy .\libxml\xmlversion.h "$(OutDir)"\include\libxml2\libxml
+mkdir $(OutDir)\licenses
+copy ..\Copyright $(OutDir)\licenses\libxml2.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\include\libxml\xmlversion.h (
+del ..\include\libxml\xmlversion.h
+)
+if exist "$(OutDir)"\include\libxml2 (
+rd /s /q "$(OutDir)"\include\libxml2
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\libxml2 (
+rmdir /s /q "$(OutDir)"\include\libxml2
+)
+if exist $(OutDir)\licenses\libxml2.txt (
+del /f /q $(OutDir)\licenses\libxml2.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWinRT|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>IN_LIBXML;LIBXML_STATIC;HAVE_LIBLZMA;HAVE_LZMA_H;HAVE_LIBZ;HAVE_ZLIB_H;HAVE_CONFIG_H;LZMA_API_STATIC;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\include;$(OutDir)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4005;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libzlib_winrt.lib;libiconv_winrt.lib;liblzma_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\libxml2
+mkdir "$(OutDir)"\include\libxml2\libxml
+copy ..\include\libxml\*.h "$(OutDir)"\include\libxml2\libxml
+copy .\libxml\xmlversion.h "$(OutDir)"\include\libxml2\libxml
+mkdir $(OutDir)\licenses
+copy ..\Copyright $(OutDir)\licenses\libxml2.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\include\libxml\xmlversion.h (
+del ..\include\libxml\xmlversion.h
+)
+if exist "$(OutDir)"\include\libxml2 (
+rd /s /q "$(OutDir)"\include\libxml2
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\libxml2 (
+rmdir /s /q "$(OutDir)"\include\libxml2
+)
+if exist $(OutDir)\licenses\libxml2.txt (
+del /f /q $(OutDir)\licenses\libxml2.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLLWinRT|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>IN_LIBXML;HAVE_LIBLZMA;HAVE_LZMA_H;HAVE_LIBZ;HAVE_ZLIB_H;HAVE_CONFIG_H;_WINSOCK_DEPRECATED_NO_WARNINGS;LIBXML_STATIC_FOR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\include;$(OutDir)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4005;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>zlib_winrt.lib;iconv_winrt.lib;lzma_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\libxml2
+mkdir "$(OutDir)"\include\libxml2\libxml
+copy ..\include\libxml\*.h "$(OutDir)"\include\libxml2\libxml
+copy .\libxml\xmlversion.h "$(OutDir)"\include\libxml2\libxml
+mkdir $(OutDir)\licenses
+copy ..\Copyright $(OutDir)\licenses\libxml2.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\include\libxml\xmlversion.h (
+del ..\include\libxml\xmlversion.h
+)
+if exist "$(OutDir)"\include\libxml2 (
+rd /s /q "$(OutDir)"\include\libxml2
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\libxml2 (
+rmdir /s /q "$(OutDir)"\include\libxml2
+)
+if exist $(OutDir)\licenses\libxml2.txt (
+del /f /q $(OutDir)\licenses\libxml2.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLLWinRTStaticDeps|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>IN_LIBXML;HAVE_LIBLZMA;HAVE_LZMA_H;HAVE_LIBZ;HAVE_ZLIB_H;HAVE_CONFIG_H;LZMA_API_STATIC;_WINSOCK_DEPRECATED_NO_WARNINGS;LIBXML_STATIC_FOR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\include;$(OutDir)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4005;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libzlib_winrt.lib;libiconv_winrt.lib;liblzma_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\libxml2
+mkdir "$(OutDir)"\include\libxml2\libxml
+copy ..\include\libxml\*.h "$(OutDir)"\include\libxml2\libxml
+copy .\libxml\xmlversion.h "$(OutDir)"\include\libxml2\libxml
+mkdir $(OutDir)\licenses
+copy ..\Copyright $(OutDir)\licenses\libxml2.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\include\libxml\xmlversion.h (
+del ..\include\libxml\xmlversion.h
+)
+if exist "$(OutDir)"\include\libxml2 (
+rd /s /q "$(OutDir)"\include\libxml2
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\libxml2 (
+rmdir /s /q "$(OutDir)"\include\libxml2
+)
+if exist $(OutDir)\licenses\libxml2.txt (
+del /f /q $(OutDir)\licenses\libxml2.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLLWinRT|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>IN_LIBXML;HAVE_LIBLZMA;HAVE_LZMA_H;HAVE_LIBZ;HAVE_ZLIB_H;HAVE_CONFIG_H;_WINSOCK_DEPRECATED_NO_WARNINGS;LIBXML_STATIC_FOR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\include;$(OutDir)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4005;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>zlib_winrt.lib;iconv_winrt.lib;lzma_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\libxml2
+mkdir "$(OutDir)"\include\libxml2\libxml
+copy ..\include\libxml\*.h "$(OutDir)"\include\libxml2\libxml
+copy .\libxml\xmlversion.h "$(OutDir)"\include\libxml2\libxml
+mkdir $(OutDir)\licenses
+copy ..\Copyright $(OutDir)\licenses\libxml2.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\include\libxml\xmlversion.h (
+del ..\include\libxml\xmlversion.h
+)
+if exist "$(OutDir)"\include\libxml2 (
+rd /s /q "$(OutDir)"\include\libxml2
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\libxml2 (
+rmdir /s /q "$(OutDir)"\include\libxml2
+)
+if exist $(OutDir)\licenses\libxml2.txt (
+del /f /q $(OutDir)\licenses\libxml2.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLLWinRTStaticDeps|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>IN_LIBXML;HAVE_LIBLZMA;HAVE_LZMA_H;HAVE_LIBZ;HAVE_ZLIB_H;HAVE_CONFIG_H;LZMA_API_STATIC;_WINSOCK_DEPRECATED_NO_WARNINGS;LIBXML_STATIC_FOR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\include;$(OutDir)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4005;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libzlib_winrt.lib;libiconv_winrt.lib;liblzma_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\libxml2
+mkdir "$(OutDir)"\include\libxml2\libxml
+copy ..\include\libxml\*.h "$(OutDir)"\include\libxml2\libxml
+copy .\libxml\xmlversion.h "$(OutDir)"\include\libxml2\libxml
+mkdir $(OutDir)\licenses
+copy ..\Copyright $(OutDir)\licenses\libxml2.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\include\libxml\xmlversion.h (
+del ..\include\libxml\xmlversion.h
+)
+if exist "$(OutDir)"\include\libxml2 (
+rd /s /q "$(OutDir)"\include\libxml2
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\libxml2 (
+rmdir /s /q "$(OutDir)"\include\libxml2
+)
+if exist $(OutDir)\licenses\libxml2.txt (
+del /f /q $(OutDir)\licenses\libxml2.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+</Project>

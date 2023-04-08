@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ABF1E8F7-5B7D-4CBF-842A-B7E0C02520DC}</ProjectGuid>
+    <RootNamespace>fontconfig</RootNamespace>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="smp_winrt_deps.props" />
+    <Import Project="libfontconfig_files.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugWinRT|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;LIBXML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;.\;..\;.\src;$(OutDir)\include\libxml2;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\libxml2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4090;4244;4018;4101;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libiconvd_winrt.lib;libfreetyped_winrt.lib;libxml2d_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fontconfig
+copy ..\fontconfig\*.h "$(OutDir)"\include\fontconfig
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fontconfig.txt
+mkdir $(OutDir)\fonts
+copy .\fonts.conf $(OutDir)\fonts
+mkdir $(OutDir)\fonts\conf.d
+copy ..\conf.d\*.conf $(OutDir)\fonts\conf.d\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\src\fcalias.h (
+del ..\src\fcalias.h
+)
+if exist ..\src\fcaliastail.h (
+del ..\src\fcaliastail.h
+)
+if exist ..\src\fcftalias.h (
+del ..\src\fcftalias.h
+)
+if exist ..\src\fcftaliastail.h (
+del ..\src\fcftaliastail.h
+)
+if exist ..\src\fcobjshash.h (
+del ..\src\fcobjshash.h
+)
+if exist ..\src\fcstdint.h (
+del ..\src\fcstdint.h
+)
+if exist ..\fc-case\fccase.h (
+del ..\fc-case\fccase.h
+)
+if exist ..\fc-glyphname\fcglyphname.h (
+del ..\fc-glyphname\fcglyphname.h
+)
+if exist ..\fc-lang\fclang.h (
+del ..\fc-lang\fclang.h
+)
+if exist "$(OutDir)"\include\fontconfig (
+rd /s /q "$(OutDir)"\include\fontconfig
+cd ../
+cd $(ProjectDir)
+)
+if not exist .\fc-blanks\fcblanks.h (
+python ..\fc-blanks\fc-blanks.py &lt; ..\fc-blanks\fcblanks.tmpl.h &gt; .\fc-blanks\fcblanks.h
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fontconfig (
+rmdir /s /q "$(OutDir)"\include\fontconfig
+)
+if exist $(OutDir)\licenses\fontconfig.txt (
+del /f /q $(OutDir)\licenses\fontconfig.txt
+)
+if exist $(OutDir)\fonts (
+rmdir /s /q $(OutDir)\fonts
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugWinRT|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;LIBXML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;.\;..\;.\src;$(OutDir)\include\libxml2;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\libxml2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4090;4244;4018;4101;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libiconvd_winrt.lib;libfreetyped_winrt.lib;libxml2d_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fontconfig
+copy ..\fontconfig\*.h "$(OutDir)"\include\fontconfig
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fontconfig.txt
+mkdir $(OutDir)\fonts
+copy .\fonts.conf $(OutDir)\fonts
+mkdir $(OutDir)\fonts\conf.d
+copy ..\conf.d\*.conf $(OutDir)\fonts\conf.d\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\src\fcalias.h (
+del ..\src\fcalias.h
+)
+if exist ..\src\fcaliastail.h (
+del ..\src\fcaliastail.h
+)
+if exist ..\src\fcftalias.h (
+del ..\src\fcftalias.h
+)
+if exist ..\src\fcftaliastail.h (
+del ..\src\fcftaliastail.h
+)
+if exist ..\src\fcobjshash.h (
+del ..\src\fcobjshash.h
+)
+if exist ..\src\fcstdint.h (
+del ..\src\fcstdint.h
+)
+if exist ..\fc-case\fccase.h (
+del ..\fc-case\fccase.h
+)
+if exist ..\fc-glyphname\fcglyphname.h (
+del ..\fc-glyphname\fcglyphname.h
+)
+if exist ..\fc-lang\fclang.h (
+del ..\fc-lang\fclang.h
+)
+if exist "$(OutDir)"\include\fontconfig (
+rd /s /q "$(OutDir)"\include\fontconfig
+cd ../
+cd $(ProjectDir)
+)
+if not exist .\fc-blanks\fcblanks.h (
+python ..\fc-blanks\fc-blanks.py &lt; ..\fc-blanks\fcblanks.tmpl.h &gt; .\fc-blanks\fcblanks.h
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fontconfig (
+rmdir /s /q "$(OutDir)"\include\fontconfig
+)
+if exist $(OutDir)\licenses\fontconfig.txt (
+del /f /q $(OutDir)\licenses\fontconfig.txt
+)
+if exist $(OutDir)\fonts (
+rmdir /s /q $(OutDir)\fonts
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLLWinRT|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;LIBXML_STATIC;DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;.\;..\;.\src;$(OutDir)\include\libxml2;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\libxml2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4090;4244;4018;4101;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>.\libfontconfig.def</ModuleDefinitionFile>
+      <AdditionalDependencies>iconvd_winrt.lib;freetyped_winrt.lib;xml2d_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fontconfig
+copy ..\fontconfig\*.h "$(OutDir)"\include\fontconfig
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fontconfig.txt
+mkdir $(OutDir)\fonts
+copy .\fonts.conf $(OutDir)\fonts
+mkdir $(OutDir)\fonts\conf.d
+copy ..\conf.d\*.conf $(OutDir)\fonts\conf.d\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\src\fcalias.h (
+del ..\src\fcalias.h
+)
+if exist ..\src\fcaliastail.h (
+del ..\src\fcaliastail.h
+)
+if exist ..\src\fcftalias.h (
+del ..\src\fcftalias.h
+)
+if exist ..\src\fcftaliastail.h (
+del ..\src\fcftaliastail.h
+)
+if exist ..\src\fcobjshash.h (
+del ..\src\fcobjshash.h
+)
+if exist ..\src\fcstdint.h (
+del ..\src\fcstdint.h
+)
+if exist ..\fc-case\fccase.h (
+del ..\fc-case\fccase.h
+)
+if exist ..\fc-glyphname\fcglyphname.h (
+del ..\fc-glyphname\fcglyphname.h
+)
+if exist ..\fc-lang\fclang.h (
+del ..\fc-lang\fclang.h
+)
+if exist "$(OutDir)"\include\fontconfig (
+rd /s /q "$(OutDir)"\include\fontconfig
+cd ../
+cd $(ProjectDir)
+)
+if not exist .\fc-blanks\fcblanks.h (
+python ..\fc-blanks\fc-blanks.py &lt; ..\fc-blanks\fcblanks.tmpl.h &gt; .\fc-blanks\fcblanks.h
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fontconfig (
+rmdir /s /q "$(OutDir)"\include\fontconfig
+)
+if exist $(OutDir)\licenses\fontconfig.txt (
+del /f /q $(OutDir)\licenses\fontconfig.txt
+)
+if exist $(OutDir)\fonts (
+rmdir /s /q $(OutDir)\fonts
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLLWinRT|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;LIBXML_STATIC;DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;.\;..\;.\src;$(OutDir)\include\libxml2;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\libxml2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4090;4244;4018;4101;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>.\libfontconfig.def</ModuleDefinitionFile>
+      <AdditionalDependencies>iconvd_winrt.lib;freetyped_winrt.lib;xml2d_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fontconfig
+copy ..\fontconfig\*.h "$(OutDir)"\include\fontconfig
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fontconfig.txt
+mkdir $(OutDir)\fonts
+copy .\fonts.conf $(OutDir)\fonts
+mkdir $(OutDir)\fonts\conf.d
+copy ..\conf.d\*.conf $(OutDir)\fonts\conf.d\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\src\fcalias.h (
+del ..\src\fcalias.h
+)
+if exist ..\src\fcaliastail.h (
+del ..\src\fcaliastail.h
+)
+if exist ..\src\fcftalias.h (
+del ..\src\fcftalias.h
+)
+if exist ..\src\fcftaliastail.h (
+del ..\src\fcftaliastail.h
+)
+if exist ..\src\fcobjshash.h (
+del ..\src\fcobjshash.h
+)
+if exist ..\src\fcstdint.h (
+del ..\src\fcstdint.h
+)
+if exist ..\fc-case\fccase.h (
+del ..\fc-case\fccase.h
+)
+if exist ..\fc-glyphname\fcglyphname.h (
+del ..\fc-glyphname\fcglyphname.h
+)
+if exist ..\fc-lang\fclang.h (
+del ..\fc-lang\fclang.h
+)
+if exist "$(OutDir)"\include\fontconfig (
+rd /s /q "$(OutDir)"\include\fontconfig
+cd ../
+cd $(ProjectDir)
+)
+if not exist .\fc-blanks\fcblanks.h (
+python ..\fc-blanks\fc-blanks.py &lt; ..\fc-blanks\fcblanks.tmpl.h &gt; .\fc-blanks\fcblanks.h
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fontconfig (
+rmdir /s /q "$(OutDir)"\include\fontconfig
+)
+if exist $(OutDir)\licenses\fontconfig.txt (
+del /f /q $(OutDir)\licenses\fontconfig.txt
+)
+if exist $(OutDir)\fonts (
+rmdir /s /q $(OutDir)\fonts
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWinRT|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;LIBXML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;.\;..\;.\src;$(OutDir)\include\libxml2;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\libxml2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4090;4244;4018;4101;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libiconv_winrt.lib;libfreetype_winrt.lib;libxml2_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fontconfig
+copy ..\fontconfig\*.h "$(OutDir)"\include\fontconfig
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fontconfig.txt
+mkdir $(OutDir)\fonts
+copy .\fonts.conf $(OutDir)\fonts
+mkdir $(OutDir)\fonts\conf.d
+copy ..\conf.d\*.conf $(OutDir)\fonts\conf.d\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\src\fcalias.h (
+del ..\src\fcalias.h
+)
+if exist ..\src\fcaliastail.h (
+del ..\src\fcaliastail.h
+)
+if exist ..\src\fcftalias.h (
+del ..\src\fcftalias.h
+)
+if exist ..\src\fcftaliastail.h (
+del ..\src\fcftaliastail.h
+)
+if exist ..\src\fcobjshash.h (
+del ..\src\fcobjshash.h
+)
+if exist ..\src\fcstdint.h (
+del ..\src\fcstdint.h
+)
+if exist ..\fc-case\fccase.h (
+del ..\fc-case\fccase.h
+)
+if exist ..\fc-glyphname\fcglyphname.h (
+del ..\fc-glyphname\fcglyphname.h
+)
+if exist ..\fc-lang\fclang.h (
+del ..\fc-lang\fclang.h
+)
+if exist "$(OutDir)"\include\fontconfig (
+rd /s /q "$(OutDir)"\include\fontconfig
+cd ../
+cd $(ProjectDir)
+)
+if not exist .\fc-blanks\fcblanks.h (
+python ..\fc-blanks\fc-blanks.py &lt; ..\fc-blanks\fcblanks.tmpl.h &gt; .\fc-blanks\fcblanks.h
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fontconfig (
+rmdir /s /q "$(OutDir)"\include\fontconfig
+)
+if exist $(OutDir)\licenses\fontconfig.txt (
+del /f /q $(OutDir)\licenses\fontconfig.txt
+)
+if exist $(OutDir)\fonts (
+rmdir /s /q $(OutDir)\fonts
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWinRT|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;LIBXML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;.\;..\;.\src;$(OutDir)\include\libxml2;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\libxml2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4090;4244;4018;4101;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libiconv_winrt.lib;libfreetype_winrt.lib;libxml2_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fontconfig
+copy ..\fontconfig\*.h "$(OutDir)"\include\fontconfig
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fontconfig.txt
+mkdir $(OutDir)\fonts
+copy .\fonts.conf $(OutDir)\fonts
+mkdir $(OutDir)\fonts\conf.d
+copy ..\conf.d\*.conf $(OutDir)\fonts\conf.d\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\src\fcalias.h (
+del ..\src\fcalias.h
+)
+if exist ..\src\fcaliastail.h (
+del ..\src\fcaliastail.h
+)
+if exist ..\src\fcftalias.h (
+del ..\src\fcftalias.h
+)
+if exist ..\src\fcftaliastail.h (
+del ..\src\fcftaliastail.h
+)
+if exist ..\src\fcobjshash.h (
+del ..\src\fcobjshash.h
+)
+if exist ..\src\fcstdint.h (
+del ..\src\fcstdint.h
+)
+if exist ..\fc-case\fccase.h (
+del ..\fc-case\fccase.h
+)
+if exist ..\fc-glyphname\fcglyphname.h (
+del ..\fc-glyphname\fcglyphname.h
+)
+if exist ..\fc-lang\fclang.h (
+del ..\fc-lang\fclang.h
+)
+if exist "$(OutDir)"\include\fontconfig (
+rd /s /q "$(OutDir)"\include\fontconfig
+cd ../
+cd $(ProjectDir)
+)
+if not exist .\fc-blanks\fcblanks.h (
+python ..\fc-blanks\fc-blanks.py &lt; ..\fc-blanks\fcblanks.tmpl.h &gt; .\fc-blanks\fcblanks.h
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fontconfig (
+rmdir /s /q "$(OutDir)"\include\fontconfig
+)
+if exist $(OutDir)\licenses\fontconfig.txt (
+del /f /q $(OutDir)\licenses\fontconfig.txt
+)
+if exist $(OutDir)\fonts (
+rmdir /s /q $(OutDir)\fonts
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLLWinRT|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;LIBXML_STATIC;DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;.\;..\;.\src;$(OutDir)\include\libxml2;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\libxml2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4090;4244;4018;4101;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>.\libfontconfig.def</ModuleDefinitionFile>
+      <AdditionalDependencies>iconv_winrt.lib;freetype_winrt.lib;xml2_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fontconfig
+copy ..\fontconfig\*.h "$(OutDir)"\include\fontconfig
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fontconfig.txt
+mkdir $(OutDir)\fonts
+copy .\fonts.conf $(OutDir)\fonts
+mkdir $(OutDir)\fonts\conf.d
+copy ..\conf.d\*.conf $(OutDir)\fonts\conf.d\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\src\fcalias.h (
+del ..\src\fcalias.h
+)
+if exist ..\src\fcaliastail.h (
+del ..\src\fcaliastail.h
+)
+if exist ..\src\fcftalias.h (
+del ..\src\fcftalias.h
+)
+if exist ..\src\fcftaliastail.h (
+del ..\src\fcftaliastail.h
+)
+if exist ..\src\fcobjshash.h (
+del ..\src\fcobjshash.h
+)
+if exist ..\src\fcstdint.h (
+del ..\src\fcstdint.h
+)
+if exist ..\fc-case\fccase.h (
+del ..\fc-case\fccase.h
+)
+if exist ..\fc-glyphname\fcglyphname.h (
+del ..\fc-glyphname\fcglyphname.h
+)
+if exist ..\fc-lang\fclang.h (
+del ..\fc-lang\fclang.h
+)
+if exist "$(OutDir)"\include\fontconfig (
+rd /s /q "$(OutDir)"\include\fontconfig
+cd ../
+cd $(ProjectDir)
+)
+if not exist .\fc-blanks\fcblanks.h (
+python ..\fc-blanks\fc-blanks.py &lt; ..\fc-blanks\fcblanks.tmpl.h &gt; .\fc-blanks\fcblanks.h
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fontconfig (
+rmdir /s /q "$(OutDir)"\include\fontconfig
+)
+if exist $(OutDir)\licenses\fontconfig.txt (
+del /f /q $(OutDir)\licenses\fontconfig.txt
+)
+if exist $(OutDir)\fonts (
+rmdir /s /q $(OutDir)\fonts
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLLWinRTStaticDeps|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;LIBXML_STATIC;DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;.\;..\;.\src;$(OutDir)\include\libxml2;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\libxml2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4090;4244;4018;4101;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>.\libfontconfig.def</ModuleDefinitionFile>
+      <AdditionalDependencies>libiconv_winrt.lib;libfreetype_winrt.lib;libxml2_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fontconfig
+copy ..\fontconfig\*.h "$(OutDir)"\include\fontconfig
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fontconfig.txt
+mkdir $(OutDir)\fonts
+copy .\fonts.conf $(OutDir)\fonts
+mkdir $(OutDir)\fonts\conf.d
+copy ..\conf.d\*.conf $(OutDir)\fonts\conf.d\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\src\fcalias.h (
+del ..\src\fcalias.h
+)
+if exist ..\src\fcaliastail.h (
+del ..\src\fcaliastail.h
+)
+if exist ..\src\fcftalias.h (
+del ..\src\fcftalias.h
+)
+if exist ..\src\fcftaliastail.h (
+del ..\src\fcftaliastail.h
+)
+if exist ..\src\fcobjshash.h (
+del ..\src\fcobjshash.h
+)
+if exist ..\src\fcstdint.h (
+del ..\src\fcstdint.h
+)
+if exist ..\fc-case\fccase.h (
+del ..\fc-case\fccase.h
+)
+if exist ..\fc-glyphname\fcglyphname.h (
+del ..\fc-glyphname\fcglyphname.h
+)
+if exist ..\fc-lang\fclang.h (
+del ..\fc-lang\fclang.h
+)
+if exist "$(OutDir)"\include\fontconfig (
+rd /s /q "$(OutDir)"\include\fontconfig
+cd ../
+cd $(ProjectDir)
+)
+if not exist .\fc-blanks\fcblanks.h (
+python ..\fc-blanks\fc-blanks.py &lt; ..\fc-blanks\fcblanks.tmpl.h &gt; .\fc-blanks\fcblanks.h
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fontconfig (
+rmdir /s /q "$(OutDir)"\include\fontconfig
+)
+if exist $(OutDir)\licenses\fontconfig.txt (
+del /f /q $(OutDir)\licenses\fontconfig.txt
+)
+if exist $(OutDir)\fonts (
+rmdir /s /q $(OutDir)\fonts
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLLWinRT|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;LIBXML_STATIC;DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;.\;..\;.\src;$(OutDir)\include\libxml2;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\libxml2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4090;4244;4018;4101;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>.\libfontconfig.def</ModuleDefinitionFile>
+      <AdditionalDependencies>iconv_winrt.lib;freetype_winrt.lib;xml2_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fontconfig
+copy ..\fontconfig\*.h "$(OutDir)"\include\fontconfig
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fontconfig.txt
+mkdir $(OutDir)\fonts
+copy .\fonts.conf $(OutDir)\fonts
+mkdir $(OutDir)\fonts\conf.d
+copy ..\conf.d\*.conf $(OutDir)\fonts\conf.d\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\src\fcalias.h (
+del ..\src\fcalias.h
+)
+if exist ..\src\fcaliastail.h (
+del ..\src\fcaliastail.h
+)
+if exist ..\src\fcftalias.h (
+del ..\src\fcftalias.h
+)
+if exist ..\src\fcftaliastail.h (
+del ..\src\fcftaliastail.h
+)
+if exist ..\src\fcobjshash.h (
+del ..\src\fcobjshash.h
+)
+if exist ..\src\fcstdint.h (
+del ..\src\fcstdint.h
+)
+if exist ..\fc-case\fccase.h (
+del ..\fc-case\fccase.h
+)
+if exist ..\fc-glyphname\fcglyphname.h (
+del ..\fc-glyphname\fcglyphname.h
+)
+if exist ..\fc-lang\fclang.h (
+del ..\fc-lang\fclang.h
+)
+if exist "$(OutDir)"\include\fontconfig (
+rd /s /q "$(OutDir)"\include\fontconfig
+cd ../
+cd $(ProjectDir)
+)
+if not exist .\fc-blanks\fcblanks.h (
+python ..\fc-blanks\fc-blanks.py &lt; ..\fc-blanks\fcblanks.tmpl.h &gt; .\fc-blanks\fcblanks.h
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fontconfig (
+rmdir /s /q "$(OutDir)"\include\fontconfig
+)
+if exist $(OutDir)\licenses\fontconfig.txt (
+del /f /q $(OutDir)\licenses\fontconfig.txt
+)
+if exist $(OutDir)\fonts (
+rmdir /s /q $(OutDir)\fonts
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLLWinRTStaticDeps|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;LIBXML_STATIC;DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;.\;..\;.\src;$(OutDir)\include\libxml2;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\libxml2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4090;4244;4018;4101;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>.\libfontconfig.def</ModuleDefinitionFile>
+      <AdditionalDependencies>libiconv_winrt.lib;libfreetype_winrt.lib;libxml2_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fontconfig
+copy ..\fontconfig\*.h "$(OutDir)"\include\fontconfig
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fontconfig.txt
+mkdir $(OutDir)\fonts
+copy .\fonts.conf $(OutDir)\fonts
+mkdir $(OutDir)\fonts\conf.d
+copy ..\conf.d\*.conf $(OutDir)\fonts\conf.d\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\src\fcalias.h (
+del ..\src\fcalias.h
+)
+if exist ..\src\fcaliastail.h (
+del ..\src\fcaliastail.h
+)
+if exist ..\src\fcftalias.h (
+del ..\src\fcftalias.h
+)
+if exist ..\src\fcftaliastail.h (
+del ..\src\fcftaliastail.h
+)
+if exist ..\src\fcobjshash.h (
+del ..\src\fcobjshash.h
+)
+if exist ..\src\fcstdint.h (
+del ..\src\fcstdint.h
+)
+if exist ..\fc-case\fccase.h (
+del ..\fc-case\fccase.h
+)
+if exist ..\fc-glyphname\fcglyphname.h (
+del ..\fc-glyphname\fcglyphname.h
+)
+if exist ..\fc-lang\fclang.h (
+del ..\fc-lang\fclang.h
+)
+if exist "$(OutDir)"\include\fontconfig (
+rd /s /q "$(OutDir)"\include\fontconfig
+cd ../
+cd $(ProjectDir)
+)
+if not exist .\fc-blanks\fcblanks.h (
+python ..\fc-blanks\fc-blanks.py &lt; ..\fc-blanks\fcblanks.tmpl.h &gt; .\fc-blanks\fcblanks.h
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fontconfig (
+rmdir /s /q "$(OutDir)"\include\fontconfig
+)
+if exist $(OutDir)\licenses\fontconfig.txt (
+del /f /q $(OutDir)\licenses\fontconfig.txt
+)
+if exist $(OutDir)\fonts (
+rmdir /s /q $(OutDir)\fonts
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+</Project>

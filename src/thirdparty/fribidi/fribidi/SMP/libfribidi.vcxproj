@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{08091723-A142-478B-A092-20741BA8FAE2}</ProjectGuid>
+    <RootNamespace>fribidi</RootNamespace>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="smp.props" />
+    <Import Project="libfribidi_files.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;FRIBIDI_BUILD;BUILDING_FRIBIDI;FRIBIDI_LIB_STATIC;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\lib;..\charset;.\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fribidi
+copy ..\lib\fribidi*.h "$(OutDir)"\include\fribidi
+copy .\fribidi-config.h "$(OutDir)"\include\fribidi
+copy .\lib\fribidi-unicode-version.h "$(OutDir)"\include\fribidi
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fribidi.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\lib\fribidi-config.h (
+del ..\lib\fribidi-config.h
+)
+if exist ..\lib\fribidi-unicode-version.h (
+del ..\lib\fribidi-unicode-version.h
+)
+if exist ..\lib\mirroring.tab.i (
+del ..\lib\mirroring.tab.i
+)
+if exist ..\lib\joining-type.tab.i (
+del ..\lib\joining-type.tab.i
+)
+if exist ..\lib\bidi-type.tab.i (
+del ..\lib\bidi-type.tab.i
+)
+if exist ..\lib\arabic-shaping.tab.i (
+del ..\lib\arabic-shaping.tab.i
+)
+if exist "$(OutDir)"\include\fribidi (
+rd /s /q "$(OutDir)"\include\fribidi
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fribidi (
+rmdir /s /q "$(OutDir)"\include\fribidi
+)
+if exist $(OutDir)\licenses\fribidi.txt (
+del /f /q $(OutDir)\licenses\fribidi.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;FRIBIDI_BUILD;BUILDING_FRIBIDI;FRIBIDI_LIB_STATIC;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\lib;..\charset;.\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fribidi
+copy ..\lib\fribidi*.h "$(OutDir)"\include\fribidi
+copy .\fribidi-config.h "$(OutDir)"\include\fribidi
+copy .\lib\fribidi-unicode-version.h "$(OutDir)"\include\fribidi
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fribidi.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\lib\fribidi-config.h (
+del ..\lib\fribidi-config.h
+)
+if exist ..\lib\fribidi-unicode-version.h (
+del ..\lib\fribidi-unicode-version.h
+)
+if exist ..\lib\mirroring.tab.i (
+del ..\lib\mirroring.tab.i
+)
+if exist ..\lib\joining-type.tab.i (
+del ..\lib\joining-type.tab.i
+)
+if exist ..\lib\bidi-type.tab.i (
+del ..\lib\bidi-type.tab.i
+)
+if exist ..\lib\arabic-shaping.tab.i (
+del ..\lib\arabic-shaping.tab.i
+)
+if exist "$(OutDir)"\include\fribidi (
+rd /s /q "$(OutDir)"\include\fribidi
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fribidi (
+rmdir /s /q "$(OutDir)"\include\fribidi
+)
+if exist $(OutDir)\licenses\fribidi.txt (
+del /f /q $(OutDir)\licenses\fribidi.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLL|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;FRIBIDI_BUILD;BUILDING_FRIBIDI;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\lib;..\charset;.\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fribidi
+copy ..\lib\fribidi*.h "$(OutDir)"\include\fribidi
+copy .\fribidi-config.h "$(OutDir)"\include\fribidi
+copy .\lib\fribidi-unicode-version.h "$(OutDir)"\include\fribidi
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fribidi.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\lib\fribidi-config.h (
+del ..\lib\fribidi-config.h
+)
+if exist ..\lib\fribidi-unicode-version.h (
+del ..\lib\fribidi-unicode-version.h
+)
+if exist ..\lib\mirroring.tab.i (
+del ..\lib\mirroring.tab.i
+)
+if exist ..\lib\joining-type.tab.i (
+del ..\lib\joining-type.tab.i
+)
+if exist ..\lib\bidi-type.tab.i (
+del ..\lib\bidi-type.tab.i
+)
+if exist ..\lib\arabic-shaping.tab.i (
+del ..\lib\arabic-shaping.tab.i
+)
+if exist "$(OutDir)"\include\fribidi (
+rd /s /q "$(OutDir)"\include\fribidi
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fribidi (
+rmdir /s /q "$(OutDir)"\include\fribidi
+)
+if exist $(OutDir)\licenses\fribidi.txt (
+del /f /q $(OutDir)\licenses\fribidi.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLL|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;FRIBIDI_BUILD;BUILDING_FRIBIDI;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\lib;..\charset;.\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fribidi
+copy ..\lib\fribidi*.h "$(OutDir)"\include\fribidi
+copy .\fribidi-config.h "$(OutDir)"\include\fribidi
+copy .\lib\fribidi-unicode-version.h "$(OutDir)"\include\fribidi
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fribidi.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\lib\fribidi-config.h (
+del ..\lib\fribidi-config.h
+)
+if exist ..\lib\fribidi-unicode-version.h (
+del ..\lib\fribidi-unicode-version.h
+)
+if exist ..\lib\mirroring.tab.i (
+del ..\lib\mirroring.tab.i
+)
+if exist ..\lib\joining-type.tab.i (
+del ..\lib\joining-type.tab.i
+)
+if exist ..\lib\bidi-type.tab.i (
+del ..\lib\bidi-type.tab.i
+)
+if exist ..\lib\arabic-shaping.tab.i (
+del ..\lib\arabic-shaping.tab.i
+)
+if exist "$(OutDir)"\include\fribidi (
+rd /s /q "$(OutDir)"\include\fribidi
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fribidi (
+rmdir /s /q "$(OutDir)"\include\fribidi
+)
+if exist $(OutDir)\licenses\fribidi.txt (
+del /f /q $(OutDir)\licenses\fribidi.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;FRIBIDI_BUILD;BUILDING_FRIBIDI;FRIBIDI_LIB_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\lib;..\charset;.\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fribidi
+copy ..\lib\fribidi*.h "$(OutDir)"\include\fribidi
+copy .\fribidi-config.h "$(OutDir)"\include\fribidi
+copy .\lib\fribidi-unicode-version.h "$(OutDir)"\include\fribidi
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fribidi.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\lib\fribidi-config.h (
+del ..\lib\fribidi-config.h
+)
+if exist ..\lib\fribidi-unicode-version.h (
+del ..\lib\fribidi-unicode-version.h
+)
+if exist ..\lib\mirroring.tab.i (
+del ..\lib\mirroring.tab.i
+)
+if exist ..\lib\joining-type.tab.i (
+del ..\lib\joining-type.tab.i
+)
+if exist ..\lib\bidi-type.tab.i (
+del ..\lib\bidi-type.tab.i
+)
+if exist ..\lib\arabic-shaping.tab.i (
+del ..\lib\arabic-shaping.tab.i
+)
+if exist "$(OutDir)"\include\fribidi (
+rd /s /q "$(OutDir)"\include\fribidi
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fribidi (
+rmdir /s /q "$(OutDir)"\include\fribidi
+)
+if exist $(OutDir)\licenses\fribidi.txt (
+del /f /q $(OutDir)\licenses\fribidi.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;FRIBIDI_BUILD;BUILDING_FRIBIDI;FRIBIDI_LIB_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\lib;..\charset;.\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fribidi
+copy ..\lib\fribidi*.h "$(OutDir)"\include\fribidi
+copy .\fribidi-config.h "$(OutDir)"\include\fribidi
+copy .\lib\fribidi-unicode-version.h "$(OutDir)"\include\fribidi
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fribidi.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\lib\fribidi-config.h (
+del ..\lib\fribidi-config.h
+)
+if exist ..\lib\fribidi-unicode-version.h (
+del ..\lib\fribidi-unicode-version.h
+)
+if exist ..\lib\mirroring.tab.i (
+del ..\lib\mirroring.tab.i
+)
+if exist ..\lib\joining-type.tab.i (
+del ..\lib\joining-type.tab.i
+)
+if exist ..\lib\bidi-type.tab.i (
+del ..\lib\bidi-type.tab.i
+)
+if exist ..\lib\arabic-shaping.tab.i (
+del ..\lib\arabic-shaping.tab.i
+)
+if exist "$(OutDir)"\include\fribidi (
+rd /s /q "$(OutDir)"\include\fribidi
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fribidi (
+rmdir /s /q "$(OutDir)"\include\fribidi
+)
+if exist $(OutDir)\licenses\fribidi.txt (
+del /f /q $(OutDir)\licenses\fribidi.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLL|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;FRIBIDI_BUILD;BUILDING_FRIBIDI;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\lib;..\charset;.\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fribidi
+copy ..\lib\fribidi*.h "$(OutDir)"\include\fribidi
+copy .\fribidi-config.h "$(OutDir)"\include\fribidi
+copy .\lib\fribidi-unicode-version.h "$(OutDir)"\include\fribidi
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fribidi.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\lib\fribidi-config.h (
+del ..\lib\fribidi-config.h
+)
+if exist ..\lib\fribidi-unicode-version.h (
+del ..\lib\fribidi-unicode-version.h
+)
+if exist ..\lib\mirroring.tab.i (
+del ..\lib\mirroring.tab.i
+)
+if exist ..\lib\joining-type.tab.i (
+del ..\lib\joining-type.tab.i
+)
+if exist ..\lib\bidi-type.tab.i (
+del ..\lib\bidi-type.tab.i
+)
+if exist ..\lib\arabic-shaping.tab.i (
+del ..\lib\arabic-shaping.tab.i
+)
+if exist "$(OutDir)"\include\fribidi (
+rd /s /q "$(OutDir)"\include\fribidi
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fribidi (
+rmdir /s /q "$(OutDir)"\include\fribidi
+)
+if exist $(OutDir)\licenses\fribidi.txt (
+del /f /q $(OutDir)\licenses\fribidi.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLL|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;FRIBIDI_BUILD;BUILDING_FRIBIDI;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;..\lib;..\charset;.\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\fribidi
+copy ..\lib\fribidi*.h "$(OutDir)"\include\fribidi
+copy .\fribidi-config.h "$(OutDir)"\include\fribidi
+copy .\lib\fribidi-unicode-version.h "$(OutDir)"\include\fribidi
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\fribidi.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist ..\lib\fribidi-config.h (
+del ..\lib\fribidi-config.h
+)
+if exist ..\lib\fribidi-unicode-version.h (
+del ..\lib\fribidi-unicode-version.h
+)
+if exist ..\lib\mirroring.tab.i (
+del ..\lib\mirroring.tab.i
+)
+if exist ..\lib\joining-type.tab.i (
+del ..\lib\joining-type.tab.i
+)
+if exist ..\lib\bidi-type.tab.i (
+del ..\lib\bidi-type.tab.i
+)
+if exist ..\lib\arabic-shaping.tab.i (
+del ..\lib\arabic-shaping.tab.i
+)
+if exist "$(OutDir)"\include\fribidi (
+rd /s /q "$(OutDir)"\include\fribidi
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\fribidi (
+rmdir /s /q "$(OutDir)"\include\fribidi
+)
+if exist $(OutDir)\licenses\fribidi.txt (
+del /f /q $(OutDir)\licenses\fribidi.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+</Project>

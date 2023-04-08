@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ADB795B7-E8BD-4846-82A5-C6D2577B1AAF}</ProjectGuid>
+    <RootNamespace>harfbuzz</RootNamespace>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="smp_winrt_deps.props" />
+    <Import Project="libharfbuzz_files.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugWinRT|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;.\src;..\src\hb-ucdn;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4267;4805;4018;4146;4138;4068;4305;4309;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libfreetyped_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\harfbuzz
+copy ..\src\*.h "$(OutDir)"\include\harfbuzz
+copy .\src\hb-version.h "$(OutDir)"\include\harfbuzz
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\harfbuzz.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist "$(OutDir)"\include\harfbuzz (
+rd /s /q "$(OutDir)"\include\harfbuzz
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\harfbuzz (
+rmdir /s /q "$(OutDir)"\include\harfbuzz
+)
+if exist $(OutDir)\licenses\harfbuzz.txt (
+del /f /q $(OutDir)\licenses\harfbuzz.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugWinRT|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;.\src;..\src\hb-ucdn;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4267;4805;4018;4146;4138;4068;4305;4309;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libfreetyped_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\harfbuzz
+copy ..\src\*.h "$(OutDir)"\include\harfbuzz
+copy ..\src\hb-version.h "$(OutDir)"\include\harfbuzz
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\harfbuzz.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist "$(OutDir)"\include\harfbuzz (
+rd /s /q "$(OutDir)"\include\harfbuzz
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\harfbuzz (
+rmdir /s /q "$(OutDir)"\include\harfbuzz
+)
+if exist $(OutDir)\licenses\harfbuzz.txt (
+del /f /q $(OutDir)\licenses\harfbuzz.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLLWinRT|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;HB_EXTERN=__declspec(dllexport) extern;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;.\src;..\src\hb-ucdn;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4267;4805;4018;4146;4138;4068;4305;4309;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>freetyped_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\harfbuzz
+copy ..\src\*.h "$(OutDir)"\include\harfbuzz
+copy .\src\hb-version.h "$(OutDir)"\include\harfbuzz
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\harfbuzz.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist "$(OutDir)"\include\harfbuzz (
+rd /s /q "$(OutDir)"\include\harfbuzz
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\harfbuzz (
+rmdir /s /q "$(OutDir)"\include\harfbuzz
+)
+if exist $(OutDir)\licenses\harfbuzz.txt (
+del /f /q $(OutDir)\licenses\harfbuzz.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLLWinRT|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;HB_EXTERN=__declspec(dllexport) extern;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;.\src;..\src\hb-ucdn;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4267;4805;4018;4146;4138;4068;4305;4309;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>freetyped_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\harfbuzz
+copy ..\src\*.h "$(OutDir)"\include\harfbuzz
+copy ..\src\hb-version.h "$(OutDir)"\include\harfbuzz
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\harfbuzz.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist "$(OutDir)"\include\harfbuzz (
+rd /s /q "$(OutDir)"\include\harfbuzz
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\harfbuzz (
+rmdir /s /q "$(OutDir)"\include\harfbuzz
+)
+if exist $(OutDir)\licenses\harfbuzz.txt (
+del /f /q $(OutDir)\licenses\harfbuzz.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWinRT|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;.\src;..\src\hb-ucdn;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4267;4805;4018;4146;4138;4068;4305;4309;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libfreetype_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\harfbuzz
+copy ..\src\*.h "$(OutDir)"\include\harfbuzz
+copy .\src\hb-version.h "$(OutDir)"\include\harfbuzz
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\harfbuzz.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist "$(OutDir)"\include\harfbuzz (
+rd /s /q "$(OutDir)"\include\harfbuzz
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\harfbuzz (
+rmdir /s /q "$(OutDir)"\include\harfbuzz
+)
+if exist $(OutDir)\licenses\harfbuzz.txt (
+del /f /q $(OutDir)\licenses\harfbuzz.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWinRT|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;.\src;..\src\hb-ucdn;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4267;4805;4018;4146;4138;4068;4305;4309;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libfreetype_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\harfbuzz
+copy ..\src\*.h "$(OutDir)"\include\harfbuzz
+copy ..\src\hb-version.h "$(OutDir)"\include\harfbuzz
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\harfbuzz.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist "$(OutDir)"\include\harfbuzz (
+rd /s /q "$(OutDir)"\include\harfbuzz
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\harfbuzz (
+rmdir /s /q "$(OutDir)"\include\harfbuzz
+)
+if exist $(OutDir)\licenses\harfbuzz.txt (
+del /f /q $(OutDir)\licenses\harfbuzz.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLLWinRT|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;HB_EXTERN=__declspec(dllexport) extern;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;.\src;..\src\hb-ucdn;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4267;4805;4018;4146;4138;4068;4305;4309;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>freetype_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\harfbuzz
+copy ..\src\*.h "$(OutDir)"\include\harfbuzz
+copy .\src\hb-version.h "$(OutDir)"\include\harfbuzz
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\harfbuzz.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist "$(OutDir)"\include\harfbuzz (
+rd /s /q "$(OutDir)"\include\harfbuzz
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\harfbuzz (
+rmdir /s /q "$(OutDir)"\include\harfbuzz
+)
+if exist $(OutDir)\licenses\harfbuzz.txt (
+del /f /q $(OutDir)\licenses\harfbuzz.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLLWinRTStaticDeps|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;HB_EXTERN=__declspec(dllexport) extern;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;.\src;..\src\hb-ucdn;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4267;4805;4018;4146;4138;4068;4305;4309;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libfreetype_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\harfbuzz
+copy ..\src\*.h "$(OutDir)"\include\harfbuzz
+copy .\src\hb-version.h "$(OutDir)"\include\harfbuzz
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\harfbuzz.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist "$(OutDir)"\include\harfbuzz (
+rd /s /q "$(OutDir)"\include\harfbuzz
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\harfbuzz (
+rmdir /s /q "$(OutDir)"\include\harfbuzz
+)
+if exist $(OutDir)\licenses\harfbuzz.txt (
+del /f /q $(OutDir)\licenses\harfbuzz.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLLWinRT|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;HB_EXTERN=__declspec(dllexport) extern;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;.\src;..\src\hb-ucdn;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4267;4805;4018;4146;4138;4068;4305;4309;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>freetype_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\harfbuzz
+copy ..\src\*.h "$(OutDir)"\include\harfbuzz
+copy ..\src\hb-version.h "$(OutDir)"\include\harfbuzz
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\harfbuzz.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist "$(OutDir)"\include\harfbuzz (
+rd /s /q "$(OutDir)"\include\harfbuzz
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\harfbuzz (
+rmdir /s /q "$(OutDir)"\include\harfbuzz
+)
+if exist $(OutDir)\licenses\harfbuzz.txt (
+del /f /q $(OutDir)\licenses\harfbuzz.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLLWinRTStaticDeps|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;HB_EXTERN=__declspec(dllexport) extern;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\;.\src;..\src\hb-ucdn;$(OutDir)\include\freetype2;$(ProjectDir)\..\..\prebuilt\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4267;4805;4018;4146;4138;4068;4305;4309;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4006,4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libfreetype_winrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(OutDir)"\include
+mkdir "$(OutDir)"\include\harfbuzz
+copy ..\src\*.h "$(OutDir)"\include\harfbuzz
+copy ..\src\hb-version.h "$(OutDir)"\include\harfbuzz
+mkdir $(OutDir)\licenses
+copy ..\COPYING $(OutDir)\licenses\harfbuzz.txt</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist ..\config.h (
+del ..\config.h
+)
+if exist "$(OutDir)"\include\harfbuzz (
+rd /s /q "$(OutDir)"\include\harfbuzz
+cd ../
+cd $(ProjectDir)
+)</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>Custom Clean Step</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>force_clean</Outputs>
+      <Command>if exist "$(OutDir)"\include\harfbuzz (
+rmdir /s /q "$(OutDir)"\include\harfbuzz
+)
+if exist $(OutDir)\licenses\harfbuzz.txt (
+del /f /q $(OutDir)\licenses\harfbuzz.txt
+)</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+</Project>

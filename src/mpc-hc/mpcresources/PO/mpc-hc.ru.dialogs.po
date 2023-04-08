@@ -1,0 +1,1851 @@
+# MPC-HC - Strings extracted from dialogs
+# Copyright (C) 2002 - 2017 see Authors.txt
+# This file is distributed under the same license as the MPC-HC package.
+# Translators:
+# MPC HC <adiposegithub@gmail.com>, 2020
+# Alexandr Stankovich <sanekst00@yandex.ru>, 2021
+# CoolCmd, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: MPC-HC\n"
+"POT-Creation-Date: 2021-09-06 17:51:01+0000\n"
+"PO-Revision-Date: 2020-01-02 07:46+0000\n"
+"Last-Translator: CoolCmd, 2021\n"
+"Language-Team: Russian (https://www.transifex.com/mpchc/teams/106126/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+msgctxt "IDD_SELECTMEDIATYPE_CAPTION"
+msgid "Select Media Type"
+msgstr "Выбор типа медиа"
+
+msgctxt "IDD_SELECTMEDIATYPE_IDOK"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "IDD_SELECTMEDIATYPE_IDCANCEL"
+msgid "Cancel"
+msgstr "Отмена"
+
+msgctxt "IDD_CAPTURE_DLG_IDC_STATIC1"
+msgid "Video"
+msgstr "Видео"
+
+msgctxt "IDD_CAPTURE_DLG_IDC_BUTTON1"
+msgid "Set"
+msgstr "Задать"
+
+msgctxt "IDD_CAPTURE_DLG_IDC_STATIC"
+msgid "Audio"
+msgstr "Аудио"
+
+msgctxt "IDD_CAPTURE_DLG_IDC_STATIC"
+msgid "Output"
+msgstr "Вывод"
+
+msgctxt "IDD_CAPTURE_DLG_IDC_CHECK1"
+msgid "Record Video"
+msgstr "Запись видео"
+
+msgctxt "IDD_CAPTURE_DLG_IDC_CHECK2"
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgctxt "IDD_CAPTURE_DLG_IDC_CHECK3"
+msgid "Record Audio"
+msgstr "Запись аудио"
+
+msgctxt "IDD_CAPTURE_DLG_IDC_CHECK4"
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgctxt "IDD_CAPTURE_DLG_IDC_STATIC"
+msgid "V/A Buffers:"
+msgstr "Буферы V/A:"
+
+msgctxt "IDD_CAPTURE_DLG_IDC_CHECK5"
+msgid "Audio to wav"
+msgstr "Аудио в wav"
+
+msgctxt "IDD_CAPTURE_DLG_IDC_BUTTON2"
+msgid "Record"
+msgstr "Запись"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER_IDC_CHECK2"
+msgid "Enable built-in audio switcher filter (requires restart)"
+msgstr "Включить встроенный переключатель аудио (требуется перезапуск)"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER_IDC_CHECK5"
+msgid "Normalize"
+msgstr "Нормализация"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER_IDC_STATIC4"
+msgid "Max amplification:"
+msgstr "Максимальное усиление:"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER_IDC_STATIC5"
+msgid "%"
+msgstr "%"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER_IDC_CHECK6"
+msgid "Regain volume"
+msgstr "Восстанавливать громкость"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER_IDC_STATIC6"
+msgid "Boost:"
+msgstr "Усиление:"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER_IDC_CHECK3"
+msgid "Down-sample to 44100 Hz"
+msgstr "Преобразовать в 44100 Гц"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER_IDC_CHECK4"
+msgid "Audio time shift (ms):"
+msgstr "Смещение аудио (мс):"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER_IDC_CHECK1"
+msgid "Enable custom channel mapping"
+msgstr "Включить пользовательское распределение каналов"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER_IDC_STATIC1"
+msgid "Speaker configuration for"
+msgstr "Настройка колонок для"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER_IDC_STATIC2"
+msgid "input channels:"
+msgstr "входных каналов:"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER_IDC_STATIC3"
+msgid "Hold shift for immediate changes when clicking something"
+msgstr "Удерживайте shift для немедленных изменений при нажатии."
+
+msgctxt "IDD_GOTO_DLG_CAPTION"
+msgid "Go To..."
+msgstr "Переход..."
+
+msgctxt "IDD_GOTO_DLG_IDC_STATIC"
+msgid ""
+"Enter a timecode using the format [hh:]mm:ss.ms to jump to a specified time."
+" You do not need to enter the separators explicitly."
+msgstr ""
+"Введите время в формате [чч:]мм:сс.мс, чтобы перейти к указанному моменту."
+
+msgctxt "IDD_GOTO_DLG_IDC_STATIC"
+msgid "Time"
+msgstr "Время"
+
+msgctxt "IDD_GOTO_DLG_IDC_OK1"
+msgid "Go!"
+msgstr "Готово!"
+
+msgctxt "IDD_GOTO_DLG_IDC_STATIC"
+msgid ""
+"Enter two numbers to jump to a specified frame, the first is the frame "
+"number, the second is the frame rate."
+msgstr ""
+"Введите два числа для перехода к заданному кадру: первое - номер кадра, "
+"второе - число кадров в секунду."
+
+msgctxt "IDD_GOTO_DLG_IDC_STATIC"
+msgid "Frame"
+msgstr "Кадр"
+
+msgctxt "IDD_GOTO_DLG_IDC_OK2"
+msgid "Go!"
+msgstr "Готово!"
+
+msgctxt "IDD_OPEN_DLG_CAPTION"
+msgid "Open"
+msgstr "Открыть"
+
+msgctxt "IDD_OPEN_DLG_IDC_STATIC"
+msgid ""
+"Type the address of a movie or audio file (on the Internet or your computer)"
+" and the player will open it for you."
+msgstr ""
+"Введите адрес фильма или аудиофайла (в интернете или на вашем компьютере), "
+"чтобы проигрыватель открыл его."
+
+msgctxt "IDD_OPEN_DLG_IDC_STATIC"
+msgid "Open:"
+msgstr "Открыть:"
+
+msgctxt "IDD_OPEN_DLG_IDC_BUTTON1"
+msgid "Browse..."
+msgstr "Выбрать..."
+
+msgctxt "IDD_OPEN_DLG_IDC_STATIC1"
+msgid "Dub:"
+msgstr "Дубляж:"
+
+msgctxt "IDD_OPEN_DLG_IDC_BUTTON2"
+msgid "Browse..."
+msgstr "Выбрать..."
+
+msgctxt "IDD_OPEN_DLG_IDOK"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "IDD_OPEN_DLG_IDCANCEL"
+msgid "Cancel"
+msgstr "Отмена"
+
+msgctxt "IDD_OPEN_DLG_IDC_CHECK1"
+msgid "Add to playlist without opening"
+msgstr "Добавить в плейлист, но не проигрывать"
+
+msgctxt "IDD_ABOUTBOX_CAPTION"
+msgid "About"
+msgstr "О программе"
+
+msgctxt "IDD_ABOUTBOX_IDC_AUTHORS_LINK"
+msgid "Copyright 2002-2021 clsid2 and others"
+msgstr "Copyright 2002-2021 clsid2 and others"
+
+msgctxt "IDD_ABOUTBOX_IDC_STATIC"
+msgid ""
+"This program is freeware and released under the GNU General Public License."
+msgstr ""
+"Эта программа бесплатна и распространяется под GNU (General Public License)."
+
+msgctxt "IDD_ABOUTBOX_IDC_STATIC"
+msgid "English translation made by MPC-HC Team"
+msgstr "Локализация: Sergey S., v0lt, Aleksoid, YDY"
+
+msgctxt "IDD_ABOUTBOX_IDC_STATIC"
+msgid "Build information"
+msgstr "Информация о сборке"
+
+msgctxt "IDD_ABOUTBOX_IDC_STATIC"
+msgid "Version:"
+msgstr "Версия:"
+
+msgctxt "IDD_ABOUTBOX_IDC_STATIC"
+msgid "Compiler:"
+msgstr "Компилятор:"
+
+msgctxt "IDD_ABOUTBOX_IDC_LAVFILTERS_VERSION"
+msgid "Not used"
+msgstr "Не использ."
+
+msgctxt "IDD_ABOUTBOX_IDC_STATIC"
+msgid "Build date:"
+msgstr "Дата сборки:"
+
+msgctxt "IDD_ABOUTBOX_IDC_STATIC"
+msgid "Operating system"
+msgstr "Операционная система"
+
+msgctxt "IDD_ABOUTBOX_IDC_STATIC"
+msgid "Name:"
+msgstr "Название:"
+
+msgctxt "IDD_ABOUTBOX_IDC_BUTTON1"
+msgid "Copy to clipboard"
+msgstr "Скопировать в буфер обмена"
+
+msgctxt "IDD_ABOUTBOX_IDOK"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_STATIC"
+msgid "Open options"
+msgstr "Открывать файлы, используя"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_RADIO1"
+msgid "Use the same player for each media file"
+msgstr "Один и тот же проигрыватель для каждого файла"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_RADIO2"
+msgid "Open a new player for each media file played"
+msgstr "Новый проигрыватель для каждого файла"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_STATIC"
+msgid "Language"
+msgstr "Язык"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_STATIC"
+msgid "Title bar"
+msgstr "В заголовке отображать"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_RADIO3"
+msgid "Display full path"
+msgstr "Полный путь"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_RADIO4"
+msgid "File name only"
+msgstr "Только имя файла"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_RADIO5"
+msgid "Don't prefix anything"
+msgstr "Ничего"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK13"
+msgid "Replace file name with title"
+msgstr "Заменять имя файла названием"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_STATIC"
+msgid "Other"
+msgstr "Прочее"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK3"
+msgid "Tray icon"
+msgstr "Значок в области уведомлений"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_SHOW_OSD"
+msgid "Show OSD (requires restart)"
+msgstr "Показывать OSD (требуется перезапуск)"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK4"
+msgid "Limit window proportions on resize"
+msgstr "Соотнош. сторон окна как у видеокадра"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK12"
+msgid "Snap to desktop edges"
+msgstr "Прилипать к границам экрана"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK8"
+msgid "Store settings in .ini file"
+msgstr "Сохранять настройки в ini-файле"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK10"
+msgid "Disable \"Open Disc\" menu"
+msgstr "Отключить меню «Открыть диск»"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK9"
+msgid "Process priority above normal"
+msgstr "Повышенный приоритет процесса"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK14"
+msgid "Enable cover-art support"
+msgstr "Включить поддержку обложек"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_STATIC"
+msgid "History"
+msgstr "История"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK1"
+msgid "Keep history of recently opened files"
+msgstr "Сохранять историю открытых файлов"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK2"
+msgid "Remember last playlist"
+msgstr "Запоминать последний плейлист"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_FILE_POS"
+msgid "Remember File position"
+msgstr "Запоминать позицию в файле"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_DVD_POS"
+msgid "Remember DVD position"
+msgstr "Запоминать позицию DVD"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK6"
+msgid "Remember last window position"
+msgstr "Запоминать положение окна"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK7"
+msgid "Remember last window size"
+msgstr "Запоминать размер окна"
+
+msgctxt "IDD_PPAGEPLAYER_IDC_CHECK11"
+msgid "Remember last Pan && Scan Zoom"
+msgstr "Запоминать параметры Pan && Scan"
+
+msgctxt "IDD_PPAGEDVD_IDC_STATIC"
+msgid "\"Open DVD/BD\" behavior"
+msgstr "Поведение команды «Открыть DVD/BD...»"
+
+msgctxt "IDD_PPAGEDVD_IDC_RADIO1"
+msgid "Prompt for location"
+msgstr "Переходить к выбору расположения"
+
+msgctxt "IDD_PPAGEDVD_IDC_RADIO2"
+msgid "Always open the default location:"
+msgstr "Всегда открывать расположение по умолчанию:"
+
+msgctxt "IDD_PPAGEDVD_IDC_STATIC"
+msgid "Preferred language for DVD"
+msgstr "Предпочтительный язык для DVD"
+
+msgctxt "IDD_PPAGEDVD_IDC_RADIO3"
+msgid "Menu"
+msgstr "Меню"
+
+msgctxt "IDD_PPAGEDVD_IDC_RADIO4"
+msgid "Audio"
+msgstr "Аудио"
+
+msgctxt "IDD_PPAGEDVD_IDC_RADIO5"
+msgid "Subtitles"
+msgstr "Субтитры"
+
+msgctxt "IDD_PPAGEDVD_IDC_STATIC"
+msgid "Additional settings"
+msgstr "Дополнительные настройки"
+
+msgctxt "IDD_PPAGEDVD_IDC_CHECK2"
+msgid "Allow closed captions in \"Line 21 Decoder\""
+msgstr "Разрешить скрытые субтитры в «Line 21 Decoder»"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Audio"
+msgstr "Аудио"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Volume"
+msgstr "Громкость"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Min"
+msgstr "Мин"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Max"
+msgstr "Макс"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC_BALANCE"
+msgid "Balance"
+msgstr "Баланс"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "L"
+msgstr "Л"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "R"
+msgstr "П"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Control"
+msgstr "Регулировка"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Volume step:"
+msgstr "Шаг громкости:"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "%"
+msgstr "%"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Speed step:"
+msgstr "Шаг скорости:"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Playback"
+msgstr "Воспроизведение"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_RADIO1"
+msgid "Play"
+msgstr "Воспроизвести"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_RADIO2"
+msgid "Repeat forever"
+msgstr "Повторять бесконечно"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC1"
+msgid "time(s)"
+msgstr "раз(а)"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Repeat mode:"
+msgstr "Режим повтора:"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "After Playback"
+msgstr "По окончании воспроизведения"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Zoom and Alignment"
+msgstr "Масштаб и выравнивание"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_CHECK5"
+msgid "Auto-zoom:"
+msgstr "Автомасштаб:"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC2"
+msgid "Auto fit factor:"
+msgstr "Подгонять в"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC3"
+msgid "%"
+msgstr "%"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC4"
+msgid "Vertical Alignment:"
+msgstr "Вертикал. выравнивание:"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Default track preference"
+msgstr "Выбор дорожек по умолчанию"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Subtitles:"
+msgstr "Субтитры:"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Audio:"
+msgstr "Аудио:"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_CHECK4"
+msgid "Allow overriding external splitter choice"
+msgstr "Разрешить изменение выбора внешних сплиттеров"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_STATIC"
+msgid "Open settings"
+msgstr "Настройки открытия файлов"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_CHECK7"
+msgid "Use worker thread to construct the filter graph"
+msgstr "Использовать рабочий поток для построения графа"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_CHECK6"
+msgid "Report pins which fail to render"
+msgstr "Сообщать об ошибках рендеринга потоков"
+
+msgctxt "IDD_PPAGEPLAYBACK_IDC_CHECK2"
+msgid "Auto-load audio files"
+msgstr "Автозагрузка аудиофайлов"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_CHECK3"
+msgid "Override placement"
+msgstr "Изменить положение"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC1"
+msgid "Horizontal:"
+msgstr "Горизонталь:"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC2"
+msgid "%"
+msgstr "%"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC3"
+msgid "Vertical:"
+msgstr "Вертикаль:"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC4"
+msgid "%"
+msgstr "%"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC"
+msgid "Delay step"
+msgstr "Шаг задержки"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC"
+msgid "ms"
+msgstr "мс"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC"
+msgid "Texture settings (open the video again to see the changes)"
+msgstr "Настройки текстур (чтобы увидеть изменения, откройте видео заново)"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC"
+msgid "Sub pictures to buffer:"
+msgstr "Число фрагментов в буфере:"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC"
+msgid "Maximum texture resolution:"
+msgstr "Макс. разрешение текстур:"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_CHECK_NO_SUB_ANIM"
+msgid "Never animate the subtitles"
+msgstr "Никогда не анимировать субтитры"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC5"
+msgid "Render at"
+msgstr "Рендеринг"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC6"
+msgid "% of the animation"
+msgstr "% анимации"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC7"
+msgid "Animate at"
+msgstr "Анимация"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC8"
+msgid "% of the video frame rate"
+msgstr "% частоты кадров видео"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_CHECK_ALLOW_DROPPING_SUBPIC"
+msgid "Allow dropping some subpictures if the queue is running late"
+msgstr "Включить выпадение некоторых фрагментов при запаздывании"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC"
+msgid "Renderer Layout"
+msgstr "Раскладка рендера"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_CHECK_SUB_AR_COMPENSATION"
+msgid "Apply aspect ratio compensation for anamorphic videos"
+msgstr "Применять компенсацию соотношения сторон для анаморфированного видео"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC"
+msgid "Warning"
+msgstr "Предупреждение"
+
+msgctxt "IDD_PPAGESUBTITLES_IDC_STATIC"
+msgid ""
+"If you override and enable fullscreen antialiasing somewhere at your "
+"videocard's settings, subtitles aren't going to look any better but it will "
+"surely eat your CPU."
+msgstr ""
+"Если вы отрегулируете и включите полноэкранное сглаживание где-то в "
+"настройках вашей видеокарты, субтитры не станут выглядеть лучше, но это "
+"будет чрезмерно нагружать ваш процессор."
+
+msgctxt "IDD_PPAGEFORMATS_IDC_STATIC2"
+msgid "File extensions"
+msgstr "Расширения файлов"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_BUTTON2"
+msgid "Default"
+msgstr "По умолчанию"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_BUTTON_EXT_SET"
+msgid "Set"
+msgstr "Установить"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_STATIC3"
+msgid "Association"
+msgstr "Ассоциации"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_CHECK8"
+msgid "Use the format-specific icons"
+msgstr "Использовать специальные иконки форматов"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_BUTTON1"
+msgid "Run as &administrator"
+msgstr "Запуск от имени &администратора"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_BUTTON7"
+msgid "Set as &default program"
+msgstr "Сделать программой по &умолчанию"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_STATIC"
+msgid "Explorer Context Menu"
+msgstr "Контекстное меню проводника"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_CHECK6"
+msgid "Directory"
+msgstr "Для папок"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_CHECK7"
+msgid "File(s)"
+msgstr "Для файлов"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_STATIC1"
+msgid "Autoplay"
+msgstr "Автовоспроизведение"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_CHECK1"
+msgid "Video"
+msgstr "Видео"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_CHECK2"
+msgid "Music"
+msgstr "Музыка"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_CHECK4"
+msgid "DVD"
+msgstr "DVD"
+
+msgctxt "IDD_PPAGEFORMATS_IDC_CHECK3"
+msgid "Audio CD"
+msgstr "Audio CD"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_STATIC"
+msgid "Jump distances (small, medium, large in ms)"
+msgstr "Расстояния перехода в мс (короткое, среднее, длинное)"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_BUTTON1"
+msgid "Default"
+msgstr "По умолчанию"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_SEEK_PREVIEW"
+msgid "Show preview on seek bar"
+msgstr "Показывать предпросмотр на ползунке"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_STATIC"
+msgid "Preview width (% of screen width)"
+msgstr "Ширина предпросмотра (% от ширины экрана):"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_FASTSEEK_CHECK"
+msgid "Fast seek (on keyframe)"
+msgstr "Быстрый поиск (по ключевым кадрам)"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_CHECK2"
+msgid "Show chapter marks in seek bar"
+msgstr "Показывать метки глав на ползунке"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_CHECK3"
+msgid "Auto-hide the mouse pointer during playback in windowed mode"
+msgstr "Скрывать курсор при воспроизведении в окне"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_CHECK4"
+msgid "Display \"Now Playing\" information in Skype's mood message"
+msgstr "Отображать имя воспроизводимого файла в настроении Skype"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_CHECK_ENHANCED_TASKBAR"
+msgid "Use enhanced taskbar features"
+msgstr "Использовать расширенные функции панели задач"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_CHECK_LCD"
+msgid "Enable Logitech LCD support (experimental)"
+msgstr "Включить поддержку Logitech LCD (экспериментальная функция)"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_CHECK6"
+msgid ""
+"Prevent minimizing the player when in fullscreen on a non default monitor"
+msgstr ""
+"Предотвращать сворачивание проигрывателя на доп. дисплее в полноэкранном "
+"режиме"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_CHECK7"
+msgid ""
+"Open previous/next file in folder on \"Skip back/forward\" when there is "
+"only one item in playlist"
+msgstr ""
+"Открывать следующий/предыдущий файл в папке кнопками «Вперед/Назад», когда в"
+" списке воспроизведения только один пункт"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_CHECK8"
+msgid "Show time tooltip:"
+msgstr "Показывать время:"
+
+msgctxt "IDD_PPAGETWEAKS_IDC_STATIC"
+msgid "OSD font:"
+msgstr "Шрифт OSD:"
+
+msgctxt "IDD_PPAGEEXTERNALFILTERS_IDC_BUTTON1"
+msgid "Add Filter..."
+msgstr "Добавить..."
+
+msgctxt "IDD_PPAGEEXTERNALFILTERS_IDC_BUTTON2"
+msgid "Remove"
+msgstr "Удалить"
+
+msgctxt "IDD_PPAGEEXTERNALFILTERS_IDC_RADIO1"
+msgid "Prefer"
+msgstr "Предпочесть"
+
+msgctxt "IDD_PPAGEEXTERNALFILTERS_IDC_RADIO2"
+msgid "Block"
+msgstr "Блокировать"
+
+msgctxt "IDD_PPAGEEXTERNALFILTERS_IDC_RADIO3"
+msgid "Set merit:"
+msgstr "Значение:"
+
+msgctxt "IDD_PPAGEEXTERNALFILTERS_IDC_BUTTON3"
+msgid "Up"
+msgstr "Вверх"
+
+msgctxt "IDD_PPAGEEXTERNALFILTERS_IDC_BUTTON4"
+msgid "Down"
+msgstr "Вниз"
+
+msgctxt "IDD_PPAGEEXTERNALFILTERS_IDC_BUTTON5"
+msgid "Add Media Type..."
+msgstr "Добавить тип"
+
+msgctxt "IDD_PPAGEEXTERNALFILTERS_IDC_BUTTON6"
+msgid "Add Sub Type..."
+msgstr "Добавить подтип"
+
+msgctxt "IDD_PPAGEEXTERNALFILTERS_IDC_BUTTON7"
+msgid "Delete"
+msgstr "Удалить"
+
+msgctxt "IDD_PPAGEEXTERNALFILTERS_IDC_BUTTON8"
+msgid "Reset List"
+msgstr "Сбросить список"
+
+msgctxt "IDD_FILEPROPDETAILS_IDC_STATIC"
+msgid "Type:"
+msgstr "Тип:"
+
+msgctxt "IDD_FILEPROPDETAILS_IDC_STATIC"
+msgid "Size:"
+msgstr "Размер:"
+
+msgctxt "IDD_FILEPROPDETAILS_IDC_STATIC"
+msgid "Media length:"
+msgstr "Длительность:"
+
+msgctxt "IDD_FILEPROPDETAILS_IDC_STATIC"
+msgid "Video size:"
+msgstr "Размер видео:"
+
+msgctxt "IDD_FILEPROPDETAILS_IDC_STATIC"
+msgid "Created:"
+msgstr "Создан:"
+
+msgctxt "IDD_FILEPROPCLIP_IDC_STATIC"
+msgid "Clip:"
+msgstr "Клип:"
+
+msgctxt "IDD_FILEPROPCLIP_IDC_STATIC"
+msgid "Author:"
+msgstr "Автор:"
+
+msgctxt "IDD_FILEPROPCLIP_IDC_STATIC"
+msgid "Copyright:"
+msgstr "Копирайт:"
+
+msgctxt "IDD_FILEPROPCLIP_IDC_STATIC"
+msgid "Rating:"
+msgstr "Рейтинг:"
+
+msgctxt "IDD_FILEPROPCLIP_IDC_STATIC"
+msgid "Location:"
+msgstr "Расположение:"
+
+msgctxt "IDD_FILEPROPCLIP_IDC_STATIC"
+msgid "Description:"
+msgstr "Описание:"
+
+msgctxt "IDD_FAVADD_CAPTION"
+msgid "Add Favorite"
+msgstr "Добавить в закладки"
+
+msgctxt "IDD_FAVADD_IDC_STATIC"
+msgid "Choose a name for your shortcut:"
+msgstr "Выберите имя для ярлыка:"
+
+msgctxt "IDD_FAVADD_IDC_CHECK1"
+msgid "Remember position"
+msgstr "Запомнить позицию"
+
+msgctxt "IDD_FAVADD_IDC_CHECK3"
+msgid "Remember A-B repeat marks"
+msgstr ""
+
+msgctxt "IDD_FAVADD_IDC_CHECK2"
+msgid "Relative drive"
+msgstr "Относительно диска"
+
+msgctxt "IDD_FAVADD_IDOK"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "IDD_FAVADD_IDCANCEL"
+msgid "Cancel"
+msgstr "Отмена"
+
+msgctxt "IDD_FAVORGANIZE_CAPTION"
+msgid "Organize Favorites"
+msgstr "Закладки"
+
+msgctxt "IDD_FAVORGANIZE_IDC_BUTTON1"
+msgid "Rename"
+msgstr "Переименовать"
+
+msgctxt "IDD_FAVORGANIZE_IDC_BUTTON3"
+msgid "Move Up"
+msgstr "Вверх"
+
+msgctxt "IDD_FAVORGANIZE_IDC_BUTTON4"
+msgid "Move Down"
+msgstr "Вниз"
+
+msgctxt "IDD_FAVORGANIZE_IDC_BUTTON2"
+msgid "Delete"
+msgstr "Удалить"
+
+msgctxt "IDD_FAVORGANIZE_IDOK"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "IDD_PNSPRESET_DLG_CAPTION"
+msgid "Pan & Scan Presets"
+msgstr "Предустановки размеров и положений"
+
+msgctxt "IDD_PNSPRESET_DLG_IDC_BUTTON2"
+msgid "New"
+msgstr "Новый"
+
+msgctxt "IDD_PNSPRESET_DLG_IDC_BUTTON3"
+msgid "Delete"
+msgstr "Удалить"
+
+msgctxt "IDD_PNSPRESET_DLG_IDC_BUTTON4"
+msgid "Up"
+msgstr "Вверх"
+
+msgctxt "IDD_PNSPRESET_DLG_IDC_BUTTON5"
+msgid "Down"
+msgstr "Вниз"
+
+msgctxt "IDD_PNSPRESET_DLG_IDC_BUTTON1"
+msgid "&Set"
+msgstr "&Выбрать"
+
+msgctxt "IDD_PNSPRESET_DLG_IDCANCEL"
+msgid "&Cancel"
+msgstr "&Отмена"
+
+msgctxt "IDD_PNSPRESET_DLG_IDOK"
+msgid "&Save"
+msgstr "&Сохранить"
+
+msgctxt "IDD_PNSPRESET_DLG_IDC_STATIC"
+msgid "Pos: 0.0 -> 1.0"
+msgstr "Позиция: 0.0 -> 1.0"
+
+msgctxt "IDD_PNSPRESET_DLG_IDC_STATIC"
+msgid "Zoom: 0.2 -> 3.0"
+msgstr "Масштаб: 0.2 -> 3.0"
+
+msgctxt "IDD_PPAGEACCELTBL_CAPTION"
+msgid "Shortcut Keys"
+msgstr "Сочетания клавиш"
+
+msgctxt "IDD_PPAGEACCELTBL_IDC_CHECK2"
+msgid "Global Media Keys"
+msgstr "Глобальные мультимедийные клавиши"
+
+msgctxt "IDD_PPAGEACCELTBL_IDC_BUTTON1"
+msgid "Select All"
+msgstr "Выбрать все"
+
+msgctxt "IDD_PPAGEACCELTBL_IDC_BUTTON2"
+msgid "Reset Selected"
+msgstr "Сбросить выбранные"
+
+msgctxt "IDD_MEDIATYPES_DLG_CAPTION"
+msgid "Warning"
+msgstr "Предупреждение"
+
+msgctxt "IDD_MEDIATYPES_DLG_IDC_STATIC1"
+msgid ""
+"MPC-HC could not render some of the pins in the graph, you may not have the "
+"needed codecs or filters installed on the system."
+msgstr ""
+"MPC-HC не смог воспроизвести некоторые дорожки в графе. Возможно, у вас не "
+"установлен нужный кодек или фильтр."
+
+msgctxt "IDD_MEDIATYPES_DLG_IDC_STATIC2"
+msgid "The following pin(s) failed to find a connectable filter:"
+msgstr "Для данных потоков не найден подходящий фильтр:"
+
+msgctxt "IDD_MEDIATYPES_DLG_IDOK"
+msgid "Close"
+msgstr "Закрыть"
+
+msgctxt "IDD_SAVE_DLG_CAPTION"
+msgid "Saving..."
+msgstr "Сохранение..."
+
+msgctxt "IDD_SAVE_DLG_IDCANCEL"
+msgid "Cancel"
+msgstr "Отмена"
+
+msgctxt "IDD_SAVETEXTFILEDIALOGTEMPL_IDC_STATIC1"
+msgid "Encoding:"
+msgstr "Кодировка:"
+
+msgctxt "IDD_SAVESUBTITLESFILEDIALOGTEMPL_IDC_STATIC1"
+msgid "Encoding:"
+msgstr "Кодировка:"
+
+msgctxt "IDD_SAVESUBTITLESFILEDIALOGTEMPL_IDC_STATIC"
+msgid "Delay:"
+msgstr "Задержка:"
+
+msgctxt "IDD_SAVESUBTITLESFILEDIALOGTEMPL_IDC_STATIC"
+msgid "ms"
+msgstr "мс"
+
+msgctxt "IDD_SAVESUBTITLESFILEDIALOGTEMPL_IDC_CHECK1"
+msgid "Save custom style"
+msgstr "Сохранить польз. стиль"
+
+msgctxt "IDD_SAVETHUMBSDIALOGTEMPL_IDC_STATIC"
+msgid "JPEG quality:"
+msgstr "Качество JPEG:"
+
+msgctxt "IDD_SAVETHUMBSDIALOGTEMPL_IDC_STATIC"
+msgid "Thumbnails:"
+msgstr "Миниатюры:"
+
+msgctxt "IDD_SAVETHUMBSDIALOGTEMPL_IDC_STATIC"
+msgid "rows"
+msgstr "строки"
+
+msgctxt "IDD_SAVETHUMBSDIALOGTEMPL_IDC_STATIC"
+msgid "columns"
+msgstr "колонки"
+
+msgctxt "IDD_SAVETHUMBSDIALOGTEMPL_IDC_STATIC"
+msgid "Image width:"
+msgstr "Ширина изображения:"
+
+msgctxt "IDD_SAVETHUMBSDIALOGTEMPL_IDC_STATIC"
+msgid "pixels"
+msgstr "пиксели"
+
+msgctxt "IDD_ADDREGFILTER_CAPTION"
+msgid "Select Filter"
+msgstr "Выбор фильтра"
+
+msgctxt "IDD_ADDREGFILTER_IDC_BUTTON1"
+msgid "Browse..."
+msgstr "Файл..."
+
+msgctxt "IDD_ADDREGFILTER_IDOK"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "IDD_ADDREGFILTER_IDCANCEL"
+msgid "Cancel"
+msgstr "Отмена"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Font"
+msgstr "Шрифт"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_BUTTON1"
+msgid "Font"
+msgstr "Шрифт"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Spacing"
+msgstr "Интервал"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Angle (z,°)"
+msgstr "Угол (z,°)"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Scale (x,%)"
+msgstr "Масштаб (x,%)"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Scale (y,%)"
+msgstr "Масштаб (y,%)"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Border Style"
+msgstr "Стиль границы"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_RADIO1"
+msgid "Outline"
+msgstr "Контур"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_RADIO2"
+msgid "Opaque box"
+msgstr "Заливка"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Width"
+msgstr "Ширина"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Shadow"
+msgstr "Тень"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Screen Alignment && Margins"
+msgstr "&Выравнивание экрана и поля"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Left"
+msgstr "Слева"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Right"
+msgstr "Справа"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Top"
+msgstr "Сверху"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Bottom"
+msgstr "Снизу"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_CHECK_RELATIVETO"
+msgid "Position subtitles relative to the video frame"
+msgstr "Располагать субтитры относительно кадра"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Colors && Transparency"
+msgstr "&Цвета и прозрачность"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "0%"
+msgstr "0%"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "100%"
+msgstr "100%"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Primary"
+msgstr "Первичный"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Secondary"
+msgstr "Вторичный"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_STATIC"
+msgid "Outline"
+msgstr "Контур"
+
+msgctxt "IDD_PPAGESUBSTYLE_IDC_CHECK1"
+msgid "Link alpha channels"
+msgstr "Связать альфа-каналы"
+
+msgctxt "IDD_PPAGEINTERNALFILTERS_IDC_STATIC"
+msgid ""
+"If you would like to use the stand-alone versions of these filters or "
+"another replacement, disable them here."
+msgstr ""
+"Если вы хотите использовать самостоятельную версию этих фильтров или другую "
+"альтернативу, отключите их здесь."
+
+msgctxt "IDD_PPAGEINTERNALFILTERS_IDC_STATIC"
+msgid "Source Filters"
+msgstr "Фильтры-источники"
+
+msgctxt "IDD_PPAGEINTERNALFILTERS_IDC_STATIC"
+msgid "Transform Filters"
+msgstr "Фильтры-преобразователи"
+
+msgctxt "IDD_PPAGEINTERNALFILTERS_IDC_STATIC"
+msgid "Internal LAV Filters settings"
+msgstr "Внутренние настройки LAV filters"
+
+msgctxt "IDD_PPAGEINTERNALFILTERS_IDC_SPLITTER_CONF"
+msgid "Splitter"
+msgstr "Сплиттер"
+
+msgctxt "IDD_PPAGEINTERNALFILTERS_IDC_VIDEO_DEC_CONF"
+msgid "Video decoder"
+msgstr "Декодер видео "
+
+msgctxt "IDD_PPAGEINTERNALFILTERS_IDC_AUDIO_DEC_CONF"
+msgid "Audio decoder"
+msgstr "Декодер аудио"
+
+msgctxt "IDD_PPAGELOGO_IDC_RADIO1"
+msgid "Internal:"
+msgstr "Встроенный:"
+
+msgctxt "IDD_PPAGELOGO_IDC_RADIO2"
+msgid "External:"
+msgstr "Внешний:"
+
+msgctxt "IDD_PPAGELOGO_IDC_BUTTON2"
+msgid "Browse..."
+msgstr "Выбрать..."
+
+msgctxt "IDD_PPAGELOGO_IDC_CHECK1"
+msgid "Apply Monitor Color Profile"
+msgstr "Применить цветовой профиль монитора"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_STATIC"
+msgid "DirectShow Video"
+msgstr "Видео DirectShow"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_STATIC"
+msgid "DXVA"
+msgstr "DXVA"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_STATIC"
+msgid "Subtitles"
+msgstr "Субтитры"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_STATIC"
+msgid "Screenshot"
+msgstr "Снимок экрана"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_STATIC"
+msgid "Shaders"
+msgstr "Шейдеры"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_STATIC"
+msgid "Rotation"
+msgstr "Вращение"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_STATIC"
+msgid "Audio Renderer"
+msgstr "Рендер аудио"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_STATIC"
+msgid "Subtitle Renderer"
+msgstr "Рендер субтитров"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_STATIC"
+msgid "VMR-9 (renderless) and EVR (CP) settings"
+msgstr "Настройки VMR-9 (renderless) и EVR (CP)"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_STATIC"
+msgid "Surface:"
+msgstr "Поверхность:"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_STATIC"
+msgid "Resizer:"
+msgstr "Интерполяция:"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_D3D9DEVICE"
+msgid "Select D3D9 Render Device"
+msgstr "Выбрать D3D9-устройство рендеринга"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_RESETDEVICE"
+msgid "Reinitialize when changing display"
+msgstr "Реинициализация при смене дисплея"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_FULLSCREEN_MONITOR_CHECK"
+msgid "D3D Fullscreen"
+msgstr "Полноэкранный D3D-режим"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_DSVMR9ALTERNATIVEVSYNC"
+msgid "Alternative VSync"
+msgstr "Альтернативная VSync"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_DSVMR9LOADMIXER"
+msgid "VMR-9 Mixer Mode"
+msgstr "Режим VMR-9 Mixer"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_EVR_BUFFERS_TXT"
+msgid "EVR Buffers:"
+msgstr "Буферы EVR:"
+
+msgctxt "IDD_PPAGEOUTPUT_IDC_CACHESHADERS"
+msgid "Cache compiled Shaders"
+msgstr "Кешировать скомпилированные шейдеры"
+
+msgctxt "IDD_PPAGEWEBSERVER_IDC_CHECK1"
+msgid "Listen on port:"
+msgstr "Слушать порт:"
+
+msgctxt "IDD_PPAGEWEBSERVER_IDC_STATIC1"
+msgid "Launch in web browser..."
+msgstr "Запустить в веб-браузере..."
+
+msgctxt "IDD_PPAGEWEBSERVER_IDC_CHECK3"
+msgid "Enable compression"
+msgstr "Использовать сжатие"
+
+msgctxt "IDD_PPAGEWEBSERVER_IDC_CHECK5"
+msgid "Allow access from localhost only"
+msgstr "Разрешить доступ только с локального хоста"
+
+msgctxt "IDD_PPAGEWEBSERVER_IDC_CHECK6"
+msgid "Enable preview"
+msgstr "Включить предпросмотр"
+
+msgctxt "IDD_PPAGEWEBSERVER_IDC_CHECK2"
+msgid "Print debug information"
+msgstr "Выводить отладочную информацию"
+
+msgctxt "IDD_PPAGEWEBSERVER_IDC_CHECK4"
+msgid "Serve pages from:"
+msgstr "Брать страницы из:"
+
+msgctxt "IDD_PPAGEWEBSERVER_IDC_BUTTON1"
+msgid "Browse..."
+msgstr "Выбрать..."
+
+msgctxt "IDD_PPAGEWEBSERVER_IDC_BUTTON2"
+msgid "Deploy..."
+msgstr "Выгрузить..."
+
+msgctxt "IDD_PPAGEWEBSERVER_IDC_STATIC"
+msgid "Default page:"
+msgstr "Cтраница по умолчанию:"
+
+msgctxt "IDD_PPAGEWEBSERVER_IDC_STATIC"
+msgid "CGI handlers: (.ext1=path1;.ext2=path2;...)"
+msgstr "Обработчики CGI: (.ext1=path1;.ext2=path2;...)"
+
+msgctxt "IDD_SUBTITLEDL_DLG_CAPTION"
+msgid "Download subtitles"
+msgstr "Загрузить субтитры"
+
+msgctxt "IDD_SUBTITLEDL_DLG_IDC_CHECK1"
+msgid "Replace currently loaded subtitles"
+msgstr "Заменить уже открытые субтитры"
+
+msgctxt "IDD_SUBTITLEDL_DLG_IDOK"
+msgid "Download"
+msgstr "Загрузить"
+
+msgctxt "IDD_SUBTITLEDL_DLG_IDC_BUTTON1"
+msgid "Refresh"
+msgstr "Обновить"
+
+msgctxt "IDD_SUBTITLEDL_DLG_IDC_BUTTON2"
+msgid "Abort"
+msgstr "Прервать"
+
+msgctxt "IDD_SUBTITLEDL_DLG_IDC_BUTTON3"
+msgid "Options"
+msgstr "Настройки"
+
+msgctxt "IDD_SUBTITLEDL_DLG_IDC_BUTTON4"
+msgid "Search"
+msgstr "Поиск"
+
+msgctxt "IDD_FILEPROPRES_IDC_BUTTON1"
+msgid "Save As..."
+msgstr "Сохранить как..."
+
+msgctxt "IDD_PPAGEMISC_IDC_STATIC"
+msgid "Color controls (for VMR-9, EVR and madVR)"
+msgstr "Управление цветом (для VMR-9, EVR и madVR)"
+
+msgctxt "IDD_PPAGEMISC_IDC_STATIC"
+msgid "Brightness"
+msgstr "Яркость"
+
+msgctxt "IDD_PPAGEMISC_IDC_STATIC"
+msgid "Contrast"
+msgstr "Контрастность"
+
+msgctxt "IDD_PPAGEMISC_IDC_STATIC"
+msgid "Hue"
+msgstr "Оттенок"
+
+msgctxt "IDD_PPAGEMISC_IDC_STATIC"
+msgid "Saturation"
+msgstr "Насыщенность"
+
+msgctxt "IDD_PPAGEMISC_IDC_RESET"
+msgid "Reset"
+msgstr "Сброс"
+
+msgctxt "IDD_PPAGEMISC_IDC_STATIC"
+msgid "Update check"
+msgstr "Проверка обновлений"
+
+msgctxt "IDD_PPAGEMISC_IDC_CHECK1"
+msgid "Enable automatic update check"
+msgstr "Проверять обновления автоматически"
+
+msgctxt "IDD_PPAGEMISC_IDC_STATIC5"
+msgid "Check every:"
+msgstr "Проверять каждые:"
+
+msgctxt "IDD_PPAGEMISC_IDC_STATIC6"
+msgid "day(s)"
+msgstr "дней"
+
+msgctxt "IDD_PPAGEMISC_IDC_STATIC"
+msgid "Settings management"
+msgstr "Управление настройками"
+
+msgctxt "IDD_PPAGEMISC_IDC_RESET_SETTINGS"
+msgid "Reset"
+msgstr "Сброс"
+
+msgctxt "IDD_PPAGEMISC_IDC_EXPORT_SETTINGS"
+msgid "Export"
+msgstr "Экспорт"
+
+msgctxt "IDD_PPAGEMISC_IDC_EXPORT_KEYS"
+msgid "Export keys"
+msgstr "Экспорт клавиш"
+
+msgctxt "IDD_TUNER_SCAN_CAPTION"
+msgid "Tuner scan"
+msgstr "Настройка тюнера"
+
+msgctxt "IDD_TUNER_SCAN_ID_START"
+msgid "Start"
+msgstr "Старт"
+
+msgctxt "IDD_TUNER_SCAN_IDCANCEL"
+msgid "Cancel"
+msgstr "Отмена"
+
+msgctxt "IDD_TUNER_SCAN_IDC_STATIC"
+msgid "Freq. Start"
+msgstr "Начальная частота"
+
+msgctxt "IDD_TUNER_SCAN_IDC_STATIC"
+msgid "Bandwidth"
+msgstr "Полоса пропускания"
+
+msgctxt "IDD_TUNER_SCAN_IDC_STATIC"
+msgid "Freq. End"
+msgstr "Конечная частота"
+
+msgctxt "IDD_TUNER_SCAN_IDC_CHECK_IGNORE_ENCRYPTED"
+msgid "Ignore encrypted channels"
+msgstr "Игнорировать зашифрованные каналы"
+
+msgctxt "IDD_TUNER_SCAN_ID_SAVE"
+msgid "Save"
+msgstr "Сохранить"
+
+msgctxt "IDD_TUNER_SCAN_IDC_STATIC"
+msgid "S"
+msgstr "С"
+
+msgctxt "IDD_TUNER_SCAN_IDC_STATIC"
+msgid "Q"
+msgstr "К"
+
+msgctxt "IDD_TUNER_SCAN_IDC_CHECK_OFFSET"
+msgid "Use an offset"
+msgstr "Использовать сдвиг"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_STATIC"
+msgid "Default Device"
+msgstr "Устройство по умолчанию"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_RADIO1"
+msgid "Analog"
+msgstr "Аналоговое"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_RADIO2"
+msgid "Digital"
+msgstr "Цифровое"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_STATIC"
+msgid "Analog settings"
+msgstr "Настройки аналогового канала"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_STATIC1"
+msgid "Video"
+msgstr "Видео"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_STATIC2"
+msgid "Audio"
+msgstr "Аудио"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_STATIC3"
+msgid "Country"
+msgstr "Страна"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_STATIC"
+msgid "Digital settings (BDA)"
+msgstr "Настройки цифрового канала (BDA)"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_STATIC4"
+msgid "Network Provider"
+msgstr "Провайдер"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_STATIC5"
+msgid "Tuner"
+msgstr "Тюнер"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_STATIC6"
+msgid "Receiver"
+msgstr "Приемник"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_PPAGECAPTURE_ST10"
+msgid "Channel switching approach:"
+msgstr "Способ переключения каналов:"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_PPAGECAPTURE_ST11"
+msgid "Rebuild filter graph"
+msgstr "Перестроить граф"
+
+msgctxt "IDD_PPAGECAPTURE_IDC_PPAGECAPTURE_ST12"
+msgid "Stop filter graph"
+msgstr "Остановить граф"
+
+msgctxt "IDD_PPAGESYNC_IDC_SYNCVIDEO"
+msgid "Sync video to display"
+msgstr "Синхронизировать видео с дисплеем"
+
+msgctxt "IDD_PPAGESYNC_IDC_STATIC1"
+msgid "Frequency adjustment:"
+msgstr "Коррекция частоты:"
+
+msgctxt "IDD_PPAGESYNC_IDC_SYNCDISPLAY"
+msgid "Sync display to video"
+msgstr "Синхронизировать дисплей с видео"
+
+msgctxt "IDD_PPAGESYNC_IDC_STATIC2"
+msgid "Frequency adjustment:"
+msgstr "Коррекция частоты:"
+
+msgctxt "IDD_PPAGESYNC_IDC_STATIC3"
+msgid "lines"
+msgstr "линии"
+
+msgctxt "IDD_PPAGESYNC_IDC_STATIC4"
+msgid "columns"
+msgstr "колонки"
+
+msgctxt "IDD_PPAGESYNC_IDC_SYNCNEAREST"
+msgid "Present at nearest VSync"
+msgstr "Вывод на ближайшей VSync"
+
+msgctxt "IDD_PPAGESYNC_IDC_STATIC5"
+msgid "Target sync offset:"
+msgstr "Целевое смещение:"
+
+msgctxt "IDD_PPAGESYNC_IDC_STATIC6"
+msgid "ms"
+msgstr "мс"
+
+msgctxt "IDD_PPAGESYNC_IDC_STATIC7"
+msgid "Control limits:"
+msgstr "Лимиты управления:"
+
+msgctxt "IDD_PPAGESYNC_IDC_STATIC8"
+msgid "+/-"
+msgstr "+/-"
+
+msgctxt "IDD_PPAGESYNC_IDC_STATIC9"
+msgid "ms"
+msgstr "мс"
+
+msgctxt "IDD_PPAGESYNC_IDC_STATIC10"
+msgid "Changes take effect after the playback has been closed and restarted."
+msgstr "Изменения вступят в силу после перезапуска воспроизведения."
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_CHECK1"
+msgid "Launch files in fullscreen"
+msgstr "Запускать файлы в полноэкранном режиме"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_CHECK4"
+msgid "Hide controls in fullscreen"
+msgstr "Скрывать элементы управления в полноэкранном режиме"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_STATIC1"
+msgid "ms"
+msgstr "мс"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_CHECK6"
+msgid "Hide docked panels"
+msgstr "Скрыть закрепленные панели"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_CHECK5"
+msgid "Exit fullscreen at the end of playback"
+msgstr "Выход из полноэкранного режима по окончании воспроизведения"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_STATIC"
+msgid "Fullscreen monitor"
+msgstr "Монитор для полноэкранного режима"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_CHECK2"
+msgid "Use autochange fullscreen monitor mode"
+msgstr "Использовать автопереключение монитора в полноэкранном режиме"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_BUTTON1"
+msgid "Add"
+msgstr "Добавить"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_BUTTON2"
+msgid "Del"
+msgstr "Удалить"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_BUTTON3"
+msgid "Up"
+msgstr "Вверх"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_BUTTON4"
+msgid "Down"
+msgstr "Вниз"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_CHECK3"
+msgid "Apply default monitor mode on fullscreen exit"
+msgstr "Применять режим по умолчанию при выходе из полноэкранного режима"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_RESTORERESCHECK"
+msgid "Restore resolution on program exit"
+msgstr "Восстанавливать разрешение после выхода из программы"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_STATIC"
+msgid "Delay"
+msgstr "Задержка"
+
+msgctxt "IDD_PPAGEFULLSCREEN_IDC_STATIC2"
+msgid "s"
+msgstr "с"
+
+msgctxt "IDD_NAVIGATION_DLG_IDC_NAVIGATION_INFO"
+msgid "Info"
+msgstr "Сведения"
+
+msgctxt "IDD_NAVIGATION_DLG_IDC_NAVIGATION_SCAN"
+msgid "Scan"
+msgstr "Поиск"
+
+msgctxt "IDD_PPAGESUBMISC_IDC_CHECK1"
+msgid "Prefer forced and/or default subtitles tracks"
+msgstr "Предпочитать принудительные и/или дорожки субтитров по умолчанию"
+
+msgctxt "IDD_PPAGESUBMISC_IDC_CHECK2"
+msgid "Prefer external subtitles over embedded subtitles"
+msgstr "Использовать внешние субтитры вместо встроенных"
+
+msgctxt "IDD_PPAGESUBMISC_IDC_CHECK3"
+msgid "Ignore embedded subtitles"
+msgstr "Игнорировать встроенные субтитры"
+
+msgctxt "IDD_PPAGESUBMISC_IDC_STATIC"
+msgid "Autoload paths"
+msgstr "Путь для внешних субтитров"
+
+msgctxt "IDD_PPAGESUBMISC_IDC_BUTTON1"
+msgid "Reset"
+msgstr "Сброс"
+
+msgctxt "IDD_PPAGESUBMISC_IDC_STATIC"
+msgid "Online subtitle search"
+msgstr "Поиск субтитров онлайн"
+
+msgctxt "IDD_PPAGESUBMISC_IDC_CHECK4"
+msgid "Automatically search and download subtitles if none are found locally"
+msgstr ""
+"Автоматически искать и загружать субтитры, если они не найдены локально"
+
+msgctxt "IDD_PPAGESUBMISC_IDC_CHECK5"
+msgid ""
+"Prefer subtitles for hearing impaired (when indicated by subtitles provider)"
+msgstr ""
+"Приоритет субтитров для людей с нарушениями слуха (если указано источником "
+"субтитров)"
+
+msgctxt "IDD_PPAGESUBMISC_IDC_STATIC1"
+msgid "Ignore files containing any of the following word(s):"
+msgstr "Игнорировать файлы, содержащие любое из следующих слов:"
+
+msgctxt "IDD_PPAGESUBMISC_IDC_STATIC"
+msgid "Languages in order of preference:"
+msgstr "Языки в порядке предпочтения:"
+
+msgctxt "IDD_UPDATE_DIALOG_CAPTION"
+msgid "Update Checker"
+msgstr "Проверка обновлений"
+
+msgctxt "IDD_UPDATE_DIALOG_IDC_UPDATE_DL_BUTTON"
+msgid "&Download now"
+msgstr "&Загрузить сейчас"
+
+msgctxt "IDD_UPDATE_DIALOG_IDC_UPDATE_LATER_BUTTON"
+msgid "Remind me &later"
+msgstr "Напомнить &позже"
+
+msgctxt "IDD_UPDATE_DIALOG_IDC_UPDATE_IGNORE_BUTTON"
+msgid "&Ignore this update"
+msgstr "&Игнорировать это обновление"
+
+msgctxt "IDD_PPAGESHADERS_IDC_STATIC"
+msgid ""
+"Shaders contain special effects which can be added to the video rendering "
+"process."
+msgstr ""
+"Шейдеры содержат специальные эффекты, которые могут быть добавлены в процесс"
+" рендеринга видео. Шейдеры pre-resize добавляются перед изменением размера, "
+"post-resize - после."
+
+msgctxt "IDD_PPAGESHADERS_IDC_BUTTON12"
+msgid "Add shader file"
+msgstr "Добавить файл шейдера"
+
+msgctxt "IDD_PPAGESHADERS_IDC_BUTTON13"
+msgid "Remove"
+msgstr "Удалить"
+
+msgctxt "IDD_PPAGESHADERS_IDC_BUTTON1"
+msgid "Add to pre-resize"
+msgstr "Добавить в pre-resize"
+
+msgctxt "IDD_PPAGESHADERS_IDC_BUTTON2"
+msgid "Add to post-resize"
+msgstr "Добавить в post-resize"
+
+msgctxt "IDD_PPAGESHADERS_IDC_STATIC"
+msgid "Shader presets"
+msgstr "Предустановки шейдеров"
+
+msgctxt "IDD_PPAGESHADERS_IDC_BUTTON3"
+msgid "Load"
+msgstr "Загрузить"
+
+msgctxt "IDD_PPAGESHADERS_IDC_BUTTON4"
+msgid "Save"
+msgstr "Сохранить"
+
+msgctxt "IDD_PPAGESHADERS_IDC_BUTTON5"
+msgid "Delete"
+msgstr "Удалить"
+
+msgctxt "IDD_PPAGESHADERS_IDC_STATIC"
+msgid "Active pre-resize shaders"
+msgstr "Активные шейдеры pre-resize"
+
+msgctxt "IDD_PPAGESHADERS_IDC_STATIC"
+msgid "Active post-resize shaders"
+msgstr "Активные шейдеры post-resize"
+
+msgctxt "IDD_PPAGESHADERS_IDC_STATIC5"
+msgid ""
+"MPC-VR does not support pre-resize shaders. It will run them after resize, "
+"before the post-resize shaders."
+msgstr ""
+"MPC-VR не поддерживает шейдеры pre-resize. Они будут запущены после "
+"изменения размера, перед шейдерами post-resize."
+
+msgctxt "IDD_DEBUGSHADERS_DLG_CAPTION"
+msgid "Debug Shaders"
+msgstr "Отладка шейдеров"
+
+msgctxt "IDD_DEBUGSHADERS_DLG_IDC_STATIC"
+msgid "Debug Information"
+msgstr "Отладочные сведения"
+
+msgctxt "IDD_DEBUGSHADERS_DLG_IDC_RADIO1"
+msgid "PS 2.0"
+msgstr "PS 2.0"
+
+msgctxt "IDD_DEBUGSHADERS_DLG_IDC_RADIO2"
+msgid "PS 2.0b"
+msgstr "PS 2.0b"
+
+msgctxt "IDD_DEBUGSHADERS_DLG_IDC_RADIO3"
+msgid "PS 2.0a"
+msgstr "PS 2.0a"
+
+msgctxt "IDD_DEBUGSHADERS_DLG_IDC_RADIO4"
+msgid "PS 3.0"
+msgstr "PS 3.0"
+
+msgctxt "IDD_PPAGEADVANCED_IDC_STATIC"
+msgid "Advanced Settings, do not edit unless you know what you are doing."
+msgstr ""
+"Это расширенные настройки. Не изменяйте их, если не знаете, что делаете."
+
+msgctxt "IDD_PPAGEADVANCED_IDC_RADIO1"
+msgid "True"
+msgstr "Верно"
+
+msgctxt "IDD_PPAGEADVANCED_IDC_RADIO2"
+msgid "False"
+msgstr "Неверно"
+
+msgctxt "IDD_PPAGEADVANCED_IDC_BUTTON1"
+msgid "Default"
+msgstr "По умолчанию"
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_CHECK5"
+msgid "SaneAR Audio Renderer Enabled"
+msgstr "SaneAR Audio Renderer включён"
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_STATIC5"
+msgid "Device"
+msgstr "Устройство"
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_STATIC6"
+msgid "Options"
+msgstr "Настройки"
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_CHECK1"
+msgid "Exclusive mode"
+msgstr "Монопольный режим"
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_CHECK4"
+msgid "Ignore system channel mixer (always ignored in exclusive WASAPI mode)"
+msgstr ""
+"Игнорировать системный микшер каналов (в режиме WASAPI Exclusive "
+"игнорируется всегда)"
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_CHECK3"
+msgid "Enable stereo crossfeed (for headphones)"
+msgstr "Включить перекрестную подачу (для наушников)"
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_BUTTON1"
+msgid "C. Moy"
+msgstr "C. Moy"
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_BUTTON2"
+msgid "J. Meier"
+msgstr "J. Meier"
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_STATIC1"
+msgid "Cut-off:"
+msgstr "Отсечение:"
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_STATIC3"
+msgid "Level:"
+msgstr "Уровень:"
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_STATIC7"
+msgid "Note"
+msgstr "Заметка"
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_STATIC8"
+msgid ""
+"To minimize audio distortion, it is recommended to keep player volume at "
+"around 85% when playing loud lossy-encoded content."
+msgstr ""
+"Для сведения звуковых искажений к минимуму при проигрывании громкого "
+"материала, сжатого с потерями, рекомендуется держать уровень громкости около"
+" 85%."
+
+msgctxt "IDD_PPAGEAUDIORENDERER_IDC_BUTTON3"
+msgid "MPC Audio Renderer Settings"
+msgstr "Настройки MPC Audio Renderer"
+
+msgctxt "IDD_SAVEIMAGEDIALOGTEMPL_IDC_STATIC"
+msgid "JPEG quality:"
+msgstr "Качество JPEG:"
+
+msgctxt "IDD_CMD_LINE_HELP_CAPTION"
+msgid "Command line help"
+msgstr "Помощь по командной строке"
+
+msgctxt "IDD_CMD_LINE_HELP_IDOK"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "IDD_CRASH_REPORTER_CAPTION"
+msgid "Crash reporter"
+msgstr "Отчет о сбое"
+
+msgctxt "IDD_CRASH_REPORTER_IDC_STATIC"
+msgid "We are sorry, it seems MPC-HC just crashed. :("
+msgstr "Мы сожалеем, кажется, в MPC-HC произошел сбой. :("
+
+msgctxt "IDD_CRASH_REPORTER_IDC_CHECK1"
+msgid "Send a bug report to help us diagnose and fix the problem."
+msgstr "Отправить отчет об ошибке, чтобы помочь нам исправить проблему."
+
+msgctxt "IDD_CRASH_REPORTER_IDC_STATIC1"
+msgid "Optional information"
+msgstr "Дополнительная информация"
+
+msgctxt "IDD_CRASH_REPORTER_IDC_STATIC2"
+msgid "Email:"
+msgstr "Эл. почта:"
+
+msgctxt "IDD_CRASH_REPORTER_IDC_STATIC3"
+msgid ""
+"Your email address is optional and will only be used if the developers need "
+"to contact you for more information."
+msgstr ""
+"Вводить адрес электронной почты не обязательно, но он может быть использован"
+" для связи разработчиков с вами."
+
+msgctxt "IDD_CRASH_REPORTER_IDC_STATIC4"
+msgid "Problem description (use English only):"
+msgstr "Описание проблемы (только на английском):"
+
+msgctxt "IDD_CRASH_REPORTER_IDC_BUTTON1"
+msgid "Restart MPC-HC"
+msgstr "Перезапустить MPC-HC"
+
+msgctxt "IDD_CRASH_REPORTER_IDC_BUTTON2"
+msgid "Quit MPC-HC"
+msgstr "Выйти из MPC-HC"
+
+msgctxt "IDD_PPAGEDPICALC_IDC_STATIC1"
+msgid "Groupbox"
+msgstr "Группа"
+
+msgctxt "IDD_PPAGEDPICALC_IDC_STATIC2"
+msgid "Autoplay"
+msgstr "Автовоспроизведение"

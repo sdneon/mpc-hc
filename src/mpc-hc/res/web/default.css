@@ -1,0 +1,350 @@
+/*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
+progress,sub,sup{vertical-align:baseline}
+button,hr,input,select{overflow:visible}
+[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
+audio,canvas,progress,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+[hidden],template{display:none}
+a{background-color:transparent}
+a:active,a:hover{outline-width:0}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:bolder}
+dfn{font-style:italic}
+h1{font-size:2em;margin:.67em 0}
+mark{background-color:#ff0;color:#000}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative}
+sub{bottom:-.25em}
+sup{top:-.5em}
+img{border-style:none}
+svg:not(:root){overflow:hidden}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
+figure{margin:1em 40px}
+hr{box-sizing:content-box;height:0}
+button,input,select,textarea{font:inherit;margin:0}
+optgroup{font-weight:700}
+button,select{text-transform:none}
+[type=button],[type=reset],[type=submit],button{cursor:pointer}
+[disabled]{cursor:default}
+[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+button:-moz-focusring,input:-moz-focusring{outline:ButtonText dotted 1px}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{color:inherit;display:table;max-width:100%;white-space:normal}
+textarea{overflow:auto}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+[type=search]{-webkit-appearance:textfield}
+[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+/* END OF normalize.css v4.0.0 */
+
+
+/* common */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font: 14px Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.browser-warning {
+    background-color: red;
+    padding: 10px;
+}
+
+
+/* browser.html */
+.browser-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.browser-table,
+.browser-table th,
+.browser-table td {
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.browser-table th {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.browser-table th:first-child {
+    width: 100%;
+}
+
+.dirname {
+    font-weight: bold;
+}
+
+
+
+/* controls.html */
+td,
+th {
+  padding: 0;
+}
+#slider {
+    background: url(img/sliderback.png) no-repeat;
+    width: 515px;
+    height: 20px;
+}
+
+#slider img {
+    cursor: pointer;
+}
+
+#v {
+    background: url(img/vbg.png) no-repeat;
+    width: 110px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#v img {
+    cursor: pointer;
+}
+
+#muted {
+    min-width: 29px;
+}
+
+.nobr {
+    white-space: nowrap;
+}
+
+form input {
+    min-width: 20px;
+    min-height: 24px;
+    vertical-align: middle;
+}
+
+
+
+/* player.html */
+#player {
+    margin: 0 auto;
+}
+
+#player,
+#player table,
+#player td,
+#player th {
+    border-collapse: separate;
+    border-spacing: 0;
+    padding: 0;
+}
+
+#player td {
+    font: 13px Sans-Serif;
+}
+
+#header td {
+    height: 30px;
+}
+
+#headerIcon {
+    background: url(img/headericon.png) no-repeat;
+    width: 22px;
+}
+
+#headerBack {
+    background: url(img/headerback.png) repeat-x;
+    color: white;
+    font-weight: bold !important;
+}
+
+#headerClose {
+    background: url(img/headerclose.png) no-repeat;
+    width: 28px;
+}
+
+#durstr,
+#posstr,
+#status,
+#title {
+    display: inline;
+}
+
+#menu td {
+    font-size: 12px;
+    padding: 2px 6px;
+}
+
+#menu-help {
+    width: 100%;
+}
+
+#controlbar,
+#menu {
+    background-color: #ECE6D4;
+    width: 100%;
+}
+
+#statusbar {
+    padding: 4px 2px 1px 2px !important;
+    width: 100%;
+}
+
+#statusbar td {
+    font-size: 12px;
+}
+
+#statusbar,
+#video {
+    background-color: black;
+    color: white;
+}
+
+#video {
+    cursor: pointer;
+}
+
+#snapshot {
+    margin-bottom: -4px;
+}
+
+#controlbar {
+    background: url(img/controlback.png) repeat-x;
+    height: 28px;
+}
+
+#controlbuttonplay {
+    background: url(img/controlbuttonplay.png) no-repeat;
+    width: 25px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#controlbuttonpause {
+    background: url(img/controlbuttonpause.png) no-repeat;
+    width: 23px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#controlbuttonstop {
+    background: url(img/controlbuttonstop.png) no-repeat;
+    width: 25px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#controlbuttonskipback {
+    background: url(img/controlbuttonskipback.png) no-repeat;
+    width: 24px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#controlbuttondecrate {
+    background: url(img/controlbuttondecrate.png) no-repeat;
+    width: 22px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#controlbuttonincrate {
+    background: url(img/controlbuttonincrate.png) no-repeat;
+    width: 23px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#controlbuttonskipforward {
+    background: url(img/controlbuttonskipforward.png) no-repeat;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#controlbuttonstep {
+    background: url(img/controlbuttonstep.png) no-repeat;
+    width: 31px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#controlvolumemute {
+    background: url(img/controlvolumeon.png) no-repeat;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#controlvolumebar {
+    background: url(img/controlvolumebar.png) no-repeat;
+    width: 55px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#seekbar {
+    background: url(img/seekbarmid.png) repeat-x;
+    margin-top: 1px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#seekbar td {
+    font-size: 0;
+}
+
+#leftside {
+    background: url(img/leftside.png) repeat-y;
+    width: 4px;
+}
+
+#rightside {
+    background: url(img/rightside.png) repeat-y;
+    width: 4px;
+}
+
+#leftbottomside {
+    background: url(img/leftbottomside.png) repeat-x;
+    width: 4px;
+    height: 4px;
+}
+
+#bottomside {
+    background: url(img/bottomside.png) repeat-x;
+    height: 4px;
+}
+
+#rightbottomside {
+    background: url(img/rightbottomside.png) repeat-x;
+    width: 4px;
+    height: 4px;
+}
+
+#center,
+#header {
+    width: 100%;
+}

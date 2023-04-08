@@ -1,0 +1,4690 @@
+# MPC-HC - Strings extracted from string tables
+# Copyright (C) 2002 - 2017 see Authors.txt
+# This file is distributed under the same license as the MPC-HC package.
+# Translators:
+# MPC HC <adiposegithub@gmail.com>, 2020
+# Zyz696 Paga, 2020
+# Felipefpl, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: MPC-HC\n"
+"POT-Creation-Date: 2021-05-04 16:20:41+0000\n"
+"PO-Revision-Date: 2020-01-02 07:46+0000\n"
+"Last-Translator: Felipefpl, 2021\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/mpchc/teams/106126/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgctxt "IDS_INFOBAR_LOCATION"
+msgid "Location"
+msgstr "Local"
+
+msgctxt "IDS_INFOBAR_VIDEO"
+msgid "Video"
+msgstr "Vídeo"
+
+msgctxt "IDS_INFOBAR_AUDIO"
+msgid "Audio"
+msgstr "Áudio"
+
+msgctxt "IDS_INFOBAR_SUBTITLES"
+msgid "Subtitles"
+msgstr "Legendas"
+
+msgctxt "IDS_INFOBAR_CHAPTER"
+msgid "Chapter"
+msgstr "Capítulo"
+
+msgctxt "IDS_CONTROLS_COMPLETING"
+msgid "Completing..."
+msgstr "Completando..."
+
+msgctxt "IDS_AUTOPLAY_PLAYVIDEO"
+msgid "Play Video"
+msgstr "Reproduzir Vídeo"
+
+msgctxt "IDS_AUTOPLAY_PLAYMUSIC"
+msgid "Play Music"
+msgstr "Reproduzir Música"
+
+msgctxt "IDS_AUTOPLAY_PLAYAUDIOCD"
+msgid "Play Audio CD"
+msgstr "Reproduzir CD de Áudio"
+
+msgctxt "IDS_AUTOPLAY_PLAYDVDMOVIE"
+msgid "Play DVD Movie"
+msgstr "Reproduzir Filme de DVD"
+
+msgctxt "IDS_PROPSHEET_PROPERTIES"
+msgid "Properties"
+msgstr "Propriedades"
+
+msgctxt "IDS_PLAY_LOOPMODE_FILE"
+msgid "File"
+msgstr "Arquivo"
+
+msgctxt "IDS_SUBTITLES_DEFAULT_STYLE"
+msgid "&Default Style"
+msgstr "&Estilo Padrão"
+
+msgctxt "IDS_PLAY_LOOPMODE_PLAYLIST"
+msgid "Playlist"
+msgstr "Lista de Reprodução"
+
+msgctxt "IDS_FAVFILES"
+msgid "Files"
+msgstr "Arquivos"
+
+msgctxt "IDS_FAVDVDS"
+msgid "DVDs"
+msgstr "DVDs"
+
+msgctxt "IDS_PLAYLOOPMODE_AB"
+msgid "A-B Repeat: Reset Positions"
+msgstr "Repetir A-B: Resetar Posições"
+
+msgctxt "IDS_PLAY_LOOPMODE_AB"
+msgid "A-B"
+msgstr "A-B"
+
+msgctxt "IDS_PLAYLOOPMODE_AB_MARK_A"
+msgid "A-B Repeat: Mark A Position"
+msgstr "Repetir A-B: Marcar Posição A"
+
+msgctxt "IDS_PLAYLOOPMODE_AB_MARK_B"
+msgid "A-B Repeat: Mark B Position"
+msgstr "Repetir A-B: Marcar Posição B"
+
+msgctxt "IDS_SNAPSHOT_SUBTITLES"
+msgid "Include Subtitles"
+msgstr "Incluir Legendas"
+
+msgctxt "IDS_INFOBAR_CHANNEL"
+msgid "Channel"
+msgstr "Canal"
+
+msgctxt "IDS_INFOBAR_TIME"
+msgid "Time"
+msgstr "Tempo"
+
+msgctxt "IDS_STATSBAR_SYNC_OFFSET"
+msgid "Sync Offset"
+msgstr "Sincronizar Deslocamento"
+
+msgctxt "IDS_STATSBAR_SYNC_OFFSET_FORMAT"
+msgid "avg: %d ms, dev: %d ms"
+msgstr "méd: %d ms, desv: %d ms"
+
+msgctxt "IDS_STATSBAR_JITTER"
+msgid "Jitter"
+msgstr "Jitter"
+
+msgctxt "IDS_STATSBAR_BITRATE"
+msgid "Bitrate"
+msgstr "Taxa dos bits"
+
+msgctxt "IDS_STATSBAR_BITRATE_AVG_CUR"
+msgid "(avg/cur)"
+msgstr "(Média/Atual)"
+
+msgctxt "IDS_STATSBAR_SIGNAL"
+msgid "Signal"
+msgstr "Sinal"
+
+msgctxt "IDS_STATSBAR_SIGNAL_FORMAT"
+msgid "Strength: %d dB, Quality: %ld%%"
+msgstr "Força: %d dB, Qualidade: %ld%%"
+
+msgctxt "IDS_SUBTITLES_STYLES_CAPTION"
+msgid "Styles"
+msgstr "Estilos"
+
+msgctxt "IDS_TEXT_SUB_RENDERING_TARGET"
+msgid ""
+"If the rendering target is left undefined, SSA/ASS subtitles will be "
+"rendered relative to the video frame while all other text subtitles will be "
+"rendered relative to the window."
+msgstr ""
+"Se o alvo da renderização é deixado indefinido, as legendas do SSA/ASS serão"
+" renderizadas relativo ao frame do vídeo enquanto todas as outras legendas "
+"de texto serão renderizadas relativo a janela."
+
+msgctxt "IDS_PLAYLOOPMODE_PLAYLIST"
+msgid "Repeat Mode: Playlist"
+msgstr "Modo de Repetição: Lista de Reprodução"
+
+msgctxt "IDS_PLAYLOOPMODE_FILE"
+msgid "Repeat Mode: File"
+msgstr "Modo de Repetição: Arquivo"
+
+msgctxt "IDS_PLAYLOOP_FOREVER_ON"
+msgid "Repeat Forever: On"
+msgstr "Repetir pra Sempre: Ligado"
+
+msgctxt "IDS_PLAYLOOP_FOREVER_OFF"
+msgid "Repeat Forever: Off"
+msgstr "Repetir pra Sempre: Desligado"
+
+msgctxt "IDS_PLAYLOOP_FOREVER"
+msgid "Repeat Forever"
+msgstr "Repetir pra Sempre"
+
+msgctxt "IDS_PPAGE_CAPTURE_FG0"
+msgid "Never"
+msgstr "Nunca"
+
+msgctxt "IDS_PPAGE_CAPTURE_FG1"
+msgid "Only when switching different video types"
+msgstr "Só quando trocar tipos de vídeo diferentes"
+
+msgctxt "IDS_PPAGE_CAPTURE_FG2"
+msgid "Always (default)"
+msgstr "Sempre (padrão)"
+
+msgctxt "IDS_PPAGE_CAPTURE_FGDESC0"
+msgid ""
+"Not supported by some devices. Two video decoders always present in the "
+"filter graph."
+msgstr ""
+"Não suportado por alguns dispositivos. Dois decodificadores de vídeo sempre "
+"presentes no gráfico do filtro."
+
+msgctxt "IDS_PPAGE_CAPTURE_FGDESC1"
+msgid ""
+"Fast except when switching between different video streams. Only one video "
+"decoder present in the filter graph."
+msgstr ""
+"Rápido exceto quando trocando entre diferentes faixas de vídeo. Só um "
+"decodificador de vídeo presente no gráfico do filtro."
+
+msgctxt "IDS_PPAGE_CAPTURE_SFG0"
+msgid "Never if possible (fastest, but not supported by most filters)"
+msgstr ""
+"Nunca se possivel (mais rápido, mas nao é suportado pela maioria dos "
+"filtros)"
+
+msgctxt "IDS_PPAGE_CAPTURE_SFG1"
+msgid "Only when switching different video types"
+msgstr "Só quando trocar tipos de vídeo diferentes"
+
+msgctxt "IDS_PPAGE_CAPTURE_SFG2"
+msgid "Always (may be required by some devices)"
+msgstr "Sempre (pode ser requerido por alguns dispositivos)"
+
+msgctxt "IDS_INFOBAR_PARENTAL_RATING"
+msgid "Parental rating"
+msgstr "Classificação dos Pais"
+
+msgctxt "IDS_PARENTAL_RATING"
+msgid "%d+"
+msgstr "%d+"
+
+msgctxt "IDS_NO_PARENTAL_RATING"
+msgid "Not rated"
+msgstr "Não Classificado"
+
+msgctxt "IDS_INFOBAR_CONTENT"
+msgid "Content"
+msgstr "Conteúdo"
+
+msgctxt "IDS_CONTENT_MOVIE_DRAMA"
+msgid "Movie/Drama"
+msgstr "Filme/Drama"
+
+msgctxt "IDS_CONTENT_NEWS_CURRENTAFFAIRS"
+msgid "News/Current affairs"
+msgstr "Notícias/Assuntos atuais"
+
+msgctxt "IDS_SPEED_UNIT_G"
+msgid "GB/s"
+msgstr "GB/s"
+
+msgctxt "IDS_FILE_FAV_ADDED"
+msgid "File added to favorites"
+msgstr "Arquivo adicionado aos favoritos"
+
+msgctxt "IDS_DVD_FAV_ADDED"
+msgid "DVD added to favorites"
+msgstr "DVD adicionado aos favoritos"
+
+msgctxt "IDS_CAPTURE_SETTINGS"
+msgid "Capture Settings"
+msgstr "Configurações da Captura"
+
+msgctxt "IDS_NAVIGATION_BAR"
+msgid "Navigation Bar"
+msgstr "Barra de Navegação"
+
+msgctxt "IDS_SUBRESYNC_CAPTION"
+msgid "Subresync"
+msgstr "Re-sincronização das Legendas"
+
+msgctxt "IDS_SUBRESYNC_CLN_TIME"
+msgid "Time"
+msgstr "Tempo"
+
+msgctxt "IDS_SUBRESYNC_CLN_END"
+msgid "End"
+msgstr "Fim"
+
+msgctxt "IDS_SUBRESYNC_CLN_PREVIEW"
+msgid "Preview"
+msgstr "Pré-visualização"
+
+msgctxt "IDS_SUBRESYNC_CLN_VOB_ID"
+msgid "Vob ID"
+msgstr "ID do Vob"
+
+msgctxt "IDS_SUBRESYNC_CLN_CELL_ID"
+msgid "Cell ID"
+msgstr "ID do Celular"
+
+msgctxt "IDS_SUBRESYNC_CLN_FORCED"
+msgid "Forced"
+msgstr "Forçado"
+
+msgctxt "IDS_SUBRESYNC_CLN_TEXT"
+msgid "Text"
+msgstr "Texto"
+
+msgctxt "IDS_SUBRESYNC_CLN_STYLE"
+msgid "Style"
+msgstr "Estilo"
+
+msgctxt "IDS_SUBRESYNC_CLN_FONT"
+msgid "Font"
+msgstr "Fonte"
+
+msgctxt "IDS_DVD_NAV_SOME_PINS_ERROR"
+msgid "Failed to render some of the pins of the DVD Navigator filter"
+msgstr "Falhou em renderizar alguns dos pinos do filtro do Navegador do DVD"
+
+msgctxt "IDS_DVD_INTERFACES_ERROR"
+msgid "Failed to query the needed interfaces for DVD playback"
+msgstr "Falhou em consultar as interfaces necessárias pro playback de DVD"
+
+msgctxt "IDS_CAPTURE_LIVE"
+msgid "Live"
+msgstr "Ao vivo"
+
+msgctxt "IDS_CAPTURE_ERROR_VID_FILTER"
+msgid "Can't add video capture filter to the graph"
+msgstr "Não pôde adicionar o filtro de captura do vídeo ao gráfico"
+
+msgctxt "IDS_CAPTURE_ERROR_AUD_FILTER"
+msgid "Can't add audio capture filter to the graph"
+msgstr "Não pôde adicionar o filtro de captura do áudio ao gráfico"
+
+msgctxt "IDS_CAPTURE_ERROR_DEVICE"
+msgid "Could not open capture device."
+msgstr "Não pôde abrir o dispositivo de captura."
+
+msgctxt "IDS_INVALID_PARAMS_ERROR"
+msgid "Can't open, invalid input parameters"
+msgstr "Não pôde abrir, parâmetros de entrada dos dados inválidos"
+
+msgctxt "IDS_EDIT_LIST_EDITOR"
+msgid "Edit List Editor"
+msgstr "Editar o Editor das Listas"
+
+msgctxt "IDS_GOTO_ERROR_INVALID_TIME"
+msgid "The entered time is greater than the file duration."
+msgstr "O tempo inserido é maior do que a duração do arquivo."
+
+msgctxt "IDS_MISSING_ICONS_LIB"
+msgid ""
+"The icons library \"mpciconlib.dll\" is missing.\n"
+"The player's default icon will be used for file associations.\n"
+"Please, reinstall MPC-HC to get \"mpciconlib.dll\"."
+msgstr ""
+"A biblioteca dos icones \"mpciconlib.dll\" está ausente.\n"
+"O ícone padrão do player serão usado pras associações com os arquivos.\n"
+"Por favor reinstale o MPC-HC pra obter o \"mpciconlib.dll\"."
+
+msgctxt "IDS_SUBDL_DLG_FILENAME_COL"
+msgid "File"
+msgstr "Arquivo"
+
+msgctxt "IDS_SUBDL_DLG_LANGUAGE_COL"
+msgid "Language"
+msgstr "Idioma"
+
+msgctxt "IDS_SUBDL_DLG_FORMAT_COL"
+msgid "Format"
+msgstr "Formato"
+
+msgctxt "IDS_SUBDL_DLG_DISC_COL"
+msgid "Disc"
+msgstr "Disco"
+
+msgctxt "IDS_SUBDL_DLG_TITLES_COL"
+msgid "Title(s)"
+msgstr "Título(s)"
+
+msgctxt "IDS_SUBRESYNC_CLN_CHARSET"
+msgid "CharSet"
+msgstr "Conjunto de caracteres"
+
+msgctxt "IDS_SUBRESYNC_CLN_UNICODE"
+msgid "Unicode"
+msgstr "Unicode"
+
+msgctxt "IDS_SUBRESYNC_CLN_LAYER"
+msgid "Layer"
+msgstr "Camada"
+
+msgctxt "IDS_SUBRESYNC_CLN_ACTOR"
+msgid "Actor"
+msgstr "Ator"
+
+msgctxt "IDS_SUBRESYNC_CLN_EFFECT"
+msgid "Effect"
+msgstr "Efeito"
+
+msgctxt "IDS_PLAYLIST_CAPTION"
+msgid "Playlist"
+msgstr "Lista de Reprodução"
+
+msgctxt "IDS_PPAGE_FS_CLN_ON_OFF"
+msgid "On/Off"
+msgstr "Ligado/Desligado"
+
+msgctxt "IDS_PPAGE_FS_CLN_FROM_FPS"
+msgid "From (FPS)"
+msgstr "De (FPS)"
+
+msgctxt "IDS_PPAGE_FS_CLN_TO_FPS"
+msgid "To (FPS)"
+msgstr "Até (FPS)"
+
+msgctxt "IDS_PPAGE_FS_CLN_DISPLAY_MODE"
+msgid "Display mode (Hz)"
+msgstr "Modo de exibição (Hz)"
+
+msgctxt "IDS_PPAGE_FS_DEFAULT"
+msgid "Default"
+msgstr "Padrão"
+
+msgctxt "IDS_PPAGE_FS_OTHER"
+msgid "Other"
+msgstr "Outro"
+
+msgctxt "IDS_PPAGE_OUTPUT_SYS_DEF"
+msgid "System Default"
+msgstr "Padrão do Sistema"
+
+msgctxt "IDS_GRAPH_INTERFACES_ERROR"
+msgid "Failed to query the needed interfaces for playback"
+msgstr "Falhou em consultar as interfaces necessárias pro playback."
+
+msgctxt "IDS_GRAPH_TARGET_WND_ERROR"
+msgid "Could not set target window for graph notification"
+msgstr "Não pôde definir a janela alvo para a notificação do grafico"
+
+msgctxt "IDS_DVD_NAV_ALL_PINS_ERROR"
+msgid "Failed to render all pins of the DVD Navigator filter"
+msgstr "Falhou em renderizar todos os pinos do filtro do Navegador do DVD"
+
+msgctxt "IDS_PLAYLIST_OPEN"
+msgid "&Open"
+msgstr "&Abrir"
+
+msgctxt "IDS_PLAYLIST_ADD"
+msgid "A&dd"
+msgstr "A&dicionar"
+
+msgctxt "IDS_PLAYLIST_REMOVE"
+msgid "&Remove"
+msgstr "&Remover"
+
+msgctxt "IDS_PLAYLIST_CLEAR"
+msgid "C&lear"
+msgstr "L&impar"
+
+msgctxt "IDS_PLAYLIST_COPYTOCLIPBOARD"
+msgid "&Copy to clipboard"
+msgstr "&Copiar pra área de transferência"
+
+msgctxt "IDS_PLAYLIST_SAVE"
+msgid "Sa&ve"
+msgstr "Sa&lvar"
+
+msgctxt "IDS_PLAYLIST_SAVEAS"
+msgid "&Save As..."
+msgstr "&Salvar Como..."
+
+msgctxt "IDS_PLAYLIST_SORTBYLABEL"
+msgid "Sort by &label"
+msgstr "Organizar por &rótulo"
+
+msgctxt "IDS_PLAYLIST_SORTBYPATH"
+msgid "Sort by &path"
+msgstr "Organizar pelo &caminho"
+
+msgctxt "IDS_PLAYLIST_RANDOMIZE"
+msgid "R&andomize"
+msgstr "T&ornar Aleatório"
+
+msgctxt "IDS_PLAYLIST_RESTORE"
+msgid "R&estore"
+msgstr "R&estaurar"
+
+msgctxt "IDS_SUBRESYNC_SEPARATOR"
+msgid "&Separator"
+msgstr "&Separador"
+
+msgctxt "IDS_SUBRESYNC_DELETE"
+msgid "&Delete"
+msgstr "&Apagar"
+
+msgctxt "IDS_SUBRESYNC_DUPLICATE"
+msgid "D&uplicate"
+msgstr "D&uplicar"
+
+msgctxt "IDS_SUBRESYNC_RESET"
+msgid "&Reset"
+msgstr "&Resetar"
+
+msgctxt "IDS_SUBRESYNC_ORIGINAL"
+msgid "&Original"
+msgstr "&Original"
+
+msgctxt "IDS_SUBRESYNC_CURRENT"
+msgid "&Current"
+msgstr "&Atual"
+
+msgctxt "IDS_SUBRESYNC_EDIT"
+msgid "&Edit"
+msgstr "&Editar"
+
+msgctxt "IDS_SUBRESYNC_YES"
+msgid "&Yes"
+msgstr "&Sim"
+
+msgctxt "IDS_SUBRESYNC_NO"
+msgid "&No"
+msgstr "&Não"
+
+msgctxt "IDS_SUBRESYNC_DECREASE"
+msgid "&Decrease"
+msgstr "&Diminuir"
+
+msgctxt "IDS_SUBRESYNC_INCREASE"
+msgid "&Increase"
+msgstr "&Aumentar"
+
+msgctxt "IDS_OPTIONS_CAPTION"
+msgid "Options"
+msgstr "Opções"
+
+msgctxt "IDS_SHADERS_SELECT"
+msgid "&Select Shaders..."
+msgstr "&Selecionar Shaders..."
+
+msgctxt "IDS_SHADERS_DEBUG"
+msgid "&Debug Shaders..."
+msgstr "&Fazer Debug dos Shaders..."
+
+msgctxt "IDS_MPLAYERC_104"
+msgid "Subtitle Delay -"
+msgstr "Atraso das Legendas -"
+
+msgctxt "IDS_MPLAYERC_105"
+msgid "Subtitle Delay +"
+msgstr "Atraso das Legendas +"
+
+msgctxt "IDS_FILE_SAVE_THUMBNAILS"
+msgid "Save thumbnails"
+msgstr "Salvar thumbnails"
+
+msgctxt "IDD_PPAGEPLAYBACK"
+msgid "Playback"
+msgstr "Playback"
+
+msgctxt "IDD_PPAGEPLAYER"
+msgid "Player"
+msgstr "Player"
+
+msgctxt "IDD_PPAGEDVD"
+msgid "Playback::DVD"
+msgstr "Playback::DVD"
+
+msgctxt "IDD_PPAGESUBTITLES"
+msgid "Subtitles"
+msgstr "Legendas"
+
+msgctxt "IDD_PPAGEFORMATS"
+msgid "Player::Formats"
+msgstr "Player::Formatos"
+
+msgctxt "IDD_PPAGETWEAKS"
+msgid "Tweaks"
+msgstr "Melhorias"
+
+msgctxt "IDD_PPAGEAUDIOSWITCHER"
+msgid "Internal Filters::Audio Switcher"
+msgstr "Filtros Internos::Interruptor do Áudio"
+
+msgctxt "IDD_PPAGEEXTERNALFILTERS"
+msgid "External Filters"
+msgstr "Filtros Externos"
+
+msgctxt "IDD_PPAGESHADERS"
+msgid "Playback::Shaders"
+msgstr "Playback::Shaders"
+
+msgctxt "IDD_FILEPROPRES"
+msgid "Resources"
+msgstr "Recursos"
+
+msgctxt "IDD_PPAGEMISC"
+msgid "Miscellaneous"
+msgstr "Miscelânea"
+
+msgctxt "IDD_FILEMEDIAINFO"
+msgid "MediaInfo"
+msgstr "Info da Mídia"
+
+msgctxt "IDD_PPAGECAPTURE"
+msgid "Playback::Capture"
+msgstr "Playback::Captura"
+
+msgctxt "IDD_PPAGESYNC"
+msgid "Playback::Sync Renderer Settings"
+msgstr "Playback::Sincronizar Configurações do Renderizador"
+
+msgctxt "IDD_PPAGEFULLSCREEN"
+msgid "Playback::Fullscreen"
+msgstr "Playback::Tela Cheia"
+
+msgctxt "IDD_PPAGEAUDIORENDERER"
+msgid "Internal Filters::Audio Renderer"
+msgstr "Filtros Internos::Renderizador do Áudio"
+
+msgctxt "IDS_AUDIOSWITCHER"
+msgid "Audio Switcher"
+msgstr "Interruptor do Áudio"
+
+msgctxt "IDS_ICONS_REASSOC_DLG_TITLE"
+msgid "New version of the icon library"
+msgstr "Nova versão da biblioteca dos ícones"
+
+msgctxt "IDS_ICONS_REASSOC_DLG_INSTR"
+msgid "Do you want to reassociate the icons?"
+msgstr "Você quer re-associar os ícones?"
+
+msgctxt "IDS_ICONS_REASSOC_DLG_CONTENT"
+msgid ""
+"This will fix the icons being incorrectly displayed after an update of the icon library.\n"
+"The file associations will not be modified, only the corresponding icons will be refreshed."
+msgstr ""
+"Isto consertará os ícones sendo incorretamente exibidos após uma atualização da biblioteca dos ícones.\n"
+"As associações dos arquivos não serão modificadas, só os ícones correspondentes serão atualizados."
+
+msgctxt "IDS_PPAGE_OUTPUT_OLDRENDERER"
+msgid "Old Video Renderer"
+msgstr "Renderizador Antigo do Vídeo"
+
+msgctxt "IDS_PPAGE_OUTPUT_OVERLAYMIXER"
+msgid "Overlay Mixer Renderer"
+msgstr "Sobreposição do Renderizador do Mixer"
+
+msgctxt "IDS_ZOOM_25"
+msgid "25%"
+msgstr "25%"
+
+msgctxt "IDS_PPAGE_OUTPUT_VMR9WINDOWED"
+msgid "Video Mixing Renderer 9 (windowed)"
+msgstr "Renderizador da Mistura do Vídeo 9 (modo janela)"
+
+msgctxt "IDS_PPAGE_OUTPUT_VMR9RENDERLESS"
+msgid "Video Mixing Renderer 9 (renderless)"
+msgstr "Renderizador da Mistura do Vídeo 9 (sem renderizar)"
+
+msgctxt "IDS_PPAGE_OUTPUT_EVR"
+msgid "Enhanced Video Renderer"
+msgstr "Renderizador Melhorado do Vídeo"
+
+msgctxt "IDS_PPAGE_OUTPUT_EVR_CUSTOM"
+msgid "Enhanced Video Renderer (custom presenter)"
+msgstr "Renderizador Melhorado do Vídeo (apresentador personalizado)"
+
+msgctxt "IDS_PPAGE_OUTPUT_DXR"
+msgid "Haali Video Renderer"
+msgstr "Renderizador de Vídeo do Haali"
+
+msgctxt "IDS_PPAGE_OUTPUT_NULL_COMP"
+msgid "Null (anything)"
+msgstr "Nulo (qualquer coisa)"
+
+msgctxt "IDS_PPAGE_OUTPUT_NULL_UNCOMP"
+msgid "Null (uncompressed)"
+msgstr "Nulo (descomprimido)"
+
+msgctxt "IDS_PPAGE_OUTPUT_MADVR"
+msgid "madVR"
+msgstr "madVR"
+
+msgctxt "IDS_LANG_PREF_EXAMPLE"
+msgid ""
+"Enter your preferred languages here.\n"
+"For example, type: \"eng jap swe\""
+msgstr ""
+"Insira seus idiomas preferidos aqui.\n"
+"Por examplo, Digite: \"eng jap swe\""
+
+msgctxt "IDS_OVERRIDE_EXT_SPLITTER_CHOICE"
+msgid ""
+"External splitters can have their own language preference options thus MPC-HC default behavior is not to change their initial choice.\n"
+"Enable this option if you want MPC-HC to control external splitters."
+msgstr ""
+"Os splitters externos podem ter suas próprias opções de preferencia de idioma, portanto o comportamento padrão do MPC-HC não é mudar a escolha inicial deles.\n"
+"Ative esta opção se você quer que o MPC-HC controle os splitters externos."
+
+msgctxt "IDS_NAVIGATE_BD_PLAYLISTS"
+msgid "&Blu-Ray playlists"
+msgstr "Listas de Reprodução do &Blu-Ray"
+
+msgctxt "IDS_NAVIGATE_PLAYLIST"
+msgid "&Playlist"
+msgstr "&Lista de Reprodução"
+
+msgctxt "IDS_NAVIGATE_CHAPTERS"
+msgid "&Chapters"
+msgstr "&Capítulos"
+
+msgctxt "IDS_NAVIGATE_TITLES"
+msgid "&Titles"
+msgstr "&Títulos"
+
+msgctxt "IDS_NAVIGATE_CHANNELS"
+msgid "&Channels"
+msgstr "&Canais"
+
+msgctxt "IDS_PPAGE_OUTPUT_MPCVR"
+msgid "MPC Video Renderer"
+msgstr "Renderizador de Vídeo do MPC"
+
+msgctxt "IDS_PPAGE_OUTPUT_VMR7"
+msgid "Video Mixing Renderer 7"
+msgstr "Renderizador de Mistura do Vídeo 7"
+
+msgctxt "IDD_PPAGEACCELTBL"
+msgid "Player::Keys"
+msgstr "Player::Teclas"
+
+msgctxt "IDD_PPAGESUBSTYLE"
+msgid "Subtitles::Default Style"
+msgstr "Legendas::Estilo Padrão"
+
+msgctxt "IDD_PPAGEINTERNALFILTERS"
+msgid "Internal Filters"
+msgstr "Filtros Internos"
+
+msgctxt "IDD_PPAGELOGO"
+msgid "Player::Logo"
+msgstr "Player::Logo"
+
+msgctxt "IDD_PPAGEOUTPUT"
+msgid "Playback::Output"
+msgstr "Playback::Saída dos Dados"
+
+msgctxt "IDD_PPAGEWEBSERVER"
+msgid "Player::Web Interface"
+msgstr "Player::Interface da Web"
+
+msgctxt "IDD_FILEPROPDETAILS"
+msgid "Details"
+msgstr "Detalhes"
+
+msgctxt "IDD_FILEPROPCLIP"
+msgid "Clip"
+msgstr "Clipe"
+
+msgctxt "IDC_DSSYSDEF"
+msgid ""
+"Default video renderer filter for DirectShow. Others will fall back to this "
+"one when they can't be loaded for some reason."
+msgstr ""
+"Filtro do renderizador de vídeo padrão pro DirectShow. Outros recuarão pra "
+"este quando eles não puderem ser carregados por alguma razão."
+
+msgctxt "IDC_DSOLD"
+msgid ""
+"This is the default renderer of Windows 9x/me/2k. Depending on the "
+"visibility of the video window and your video card's abilities, it will "
+"switch between GDI, DirectDraw, Overlay rendering modes dynamically."
+msgstr ""
+"Este é o renderizador padrão do Windows 9x/Me/2000. Dependendo da "
+"visibilidade da janela de vídeo e das capacidades da sua placa de vídeo, ele"
+" trocará entre os modos de renderização do GDI, DirectDraw e Overlay "
+"dinamicamente."
+
+msgctxt "IDC_DSOVERLAYMIXER"
+msgid ""
+"Always renders in overlay. Generally only YUV formats are allowed, but they "
+"are presented directly without any color conversion to RGB. This is the "
+"fastest rendering method of all and the only where you can be sure about "
+"fullscreen video mirroring to tv-out activating."
+msgstr ""
+"Sempre renderiza em Overlay. Geralmente só formatos YUV são permitidos, mas "
+"eles são apresentados diretamente sem qualquer conversão de cor pra RGB. "
+"Este é o modo de renderização mais rápido de todos e é o único aonde você "
+"pode ter certeza sobre o espelhamento de vídeo de tela cheia com ativação da"
+" saída da TV."
+
+msgctxt "IDC_DSVMR9WIN"
+msgid ""
+"Only available if you have DirectX 9 installed. Very stable but it will "
+"never use Overlay rendering and because of this it may be a little slower "
+"than Overlay mixer."
+msgstr ""
+"Só disponível se você tem o DirectX 9 instalado. Muito estável mas nunca "
+"usará a renderização Overlay e por causa disto pode ser um pouco mais lento "
+"do que um mixer Overlay."
+
+msgctxt "IDC_DSVMR9REN"
+msgid ""
+"Same as the VMR-9 (windowed), but with the Allocator-Presenter plugin of "
+"MPC-HC for subtitling. Overlay video mirroring MIGHT work. \"True Color\" "
+"desktop color space recommended."
+msgstr ""
+"Igual ao VMR-9 (modo janela), mas com o plugin Allocator-Presenter do MPC-HC"
+" pra exibir legendas. A sobreposição de espelhamento do vídeo PODERIA "
+"funcionar. O espaço das cores da área de trabalho \"True Color\" é "
+"recomendado."
+
+msgctxt "IDC_DSDXR"
+msgid ""
+"Same as the VMR-9 (renderless), but uses a true two-pass bicubic resizer."
+msgstr ""
+"Mesmo do VMR-9 (sem renderização), mas usa um re-dimensionamento bi-cúbico "
+"verdadeiro de 2 passes."
+
+msgctxt "IDC_DSNULL_COMP"
+msgid ""
+"Connects to any video-like media type and will send the incoming samples to "
+"nowhere. Use it when you don't need the video display and want to save the "
+"CPU from working unnecessarily."
+msgstr ""
+"Conecta-se a qualquer tipo de mídia tipo vídeo e enviará as amostras que "
+"entram pra lugar nenhum. Use-o quando não precisar da exibição do vídeo e "
+"quiser poupar a CPU de trabalhar sem necessidade."
+
+msgctxt "IDC_DSNULL_UNCOMP"
+msgid ""
+"Same as the normal Null renderer, but this will only connect to uncompressed"
+" types."
+msgstr ""
+"Igual ao renderizador Nulo normal, mas este só conectará com tipos "
+"descomprimidos."
+
+msgctxt "IDC_DSEVR_CUSTOM"
+msgid ""
+"Same as the EVR, but with the Allocator-Presenter of MPC-HC for subtitling "
+"and postprocessing. Recommended."
+msgstr ""
+"Igual ao EVR, mas com o Allocator-Presenter do MPC-HC pra exibir legendas e "
+"pós-processamento. Recomendado."
+
+msgctxt "IDC_DSMADVR"
+msgid "High-quality renderer, requires a GPU that supports D3D9 or later."
+msgstr ""
+"Renderizador de alta-qualidade, requer uma GPU que suporte D3D9 ou mais "
+"recente."
+
+msgctxt "IDC_DSSYNC"
+msgid ""
+"Same as the EVR (CP), but offers several options to synchronize the video "
+"frame rate with the display refresh rate to eliminate skipped or duplicated "
+"video frames."
+msgstr ""
+"Igual ao EVR (CP), mas oferece várias opções pra sincronizar a taxa de "
+"frames de vídeo com a taxa de atualização da exibiçaõ pra eliminar frames de"
+" vídeo ignorados ou duplicados."
+
+msgctxt "IDC_REGULARSURF"
+msgid "Video surface will be allocated as a regular offscreen surface."
+msgstr ""
+"A superfície de vídeo será alocada como uma superfície regular fora da tela."
+
+msgctxt "IDC_TEXTURESURF2D"
+msgid ""
+"Video surface will be allocated as a texture but still the 2d functions will"
+" be used to copy and stretch it onto the backbuffer. Requires a video card "
+"which can allocate 32-bit, RGBA, non-power-of-two sized textures and at "
+"least in the resolution of the video."
+msgstr ""
+"A superfície de vídeo será alocada como uma textura mas as funções 2D ainda "
+"serão usadas pra copiar e esticar no backbuffer. Requer uma placa de vídeo "
+"que possa alocar RGBA de 32 bits, texturas de tamanho sem-poder-de-duas e "
+"pelo menos a resolução de vídeo."
+
+msgctxt "IDC_TEXTURESURF3D"
+msgid ""
+"Video surface will be allocated as a texture and drawn as two triangles in "
+"3d. Antialiasing turned on at the display settings may have a bad effect on "
+"the rendering speed."
+msgstr ""
+"A superficie do vídeo será alocada como uma textura e desenhada como dois "
+"triângulos em 3D. O anti-aliasing ligado nas configurações de exibição podem"
+" ter um efeito ruim na velocidade de renderização."
+
+msgctxt "IDC_DX9RESIZER_COMBO"
+msgid ""
+"If there is no Pixel Shader 2.0 support, simple bilinear is used "
+"automatically."
+msgstr ""
+"Se não há suporte pro Pixel Shader 2.0 o bilinear simples é usado "
+"automaticamente."
+
+msgctxt "IDC_DSVMR9LOADMIXER"
+msgid ""
+"Puts VMR-9 (renderless) into mixer mode, this means most of the controls on "
+"its property page will work and it will use a separate worker thread to "
+"renderer frames."
+msgstr ""
+"Põe o VMR-9 (sem renderizar) no modo misturador, isto significa que a "
+"maioria dos controles na página de propriedades dele funcionarão e usarão um"
+" thread de trabalhador separado pros frames do renderizador."
+
+msgctxt "IDC_DSMPCVR"
+msgid "High-quality renderer, requires a GPU that supports D3D9 or later."
+msgstr ""
+"Renderizador de alta qualidade. Requer uma GPU que suporte D3D9 ou mais "
+"recente."
+
+msgctxt "IDS_PPAGE_OUTPUT_SYNC"
+msgid "Sync Renderer"
+msgstr "Sincronizar o Renderizador"
+
+msgctxt "IDS_PPAGE_OUTPUT_AUD_MPC_REND"
+msgid "MPC Audio Renderer"
+msgstr ""
+
+msgctxt "IDS_PPAGE_OUTPUT_SURF_OFFSCREEN"
+msgid "Regular offscreen plain surface"
+msgstr "Superfície plana regular fora da tela"
+
+msgctxt "IDS_PPAGE_OUTPUT_SURF_2D"
+msgid "2D surfaces"
+msgstr "Superfícies 2D"
+
+msgctxt "IDS_PPAGE_OUTPUT_SURF_3D"
+msgid "3D surfaces (recommended)"
+msgstr "Superfícies 3D (recomendado)"
+
+msgctxt "IDS_PPAGE_OUTPUT_RESIZE_NN"
+msgid "Nearest neighbor"
+msgstr "Vizinho mais próximo"
+
+msgctxt "IDS_PPAGE_OUTPUT_RESIZER_BILIN"
+msgid "Bilinear"
+msgstr "Bilinear"
+
+msgctxt "IDS_PPAGE_OUTPUT_RESIZER_BIL_PS"
+msgid "Bilinear (PS 2.0)"
+msgstr "Bilinear (PS 2.0)"
+
+msgctxt "IDS_PPAGE_OUTPUT_RESIZER_BICUB1"
+msgid "Bicubic A=-0.60 (PS 2.0)"
+msgstr "Bi-cúbico A=-0.60 (PS 2.0)"
+
+msgctxt "IDS_PPAGE_OUTPUT_RESIZER_BICUB2"
+msgid "Bicubic A=-0.75 (PS 2.0)"
+msgstr "Bi-cúbico A=-0.75 (PS 2.0)"
+
+msgctxt "IDS_PPAGE_OUTPUT_RESIZER_BICUB3"
+msgid "Bicubic A=-1.00 (PS 2.0)"
+msgstr "Bi-cúbico A=-1.00 (PS 2.0)"
+
+msgctxt "IDS_PPAGE_OUTPUT_UNAVAILABLE"
+msgid "**unavailable**"
+msgstr "**indisponível**"
+
+msgctxt "IDS_PPAGE_OUTPUT_UNAVAILABLEMSG"
+msgid "The selected renderer is not installed."
+msgstr "O renderizador selecionado não está instalado."
+
+msgctxt "IDS_PPAGE_OUTPUT_AUD_NULL_COMP"
+msgid "Null (anything)"
+msgstr "Nulo (qualquer coisa)"
+
+msgctxt "IDS_PPAGE_OUTPUT_AUD_NULL_UNCOMP"
+msgid "Null (uncompressed)"
+msgstr "Nulo (descomprimido)"
+
+msgctxt "IDS_PPAGE_OUTPUT_AUD_INTERNAL_REND"
+msgid "SaneAR Audio Renderer"
+msgstr ""
+
+msgctxt "IDS_EMB_RESOURCES_VIEWER_NAME"
+msgid "Name"
+msgstr "Nome"
+
+msgctxt "IDS_EMB_RESOURCES_VIEWER_TYPE"
+msgid "MIME Type"
+msgstr "Tipo de MIME"
+
+msgctxt "IDS_EMB_RESOURCES_VIEWER_INFO"
+msgid ""
+"In order to view an embedded resource in your browser you have to enable the web interface.\n"
+"\n"
+"Use the \"Save As\" button if you only want to save the information."
+msgstr ""
+"De modo a visualizar um recurso embutido no seu navegador você tem que ativar a interface da web.\n"
+"\n"
+"Use o botão \"Salvar Como\" se você só quer salvar a informação."
+
+msgctxt "IDS_SUBTITLES_DOWNLOAD"
+msgid "Download Subtitles..."
+msgstr "Baixar Legendas..."
+
+msgctxt "IDS_SUBFILE_DELAY"
+msgid "Delay (ms):"
+msgstr "Atraso (ms):"
+
+msgctxt "IDS_SPEEDSTEP_AUTO"
+msgid "Auto"
+msgstr "Auto"
+
+msgctxt "IDS_EXPORT_SETTINGS_NO_KEYS"
+msgid "There are no customized keys to export."
+msgstr "Não há teclas personalizadas pra exportar."
+
+msgctxt "IDS_RFS_NO_FILES"
+msgid "No media files found in the archive"
+msgstr "Não foram achados arquivos de mídia no arquivo compactado"
+
+msgctxt "IDS_RFS_COMPRESSED"
+msgid "Compressed files are not supported"
+msgstr "Arquivos comprimidos não são suportados"
+
+msgctxt "IDS_RFS_ENCRYPTED"
+msgid "Encrypted files are not supported"
+msgstr "Arquivos criptografados não são suportados"
+
+msgctxt "IDS_RFS_MISSING_VOLS"
+msgid "Couldn't find all archive volumes"
+msgstr "Não pôde achar todos os volumes do arquivo compactado"
+
+msgctxt "IDC_FULLSCREEN_MONITOR_CHECK"
+msgid "Reduces tearing but prevents the toolbar from being shown."
+msgstr "Reduz o rasgo mas impede a barra de tarefas de ser mostrada."
+
+msgctxt "IDC_DSVMR9ALTERNATIVEVSYNC"
+msgid "Reduces tearing by bypassing the default VSync built into D3D."
+msgstr "Reduz o rasgo contornando o VSync padrão embutido no D3D."
+
+msgctxt "IDS_NAVIGATE_TUNERSCAN"
+msgid "Tuner scan"
+msgstr "Sintonizador"
+
+msgctxt "IDS_SUBTITLES_ERROR"
+msgid "Subtitles are not loaded or unsupported renderer."
+msgstr "As legendas não foram carregadas ou renderizador não suportado."
+
+msgctxt "IDC_CACHESHADERS"
+msgid "Stores compiled shaders in local AppData to speed up load time."
+msgstr ""
+"Armazena os shaders compilados no AppData local pra acelerar o tempo de "
+"carregamento."
+
+msgctxt "IDS_SRC_VTS"
+msgid "Open VTS_xx_0.ifo to load VTS_xx_x.vob files in one piece"
+msgstr ""
+"Abre o VTS_xx_0.ifo pra carregar todos os arquivos VTS_xx_x.vob de uma só "
+"vez"
+
+msgctxt "IDS_SRC_RFS"
+msgid "Based on RARFileSource, doesn't support compressed files"
+msgstr "Baseado no RARFileSource, não suporta arquivos comprimidos"
+
+msgctxt "IDS_INTERNAL_LAVF"
+msgid "Uses LAV Filters"
+msgstr "Usa Filtros LAV"
+
+msgctxt "IDS_INTERNAL_LAVF_WMV"
+msgid ""
+"Uses LAV Filters. Disabled by default since Microsoft filters are usually more stable for those formats.\n"
+"If you choose to use the internal filters, enable them for both source and decoding to have a better playback experience."
+msgstr ""
+"Usa Filtros LAV. Desativado por padrão já que os filtros da Microsoft são geralmente mais estáveis pra esses formatos.\n"
+"Se você escolher usar os filtros internos, ative-os para que ambos, a fonte e a decodificação tenham uma melhor experiência de playback."
+
+msgctxt "IDS_AG_OPEN_FILE_LOCATION"
+msgid "Open File Location"
+msgstr "Abrir Local do Arquivo"
+
+msgctxt "IDS_AG_TOGGLE_NAVIGATION"
+msgid "Toggle Navigation Bar"
+msgstr "Alternar Barra de Navegação"
+
+msgctxt "IDS_AG_VSYNCACCURATE"
+msgid "Accurate VSync"
+msgstr "VSync Preciso"
+
+msgctxt "IDC_CHECK_RELATIVETO"
+msgid ""
+"If the rendering target is left undefined, it will be inherited from the "
+"default style."
+msgstr ""
+"Se o alvo de renderização é deixado não definidó, ele será herdado do estilo"
+" padrão."
+
+msgctxt "IDC_CHECK_NO_SUB_ANIM"
+msgid ""
+"Disallow subtitle animation. Enabling this option will lower CPU usage. You "
+"can use it if you experience flashing subtitles."
+msgstr ""
+"Não permitir animação da legenda. Ativar esta opção baixará o uso da CPU. "
+"Você pode usá-lo se você experimentar legendas que pisquem."
+
+msgctxt "IDC_SUBPIC_TO_BUFFER"
+msgid ""
+"Increasing the number of buffered subpictures should in general improve the "
+"rendering performance at the cost of a higher video RAM usage on the GPU."
+msgstr ""
+"Aumentar o número de sub-imagens no buffer deve em geral melhorar a "
+"performance da renderização a custo de um uso de RAM de vídeo maior na GPU."
+
+msgctxt "IDC_BUTTON_EXT_SET"
+msgid ""
+"After clicking this button, the checked state of the format group will "
+"reflect the actual file association for MPC-HC. A newly added extension will"
+" usually make it grayed, so don't forget to check it again before closing "
+"this dialog!"
+msgstr ""
+"Após clicar neste botão o estado verificado do grupo do formato refletirá na"
+" associação atual dos arquivos do MPC-HC. Uma extensão recém adicionada "
+"geralmente aparecerá em cinza, então não esqueça de marcá-la de novo antes "
+"de fechar este diálogo!"
+
+msgctxt "IDC_CHECK_ALLOW_DROPPING_SUBPIC"
+msgid ""
+"Disabling this option will prevent the subtitles from blinking but it may "
+"cause the video renderer to skip some video frames."
+msgstr ""
+"Desativar esta opção impedirá as legendas de piscarem mas pode fazer o "
+"renderizador de vídeo ignorar alguns frames de vídeo."
+
+msgctxt "ID_PLAY_PLAY"
+msgid ""
+"Play\n"
+"Play"
+msgstr ""
+"Reproduzir\n"
+"Reproduzir"
+
+msgctxt "ID_PLAY_PAUSE"
+msgid ""
+"Pause\n"
+"Pause"
+msgstr ""
+"Pausa\n"
+"Pausa"
+
+msgctxt "ID_PLAY_STOP"
+msgid ""
+"Stop\n"
+"Stop"
+msgstr ""
+"Parar\n"
+"Parar"
+
+msgctxt "ID_PLAY_FRAMESTEP"
+msgid ""
+"Step\n"
+"Step"
+msgstr ""
+"Pular\n"
+"Pular"
+
+msgctxt "ID_PLAY_DECRATE"
+msgid ""
+"Decrease speed\n"
+"Decrease speed"
+msgstr ""
+"Diminuir velocidade\n"
+"Diminuir velocidade"
+
+msgctxt "ID_PLAY_INCRATE"
+msgid ""
+"Increase speed\n"
+"Increase speed"
+msgstr ""
+"Aumentar velocidade\n"
+"Aumentar velocidade"
+
+msgctxt "ID_VOLUME_MUTE"
+msgid "Mute"
+msgstr "Mudo"
+
+msgctxt "ID_VOLUME_MUTE_OFF"
+msgid "Unmute"
+msgstr "Desfazer o mudo"
+
+msgctxt "ID_VOLUME_MUTE_DISABLED"
+msgid "No audio"
+msgstr "Sem áudio"
+
+msgctxt "ID_NAVIGATE_SKIPBACK"
+msgid ""
+"Skip back\n"
+"Skip back"
+msgstr ""
+"Voltar\n"
+"Voltar"
+
+msgctxt "ID_NAVIGATE_SKIPFORWARD"
+msgid ""
+"Skip forward\n"
+"Skip forward"
+msgstr ""
+"Avançar\n"
+"Avançar"
+
+msgctxt "IDS_FAVORITES_ADD"
+msgid "&Add to Favorites..."
+msgstr "&Adicionar aos Favoritos..."
+
+msgctxt "IDS_FAVORITES_ORGANIZE"
+msgid "&Organize Favorites..."
+msgstr "&Organizar Favoritos..."
+
+msgctxt "IDS_PLAYLIST_SHUFFLE"
+msgid "Sh&uffle"
+msgstr "Mis&turar"
+
+msgctxt "IDS_PLAYLIST_SHOWFOLDER"
+msgid "Ope&n file location"
+msgstr "Abri&r local do arquivo"
+
+msgctxt "IDS_CONTROLS_CLOSING"
+msgid "Closing..."
+msgstr "Fechando..."
+
+msgctxt "IDS_CONTROLS_PLAYING"
+msgid "Playing"
+msgstr "Reproduzindo"
+
+msgctxt "IDS_CONTROLS_PAUSED"
+msgid "Paused"
+msgstr "Pausado"
+
+msgctxt "IDS_AG_EDL_NEW_CLIP"
+msgid "EDL new clip"
+msgstr "Novo Clip EDL"
+
+msgctxt "IDS_RECENT_FILES_CLEAR"
+msgid "&Clear list"
+msgstr "&Limpar lista"
+
+msgctxt "IDS_RECENT_FILES_QUESTION"
+msgid "Are you sure that you want to delete recent files list?"
+msgstr "Você tem certeza que você quer apagar a lista de arquivos recentes?"
+
+msgctxt "IDS_AG_EDL_SAVE"
+msgid "EDL save"
+msgstr "Salvar EDL"
+
+msgctxt "IDS_AG_ENABLEFRAMETIMECORRECTION"
+msgid "Enable Frame Time Correction"
+msgstr "Ativar Correção do Tempo dos Frames"
+
+msgctxt "IDS_AG_TOGGLE_EDITLISTEDITOR"
+msgid "Toggle EDL window"
+msgstr "Alternar janela do EDL"
+
+msgctxt "IDS_AG_EDL_IN"
+msgid "EDL set In"
+msgstr "EDL situado por Dentro"
+
+msgctxt "IDS_AG_EDL_OUT"
+msgid "EDL set Out"
+msgstr "EDL situado por Fora"
+
+msgctxt "IDS_AG_PNS_ROTATEX_M"
+msgid "PnS Rotate X-"
+msgstr "Rotacionar PnS X-"
+
+msgctxt "IDS_AG_PNS_ROTATEY_P"
+msgid "PnS Rotate Y+"
+msgstr "Rotacionar PnS Y+"
+
+msgctxt "IDS_AG_PNS_ROTATEY_M"
+msgid "PnS Rotate Y-"
+msgstr "Rotacionar PnS Y-"
+
+msgctxt "IDS_AG_PNS_ROTATEZ_P"
+msgid "PnS Rotate Z+"
+msgstr "Rotacionar PnS Z+"
+
+msgctxt "IDS_AG_PNS_ROTATEZ_M"
+msgid "PnS Rotate Z-"
+msgstr "Rotacionar PnS Z-"
+
+msgctxt "IDS_AG_TEARING_TEST"
+msgid "Tearing Test"
+msgstr "Teste de rasgo"
+
+msgctxt "IDS_SCALE_16_9"
+msgid "Scale to 16:9 TV,%.3f,%.3f,%.3f,%.3f"
+msgstr "Escalar pra 16:9 TV,%.3f,%.3f,%.3f,%.3f"
+
+msgctxt "IDS_SCALE_WIDESCREEN"
+msgid "Zoom to Widescreen,%.3f,%.3f,%.3f,%.3f"
+msgstr "Zoom pra Widescreen,%.3f,%.3f,%.3f,%.3f"
+
+msgctxt "IDS_SCALE_ULTRAWIDE"
+msgid "Zoom to Ultra-Widescreen,%.3f,%.3f,%.3f,%.3f"
+msgstr "Zoom pra Ultra-Widescreen,%.3f,%.3f,%.3f,%.3f"
+
+msgctxt "IDS_PLAYLIST_HIDEFS"
+msgid "&Hide on Fullscreen"
+msgstr "&Ocultar em tela cheia"
+
+msgctxt "IDS_CONTROLS_STOPPED"
+msgid "Stopped"
+msgstr "Parado"
+
+msgctxt "IDS_CONTROLS_BUFFERING"
+msgid "Buffering... (%d%%)"
+msgstr "Armazenando no buffer... (%d%%)"
+
+msgctxt "IDS_CONTROLS_CAPTURING"
+msgid "Capturing..."
+msgstr "Capturando..."
+
+msgctxt "IDS_CONTROLS_OPENING"
+msgid "Opening..."
+msgstr "Abrindo..."
+
+msgctxt "IDS_CONTROLS_CLOSED"
+msgid "Closed"
+msgstr "Fechado"
+
+msgctxt "IDS_SUBTITLES_OPTIONS"
+msgid "&Options..."
+msgstr "&Opções..."
+
+msgctxt "IDS_SUBTITLES_STYLES"
+msgid "&Styles..."
+msgstr "&Estilos..."
+
+msgctxt "IDS_SUBTITLES_RELOAD"
+msgid "&Reload"
+msgstr "&Recarregar"
+
+msgctxt "IDS_SUBTITLES_ENABLE"
+msgid "&Enable"
+msgstr "&Ativar"
+
+msgctxt "IDS_PANSCAN_EDIT"
+msgid "&Edit..."
+msgstr "Editar..."
+
+msgctxt "IDS_INFOBAR_TITLE"
+msgid "Title"
+msgstr "Título"
+
+msgctxt "IDS_INFOBAR_AUTHOR"
+msgid "Author"
+msgstr "Autor"
+
+msgctxt "IDS_INFOBAR_COPYRIGHT"
+msgid "Copyright"
+msgstr "Direitos autorais"
+
+msgctxt "IDS_INFOBAR_RATING"
+msgid "Rating"
+msgstr "Classificação"
+
+msgctxt "IDS_INFOBAR_DESCRIPTION"
+msgid "Description"
+msgstr "Descrição"
+
+msgctxt "IDS_INFOBAR_DOMAIN"
+msgid "Domain"
+msgstr "Domínio"
+
+msgctxt "IDS_AG_CLOSE"
+msgid "Close"
+msgstr "Fechar"
+
+msgctxt "IDS_AG_NONE"
+msgid "None"
+msgstr "Nenhum"
+
+msgctxt "IDS_AG_COMMAND"
+msgid "Command"
+msgstr "Comando"
+
+msgctxt "IDS_AG_KEY"
+msgid "Key"
+msgstr "Tecla"
+
+msgctxt "IDS_AG_MOUSE"
+msgid "Mouse Windowed"
+msgstr "Mouse na Janela"
+
+msgctxt "IDS_AG_MOUSE_FS"
+msgid "Mouse Fullscreen"
+msgstr "Mouse em Tela Cheia"
+
+msgctxt "IDS_AG_APP_COMMAND"
+msgid "App Command"
+msgstr "Comando do App"
+
+msgctxt "IDS_AG_MEDIAFILES"
+msgid "Media files (all types)"
+msgstr "Arquivos de mídias (todos os tipos)"
+
+msgctxt "IDS_AG_ALLFILES"
+msgid "All files (*.*)|*.*|"
+msgstr "Todos os arquivos (*.*)|*.*|"
+
+msgctxt "IDS_AG_AUDIOFILES"
+msgid "Audio files (all types)"
+msgstr "Arquivos de áudio (todos os tipos)"
+
+msgctxt "IDS_AG_NOT_KNOWN"
+msgid "Not known"
+msgstr "Desconhecido"
+
+msgctxt "IDS_MPLAYERC_0"
+msgid "Quick Open File"
+msgstr "Abrir Arquivo Rapidamente"
+
+msgctxt "IDS_AG_OPEN_FILE"
+msgid "Open File/URL"
+msgstr "Abrir Arquivo/URL"
+
+msgctxt "IDS_AG_OPEN_DVD"
+msgid "Open DVD/BD"
+msgstr "Abrir DVD/BD"
+
+msgctxt "IDS_MAINFRM_POST_SHADERS_FAILED"
+msgid "Failed to set post-resize shaders"
+msgstr "Falhou em definir os shaders do pós-redimensionamento"
+
+msgctxt "IDS_MAINFRM_BOTH_SHADERS_FAILED"
+msgid "Failed to set both pre-resize and post-resize shaders"
+msgstr "Falhou em definir ambos: os shaders do pré e pós-redimensionamento"
+
+msgctxt "IDS_DEBUGSHADERS_FIRSTRUN_MSG"
+msgid ""
+"Shaders are recompiled automatically when the corresponding files are "
+"modified."
+msgstr ""
+"Os shaders são recompilados automaticamente quando os arquivos "
+"correspondentes são modificados."
+
+msgctxt "IDS_SHADER_DLL_ERR_0"
+msgid "Cannot load %s, pixel shaders will not work."
+msgstr "Não pôde carregar o %s os shaders dos pixels não funcionarão. "
+
+msgctxt "IDS_SHADER_DLL_ERR_1"
+msgid ""
+"Cannot find necessary function entry points in %s, pixel shaders will not "
+"work."
+msgstr ""
+"Não pôde achar pontos de entrada da função necessários em %s, os shaders dos"
+" pixels não funcionarão."
+
+msgctxt "IDS_OSD_SHADERS_PRESET"
+msgid "Shader preset: %s"
+msgstr "Shader pré-definido: %s"
+
+msgctxt "IDS_AG_SHADERS_PRESET_NEXT"
+msgid "Next Shader Preset"
+msgstr "Próximo shader pré-definido"
+
+msgctxt "IDS_AG_SHADERS_PRESET_PREV"
+msgid "Prev Shader Preset"
+msgstr "Shader Pré-Definido Anterior"
+
+msgctxt "IDS_STRING_COLON"
+msgid "%s:"
+msgstr "%s:"
+
+msgctxt "IDS_RECORD_START"
+msgid "Record"
+msgstr "Gravar"
+
+msgctxt "IDS_RECORD_STOP"
+msgid "Stop"
+msgstr "Parar"
+
+msgctxt "IDS_BALANCE"
+msgid "L = R"
+msgstr "E = D"
+
+msgctxt "IDS_BALANCE_L"
+msgid "L +%d%%"
+msgstr "E +%d%%"
+
+msgctxt "IDS_BALANCE_R"
+msgid "R +%d%%"
+msgstr "D +%d%%"
+
+msgctxt "IDS_VOLUME"
+msgid "%d%%"
+msgstr "%d%%"
+
+msgctxt "IDS_BOOST"
+msgid "+%d%%"
+msgstr "+%d%%"
+
+msgctxt "IDS_PLAYLIST_ADDFOLDER"
+msgid "Add containing &folder"
+msgstr "Adicionar pasta &contêiner"
+
+msgctxt "IDS_HW_INDICATOR"
+msgid "[H/W]"
+msgstr "[H/W]"
+
+msgctxt "IDS_TOOLTIP_SOFTWARE_DECODING"
+msgid "Software Decoding"
+msgstr "Decodificação por Software"
+
+msgctxt "IDS_STATSBAR_PLAYBACK_RATE"
+msgid "Playback rate"
+msgstr "Velocidade do playback"
+
+msgctxt "IDS_FILTERS_COPY_TO_CLIPBOARD"
+msgid "&Copy filters list to clipboard"
+msgstr "&Copiar a lista de filtros pra área de transferência"
+
+msgctxt "IDS_CREDENTIALS_SERVER"
+msgid "Enter server credentials"
+msgstr "Insira as credenciais do servidor"
+
+msgctxt "IDS_CREDENTIALS_CONNECT"
+msgid "Enter your credentials to connect"
+msgstr "Insira suas credenciais pra conectar"
+
+msgctxt "IDS_SUB_SAVE_EXTERNAL_STYLE_FILE"
+msgid "Save custom style"
+msgstr "Salvar estilo personalizado"
+
+msgctxt "IDS_CONTENT_EDUCATION_SCIENCE"
+msgid "Education/Science/Factual topics"
+msgstr "Tópicos Educacionais/Cientificos/Factuais"
+
+msgctxt "IDS_PPAGEADVANCED_HIDE_WINDOWED"
+msgid "Hides controls and panels also in windowed mode."
+msgstr "Ocultar controles e painéis também no modo de janela."
+
+msgctxt "IDS_PPAGEADVANCED_BLOCK_VSFILTER"
+msgid ""
+"Prevent external subtitle renderer to be loaded when internal is in use."
+msgstr ""
+"Impede o renderizador externo de legendas a ser carregado quando a interna "
+"estiver em uso."
+
+msgctxt "IDS_PPAGEADVANCED_COL_NAME"
+msgid "Name"
+msgstr "Nome"
+
+msgctxt "IDS_PPAGEADVANCED_COL_VALUE"
+msgid "Value"
+msgstr "Valor"
+
+msgctxt "IDS_PPAGEADVANCED_RECENT_FILES_NUMBER"
+msgid ""
+"Maximum number of files shown in the \"Recent files\" menu and for which the"
+" position is potentially saved."
+msgstr ""
+"Número máximo de arquivos mostrados no menu \"Arquivos recentes\" e para os "
+"quais a posição é potencialmente salva."
+
+msgctxt "IDS_PPAGEADVANCED_FILE_POS_LONGER"
+msgid "Remember file position only for files longer than N minutes."
+msgstr "Lembrar da posição do arquivo só pra arquivos com mais de N minutos."
+
+msgctxt "IDS_PPAGEADVANCED_FILE_POS_AUDIO"
+msgid "Remember file position also for audio files."
+msgstr "Lembrar da posição do arquivo também em arquivos de áudio."
+
+msgctxt "IDS_AFTER_PLAYBACK_DO_NOTHING"
+msgid "Do Nothing"
+msgstr "Não fazer nada"
+
+msgctxt "IDS_AFTER_PLAYBACK_PLAY_NEXT"
+msgid "Play next file in the folder"
+msgstr "Reproduzir o próximo arquivo na pasta"
+
+msgctxt "IDS_AFTER_PLAYBACK_REWIND"
+msgid "Rewind current file"
+msgstr "Rebobinar o arquivo atual"
+
+msgctxt "IDS_AFTER_PLAYBACK_CLOSE"
+msgid "Close"
+msgstr "Fechar"
+
+msgctxt "IDS_AFTER_PLAYBACK_EXIT"
+msgid "Exit"
+msgstr "Sair"
+
+msgctxt "IDS_AFTER_PLAYBACK_MONITOROFF"
+msgid "Turn off the monitor"
+msgstr "Desligar o monitor"
+
+msgctxt "IDS_IMAGE_JPEG_QUALITY"
+msgid "JPEG Image"
+msgstr "Imagem JPEG"
+
+msgctxt "IDS_IMAGE_QUALITY"
+msgid "Quality (%):"
+msgstr "Qualidade (%):"
+
+msgctxt "IDS_PPAGEADVANCED_COVER_SIZE_LIMIT"
+msgid "Maximum size (NxNpx) of a cover-art loaded in the audio only mode."
+msgstr ""
+"Tamanho máximo (NxNpx) de uma arte de capa carregado no modo somente áudio."
+
+msgctxt "IDS_SUBTITLE_DELAY_STEP_TOOLTIP"
+msgid ""
+"The subtitle delay will be decreased/increased by this value each time the "
+"corresponding hotkeys are used (%s/%s)."
+msgstr ""
+"O atraso das legendas será diminuído/aumentado por este valor cada vez que "
+"as teclas de atalho correspondentes são usadas (%s/%s)."
+
+msgctxt "IDS_HOTKEY_NOT_DEFINED"
+msgid "<not defined>"
+msgstr "<not defined>"
+
+msgctxt "IDS_NAVIGATION_WATCH"
+msgid "Watch"
+msgstr "Observar"
+
+msgctxt "IDS_NAVIGATION_MOVE_UP"
+msgid "Move Up"
+msgstr "Mover pra Cima"
+
+msgctxt "IDS_NAVIGATION_MOVE_DOWN"
+msgid "Move Down"
+msgstr "Mover pra Baixo"
+
+msgctxt "IDS_NAVIGATION_SORT"
+msgid "Sort by LCN"
+msgstr "Organnizar pelo LCN"
+
+msgctxt "IDS_NAVIGATION_REMOVE_ALL"
+msgid "Remove all"
+msgstr "Remover todos"
+
+msgctxt "IDS_REMOVE_CHANNELS_QUESTION"
+msgid "Are you sure you want to remove all channels from the list?"
+msgstr "Você tem certeza que você quer remover todos os canais da lista?"
+
+msgctxt "IDS_MEDIAINFO_NO_INFO_AVAILABLE"
+msgid "No information available"
+msgstr "Nenhuma informação disponível"
+
+msgctxt "IDS_MEDIAINFO_ANALYSIS_IN_PROGRESS"
+msgid "Please wait, analysis in progress..."
+msgstr "Por favor aguarde, análise em progresso..."
+
+msgctxt "IDS_ASPECT_RATIO_FMT"
+msgid "AR %d:%d"
+msgstr "RA %d:%d"
+
+msgctxt "IDS_PPAGEADVANCED_LOGGER"
+msgid "Enables logging to file (requires restart)"
+msgstr "Ativa o registro no arquivo (requer reiniciar)"
+
+msgctxt "IDS_TIMER_REMAINING_TIME"
+msgid "Remaining time"
+msgstr "Tempo restante"
+
+msgctxt "IDS_TIMER_HIGH_PRECISION"
+msgid "High precision"
+msgstr "Alta precisão"
+
+msgctxt "IDS_AFTERPLAYBACK_REWIND"
+msgid "After Playback: Rewind current file"
+msgstr "Após o Playback: Rebobinar o arquivo atual"
+
+msgctxt "IDS_AFTERPLAYBACK_CLOSE"
+msgid "After Playback: Close"
+msgstr "Após o Playback: Fechar"
+
+msgctxt "IDS_FRAME_INIT_FAILED"
+msgid "MPC-HC encountered a problem during initialization."
+msgstr "O MPC-HC encontrou um problema durante a inicialização."
+
+msgctxt "IDS_TIME_SHIFT_TOOLTIP"
+msgid ""
+"Enter a positive value if the audio is early, a negative value if it is "
+"late."
+msgstr ""
+"Insira um valor positivo se o áudio for precoce, um valor negativo se "
+"estiver atrasado."
+
+msgctxt "IDS_WEBUI_DISABLED_PREVIEW_MSG"
+msgid "Preview is currently disabled. You can enable it in MPC-HC's options."
+msgstr ""
+"A pré-visualização está desativada atualmente. Você pode ativá-la nas opções"
+" do MPC-HC."
+
+msgctxt "IDS_WEBUI_PREVIEW_WARNING"
+msgid ""
+"This option can be used to preview media files from remote location. Use it only on a properly secured private network.\n"
+"\n"
+"Do you really want to enable this option?"
+msgstr ""
+"Esta opção pode ser usada pra pré-visualizar arquivos de mídia de um local remoto. Use-a só numa rede privada apropriadamente segura.\n"
+"\n"
+"Você realmente quer ativar esta opção?"
+
+msgctxt "IDS_SUBTITLE_RENDERER_INTERNAL"
+msgid "Internal Subtitle Renderer"
+msgstr "Renderizador Interno das Legendas"
+
+msgctxt "IDS_AG_OPEN_DEVICE"
+msgid "Open Device"
+msgstr "Abrir Dispositivo"
+
+msgctxt "IDS_AG_SAVE_AS"
+msgid "Save As"
+msgstr "Salvar Como"
+
+msgctxt "IDS_AG_SAVE_IMAGE"
+msgid "Save Image"
+msgstr "Salvar Imagem"
+
+msgctxt "IDS_MPLAYERC_6"
+msgid "Save Image (auto)"
+msgstr "Salvar Imagem (Automático)"
+
+msgctxt "IDS_OSD_IMAGE_SAVED"
+msgid "Image saved successfully"
+msgstr "Imagem salva com sucesso"
+
+msgctxt "IDS_AG_LOAD_SUBTITLES"
+msgid "Load Subtitles..."
+msgstr "Carregar Legendas..."
+
+msgctxt "IDS_AG_SAVE_SUBTITLES"
+msgid "Save Subtitles..."
+msgstr "Salvar Legendas..."
+
+msgctxt "IDS_AG_PROPERTIES"
+msgid "Properties"
+msgstr "Propriedades"
+
+msgctxt "IDS_AG_EXIT"
+msgid "Exit"
+msgstr "Sair"
+
+msgctxt "IDS_AG_PLAYPAUSE"
+msgid "Play/Pause"
+msgstr "Reproduzir/Pausar"
+
+msgctxt "IDS_AG_PLAY"
+msgid "Play"
+msgstr "Reproduzir"
+
+msgctxt "IDS_AG_STOP"
+msgid "Stop"
+msgstr "Parar"
+
+msgctxt "IDS_AG_FRAMESTEP"
+msgid "Frame-step"
+msgstr "Avançar um quadro"
+
+msgctxt "IDS_MPLAYERC_16"
+msgid "Frame-step back"
+msgstr "Voltar um quadro"
+
+msgctxt "IDS_AG_GO_TO"
+msgid "Go To"
+msgstr "Ir Para"
+
+msgctxt "IDS_AG_INCREASE_RATE"
+msgid "Increase Rate"
+msgstr "Aumentar Taxa"
+
+msgctxt "IDS_CONTENT_SHOW_GAMESHOW"
+msgid "Show/Game show"
+msgstr "Mostrar/Mostrar Jogo"
+
+msgctxt "IDS_CONTENT_SPORTS"
+msgid "Sports"
+msgstr "Esportes"
+
+msgctxt "IDS_CONTENT_CHILDREN_YOUTH_PROG"
+msgid "Children's/Youth programmes"
+msgstr "Programas de Criança/Jovens"
+
+msgctxt "IDS_CONTENT_MUSIC_BALLET_DANCE"
+msgid "Music/Ballet/Dance"
+msgstr "Música/Balé/Dança"
+
+msgctxt "IDS_CONTENT_MUSIC_ART_CULTURE"
+msgid "Arts/Culture"
+msgstr "Artes/Cultura"
+
+msgctxt "IDS_CONTENT_SOCIAL_POLITICAL_ECO"
+msgid "Social/Political issues/Economics"
+msgstr "Social/Questões Politicas/Economia"
+
+msgctxt "IDS_CONTENT_LEISURE"
+msgid "Leisure hobbies"
+msgstr "Passa-tempos e lazer"
+
+msgctxt "IDS_FILE_RECYCLE"
+msgid "Move to Recycle Bin"
+msgstr "Mover pra Lixeira"
+
+msgctxt "IDS_AG_SAVE_COPY"
+msgid "Save a Copy"
+msgstr "Salvar uma Cópia"
+
+msgctxt "IDS_FASTSEEK_LATEST"
+msgid "Latest keyframe"
+msgstr "Keyframe mais recente"
+
+msgctxt "IDS_FASTSEEK_NEAREST"
+msgid "Nearest keyframe"
+msgstr "Keyframe mais próximo"
+
+msgctxt "IDS_HOOKS_FAILED"
+msgid ""
+"MPC-HC encountered a problem during initialization. DVD playback may not "
+"work correctly. This problem might be caused by an incompatibility with "
+"certain security software."
+msgstr ""
+"O MPC-HC encontrou um problema durante a inicialização. O playback do DVD "
+"pode não funcionar corretamente. Este problema poderia ter sido causado por "
+"uma incompatibilidade com certos software de segurança."
+
+msgctxt "IDS_PPAGEFULLSCREEN_SHOWNEVER"
+msgid "Never show"
+msgstr "Nunca mostrar"
+
+msgctxt "IDS_PPAGEFULLSCREEN_SHOWMOVED"
+msgid "Show when moving the cursor, hide after:"
+msgstr "Mostrar quando mover o cursor, ocultar após:"
+
+msgctxt "IDS_PPAGEFULLSCREEN_SHOHHOVERED"
+msgid "Show when hovering control, hide after:"
+msgstr "Mostrar quando pairar sobre o controle, esconder após:"
+
+msgctxt "IDS_MAINFRM_PRE_SHADERS_FAILED"
+msgid "Failed to set pre-resize shaders"
+msgstr "Falhou em definir os shaders de pré-redimensionamento"
+
+msgctxt "IDS_OSD_RS_FT_CORRECTION_ON"
+msgid "Frame Time Correction: On"
+msgstr "Correção do Tempo dos Frames: Sim"
+
+msgctxt "IDS_OSD_RS_FT_CORRECTION_OFF"
+msgid "Frame Time Correction: Off"
+msgstr "Correção do Tempo dos Frames: Não"
+
+msgctxt "IDS_OSD_RS_TARGET_VSYNC_OFFSET"
+msgid "Target VSync Offset: %.1f"
+msgstr "Mirar no Deslocamento do VSync: %.1f"
+
+msgctxt "IDS_OSD_RS_VSYNC_OFFSET"
+msgid "VSync Offset: %d"
+msgstr "Deslocamento do VSync: %d"
+
+msgctxt "IDS_OSD_SPEED"
+msgid "Speed: %.2lfx"
+msgstr "Velocidade: %.2lfx"
+
+msgctxt "IDS_OSD_THUMBS_SAVED"
+msgid "Thumbnails saved successfully"
+msgstr "Thumbnails salvos com sucesso"
+
+msgctxt "IDS_MENU_VIDEO_STREAM"
+msgid "Vide&o Track"
+msgstr "Faix&a de Vídeo"
+
+msgctxt "IDS_MENU_VIDEO_ANGLE"
+msgid "Video Ang&le"
+msgstr "Ângulo de Víd&eo"
+
+msgctxt "IDS_RESET_SETTINGS"
+msgid "Reset settings"
+msgstr "Resetar configurações"
+
+msgctxt "IDS_RESET_SETTINGS_WARNING"
+msgid ""
+"Are you sure you want to restore MPC-HC to its default settings?\n"
+"Be warned that ALL your current settings will be lost!"
+msgstr ""
+"Você tem certeza que você quer restarar o MPC-HC pra suas configurações padrão?\n"
+"Esteja avisado que TODAS as suas configurações atuais serão perdidas!"
+
+msgctxt "IDS_RESET_SETTINGS_MUTEX"
+msgid ""
+"Please close all instances of MPC-HC so that the default settings can be "
+"restored."
+msgstr ""
+"Por favor feche todas as instâncias do MPC-HC para que as configurações "
+"possam ser restauradas."
+
+msgctxt "IDS_EXPORT_SETTINGS"
+msgid "Export settings"
+msgstr "Exportar configurações"
+
+msgctxt "IDS_EXPORT_SETTINGS_WARNING"
+msgid ""
+"Some changes have not been saved yet.\n"
+"Do you want to save them before exporting?"
+msgstr ""
+"Algumas de suas mudanças ainda não foram salvas.\n"
+"Você quer salvá-las antes de exportar?"
+
+msgctxt "IDS_EXPORT_SETTINGS_SUCCESS"
+msgid "The settings have been successfully exported."
+msgstr "As configurações foram exportadas com sucesso."
+
+msgctxt "IDS_EXPORT_SETTINGS_FAILED"
+msgid ""
+"The export failed! This can happen when you don't have the correct rights."
+msgstr ""
+"A exportação falhou! Isto pode acontece quando você não tem os direitos "
+"corretos."
+
+msgctxt "IDS_BDA_ERROR"
+msgid "BDA Error"
+msgstr "Erro do BDA"
+
+msgctxt "IDS_AG_DECREASE_RATE"
+msgid "Decrease Rate"
+msgstr "Diminuir a Taxa"
+
+msgctxt "IDS_AG_RESET_RATE"
+msgid "Reset Rate"
+msgstr "Resetar a Taxa"
+
+msgctxt "IDS_MPLAYERC_21"
+msgid "Audio Delay +10 ms"
+msgstr "Atraso do Áudio em +10ms"
+
+msgctxt "IDS_MPLAYERC_22"
+msgid "Audio Delay -10 ms"
+msgstr "Atraso do Áudio em -10ms"
+
+msgctxt "IDS_MPLAYERC_23"
+msgid "Jump Forward (small)"
+msgstr "Pular Adiante (pequeno)"
+
+msgctxt "IDS_MPLAYERC_24"
+msgid "Jump Backward (small)"
+msgstr "Pular pra Trás (pequeno)"
+
+msgctxt "IDS_MPLAYERC_25"
+msgid "Jump Forward (medium)"
+msgstr "Pular Adiante (médio)"
+
+msgctxt "IDS_MPLAYERC_26"
+msgid "Jump Backward (medium)"
+msgstr "Pular pra Trás (médio)"
+
+msgctxt "IDS_MPLAYERC_27"
+msgid "Jump Forward (large)"
+msgstr "Pular Adiante (grande)"
+
+msgctxt "IDS_MPLAYERC_28"
+msgid "Jump Backward (large)"
+msgstr "Pular pra Trás (grande)"
+
+msgctxt "IDS_MPLAYERC_29"
+msgid "Jump Forward (keyframe)"
+msgstr "Pular Adiante (frame-chave)"
+
+msgctxt "IDS_MPLAYERC_30"
+msgid "Jump Backward (keyframe)"
+msgstr "Pular pra Trás (frame-chave)"
+
+msgctxt "IDS_AG_NEXT"
+msgid "Next"
+msgstr "Próximo"
+
+msgctxt "IDS_AG_PREVIOUS"
+msgid "Previous"
+msgstr "Anterior"
+
+msgctxt "IDS_AG_NEXT_FILE"
+msgid "Next File"
+msgstr "Próximo Arquivo"
+
+msgctxt "IDS_AG_PREVIOUS_FILE"
+msgid "Previous File"
+msgstr "Arquivo Anterior"
+
+msgctxt "IDS_MPLAYERC_99"
+msgid "Toggle Direct3D fullscreen"
+msgstr "Alternar pra tela cheia no Direct3D"
+
+msgctxt "IDS_MPLAYERC_100"
+msgid "Goto Prev Subtitle"
+msgstr "Ir pra Legenda Anterior"
+
+msgctxt "IDS_MPLAYERC_101"
+msgid "Goto Next Subtitle"
+msgstr "Ir pra Próxima Legenda"
+
+msgctxt "IDS_MPLAYERC_102"
+msgid "Shift Subtitle Left"
+msgstr "Mudar Legenda pra Esquerda"
+
+msgctxt "IDS_MPLAYERC_103"
+msgid "Shift Subtitle Right"
+msgstr "Mudar Legenda pra Direita"
+
+msgctxt "IDS_AG_SEEKSET"
+msgid "Jump to Beginning"
+msgstr "Pular pro Começo"
+
+msgctxt "IDS_OSD_SHOW_FILENAME"
+msgid "OSD: Show File Name"
+msgstr "OSD: Mostrar Nome do Arquivo"
+
+msgctxt "IDS_PLAY_DVD"
+msgid "Play DVD"
+msgstr "Reproduzir DVD"
+
+msgctxt "IDS_PLAY_BD"
+msgid "Play BD"
+msgstr "Reproduzir BD"
+
+msgctxt "IDS_OSD_DISPLAY_RENDERER_STATS"
+msgid "OSD: Display Renderer Statistics"
+msgstr "OSD: Exibir Estatísticas do Renderizador"
+
+msgctxt "IDS_OSD_RESET_RENDERER_STATS"
+msgid "OSD: Reset Renderer Statistics"
+msgstr "OSD: Resetar Estatísticas do Renderizador"
+
+msgctxt "IDD_PPAGESUBMISC"
+msgid "Subtitles::Misc"
+msgstr "Legendas::Miscelânea"
+
+msgctxt "IDS_VIEW_BORDERLESS"
+msgid "Hide &borders"
+msgstr "Esconder &bordas"
+
+msgctxt "IDS_VIEW_FRAMEONLY"
+msgid "Fra&me Only"
+msgstr "S&ó Frames"
+
+msgctxt "IDS_VIEW_CAPTIONMENU"
+msgid "Sho&w Caption&&Menu"
+msgstr "Mostra&r Menu&&das Legendas"
+
+msgctxt "IDS_VIEW_HIDEMENU"
+msgid "Hide &Menu"
+msgstr "Esconder &Menu"
+
+msgctxt "IDD_PPAGEADVANCED"
+msgid "Advanced"
+msgstr "Avançado"
+
+msgctxt "IDS_AG_VIEW_MINIMAL"
+msgid "View Minimal"
+msgstr "Visualizar Mínimo"
+
+msgctxt "IDS_AG_VIEW_COMPACT"
+msgid "View Compact"
+msgstr "Visualizar Compacto"
+
+msgctxt "IDS_AG_VIEW_NORMAL"
+msgid "View Normal"
+msgstr "Visualizar Normal"
+
+msgctxt "IDS_AG_FULLSCREEN"
+msgid "Fullscreen"
+msgstr "Tela Cheia"
+
+msgctxt "IDS_MPLAYERC_39"
+msgid "Fullscreen (w/o res.change)"
+msgstr "Tela Cheia (com/sem mudança de resolução)"
+
+msgctxt "IDS_AG_ZOOM_AUTO_FIT"
+msgid "Zoom Auto Fit"
+msgstr "Auto-Encaixar no Zoom"
+
+msgctxt "IDS_AG_VIDFRM_HALF"
+msgid "VidFrm Half"
+msgstr "Metade do VidFrm"
+
+msgctxt "IDS_AG_VIDFRM_NORMAL"
+msgid "VidFrm Normal"
+msgstr "VidFrm Normal"
+
+msgctxt "IDS_AG_VIDFRM_DOUBLE"
+msgid "VidFrm Double"
+msgstr "Dobro do VidFrm"
+
+msgctxt "IDS_AG_ALWAYS_ON_TOP"
+msgid "Always On Top"
+msgstr "Sempre no Topo"
+
+msgctxt "IDS_AG_PNS_INC_SIZE"
+msgid "PnS Inc Size"
+msgstr "Aumentar Tamanho do PnS"
+
+msgctxt "IDS_AG_PNS_INC_WIDTH"
+msgid "PnS Inc Width"
+msgstr "Aumentar Largura do PnS"
+
+msgctxt "IDS_MPLAYERC_47"
+msgid "PnS Inc Height"
+msgstr "Aumentar Altura do PnS"
+
+msgctxt "IDS_AG_PNS_DEC_SIZE"
+msgid "PnS Dec Size"
+msgstr "Diminuir Tamanho do PnS"
+
+msgctxt "IDS_AG_PNS_DEC_WIDTH"
+msgid "PnS Dec Width"
+msgstr "Diminuir Largura do PnS"
+
+msgctxt "IDS_MPLAYERC_50"
+msgid "PnS Dec Height"
+msgstr "Diminuir Altura do PnS"
+
+msgctxt "IDS_SUBDL_DLG_DOWNLOADING"
+msgid "Downloading [%s] \"%s\""
+msgstr "Baixando [%s] \"%s\""
+
+msgctxt "IDS_SUBDL_DLG_PARSING"
+msgid "Parsing list..."
+msgstr "Analisando lista..."
+
+msgctxt "IDS_SUBDL_DLG_NOT_FOUND"
+msgid "No subtitles found."
+msgstr "Não foram encontradas legendas."
+
+msgctxt "IDS_SUBDL_DLG_SUBS_AVAIL"
+msgid "%d subtitle(s) available."
+msgstr "%d legendas(s) disponível(is)."
+
+msgctxt "IDS_UPDATE_CONFIG_AUTO_CHECK"
+msgid ""
+"Do you want to check periodically for MPC-HC updates?\n"
+"\n"
+"This feature can be disabled later from the Miscellaneous options page."
+msgstr ""
+"Você quer verificar periodicamente por atualizações do MPC-HC?\n"
+"\n"
+"Esta função pode ser desativada mais tarde na página Miscelânea das opções."
+
+msgctxt "IDS_ZOOM_50"
+msgid "50%"
+msgstr "50%"
+
+msgctxt "IDS_ZOOM_100"
+msgid "100%"
+msgstr "100%"
+
+msgctxt "IDS_ZOOM_200"
+msgid "200%"
+msgstr "200%"
+
+msgctxt "IDS_ZOOM_AUTOFIT"
+msgid "Auto Fit"
+msgstr "Auto-ajustar"
+
+msgctxt "IDS_ZOOM_AUTOFIT_LARGER"
+msgid "Auto Fit (Larger Only)"
+msgstr "Auto-Ajustar (Só Maiores)"
+
+msgctxt "IDS_AG_ZOOM_AUTO_FIT_LARGER"
+msgid "Zoom Auto Fit (Larger Only)"
+msgstr "Auto-Ajustar no Zoom (Só Maiores)"
+
+msgctxt "IDS_OSD_ZOOM_AUTO_LARGER"
+msgid "Zoom: Auto (Larger Only)"
+msgstr "Zoom: Auto (Só Maiores)"
+
+msgctxt "IDS_TOOLTIP_EXPLORE_TO_FILE"
+msgid "Double click to open file location"
+msgstr "Clique duplo pra abrir local do arquivo"
+
+msgctxt "IDS_TOOLTIP_REMAINING_TIME"
+msgid "Toggle between elapsed and remaining time"
+msgstr "Alternar entre tempo transcorrido e restante"
+
+msgctxt "IDS_UPDATE_DELAY_ERROR_TITLE"
+msgid "Invalid delay"
+msgstr "Atraso inválido"
+
+msgctxt "IDS_UPDATE_DELAY_ERROR_MSG"
+msgid "Please enter a number between 1 and 365."
+msgstr "Por favor insira um número entre 1 e 365."
+
+msgctxt "IDS_AG_PNS_CENTER"
+msgid "PnS Center"
+msgstr "Centralizar PnS"
+
+msgctxt "IDS_AG_PNS_LEFT"
+msgid "PnS Left"
+msgstr "Esquerda do PnS"
+
+msgctxt "IDS_AG_PNS_RIGHT"
+msgid "PnS Right"
+msgstr "Direita do PnS"
+
+msgctxt "IDS_AG_PNS_UP"
+msgid "PnS Up"
+msgstr "Acima do PnS"
+
+msgctxt "IDS_AG_PNS_DOWN"
+msgid "PnS Down"
+msgstr "Abaixo do PnS"
+
+msgctxt "IDS_AG_PNS_UPLEFT"
+msgid "PnS Up/Left"
+msgstr "Acima/Esquerda do PnS"
+
+msgctxt "IDS_AG_PNS_UPRIGHT"
+msgid "PnS Up/Right"
+msgstr "Acima/Direita do PnS"
+
+msgctxt "IDS_AG_PNS_DOWNLEFT"
+msgid "PnS Down/Left"
+msgstr "Abaixo/Esquerda do PnS"
+
+msgctxt "IDS_MPLAYERC_59"
+msgid "PnS Down/Right"
+msgstr "Abaixo/Direita do PnS"
+
+msgctxt "IDS_AG_VOLUME_UP"
+msgid "Volume Up"
+msgstr "Aumentar Volume"
+
+msgctxt "IDS_AG_VOLUME_DOWN"
+msgid "Volume Down"
+msgstr "Diminuir Volume"
+
+msgctxt "IDS_AG_VOLUME_MUTE"
+msgid "Volume Mute"
+msgstr "Volume Mudo"
+
+msgctxt "IDS_MPLAYERC_63"
+msgid "DVD Title Menu"
+msgstr "Menu de Títulos do DVD"
+
+msgctxt "IDS_AG_DVD_ROOT_MENU"
+msgid "DVD Root Menu"
+msgstr "Menu Raiz do DVD"
+
+msgctxt "IDS_MPLAYERC_65"
+msgid "DVD Subtitle Menu"
+msgstr "Menu de Legendas do DVD"
+
+msgctxt "IDS_MPLAYERC_66"
+msgid "DVD Audio Menu"
+msgstr "Menu de Áudio do DVD"
+
+msgctxt "IDS_MPLAYERC_67"
+msgid "DVD Angle Menu"
+msgstr "Menu de Ângulo do DVD"
+
+msgctxt "IDS_MPLAYERC_68"
+msgid "DVD Chapter Menu"
+msgstr "Menu de Capítulos do DVD"
+
+msgctxt "IDS_AG_DVD_MENU_LEFT"
+msgid "DVD Menu Left"
+msgstr "Menu Esquerdo do DVD"
+
+msgctxt "IDS_MPLAYERC_70"
+msgid "DVD Menu Right"
+msgstr "Menu Direito do DVD"
+
+msgctxt "IDS_AG_DVD_MENU_UP"
+msgid "DVD Menu Up"
+msgstr "Menu Acima do DVD"
+
+msgctxt "IDS_AG_DVD_MENU_DOWN"
+msgid "DVD Menu Down"
+msgstr "Menu Abaixo do DVD"
+
+msgctxt "IDS_MPLAYERC_73"
+msgid "DVD Menu Activate"
+msgstr "Menu Ativar do DVD"
+
+msgctxt "IDS_AG_DVD_MENU_BACK"
+msgid "DVD Menu Back"
+msgstr "Menu Retornar do DVD"
+
+msgctxt "IDS_MPLAYERC_75"
+msgid "DVD Menu Leave"
+msgstr "Menu Sair do DVD"
+
+msgctxt "IDS_AG_BOSS_KEY"
+msgid "Boss key"
+msgstr "Tecla do Chefe"
+
+msgctxt "IDS_MPLAYERC_77"
+msgid "Player Menu"
+msgstr "Menu do Player"
+
+msgctxt "IDS_MPLAYERC_78"
+msgid "Player Menu (full)"
+msgstr "Menu do Player (completo)"
+
+msgctxt "IDS_AG_FILTERS_MENU"
+msgid "Filters Menu"
+msgstr "Menu dos Filtros"
+
+msgctxt "IDS_AG_OPTIONS"
+msgid "Options"
+msgstr "Opções"
+
+msgctxt "IDS_AG_NEXT_AUDIO"
+msgid "Next Audio Track"
+msgstr "Próxima Faixa de Áudio"
+
+msgctxt "IDS_AG_PREV_AUDIO"
+msgid "Prev Audio Track"
+msgstr "Faixa de Áudio Anterior"
+
+msgctxt "IDS_AG_NEXT_SUBTITLE"
+msgid "Next Subtitle Track"
+msgstr "Próxima Faixa de Legenda"
+
+msgctxt "IDS_AG_PREV_SUBTITLE"
+msgid "Prev Subtitle Track"
+msgstr "Faixa de Legenda Anterior"
+
+msgctxt "IDS_MPLAYERC_85"
+msgid "On/Off Subtitle"
+msgstr "Legenda Ligada/Desligada"
+
+msgctxt "IDS_MPLAYERC_86"
+msgid "Reload Subtitles"
+msgstr "Recarregar Legendas"
+
+msgctxt "IDS_MPLAYERC_91"
+msgid "Next Angle (DVD)"
+msgstr "Próximo Ângulo (DVD)"
+
+msgctxt "IDS_MPLAYERC_92"
+msgid "Prev Angle (DVD)"
+msgstr "Ângulo Anterior (DVD)"
+
+msgctxt "IDS_MPLAYERC_93"
+msgid "Next Audio Track (DVD)"
+msgstr "Próxima Faixa de Áudio (DVD)"
+
+msgctxt "IDS_MPLAYERC_94"
+msgid "Prev Audio Track (DVD)"
+msgstr "Faixa de Áudio Anterior (DVD)"
+
+msgctxt "IDS_MPLAYERC_95"
+msgid "Next Subtitle Track (DVD)"
+msgstr "Próxima Faixa de Legenda (DVD)"
+
+msgctxt "IDS_MPLAYERC_96"
+msgid "Prev Subtitle Track (DVD)"
+msgstr "Faixa de Legenda Anterior (DVD)"
+
+msgctxt "IDS_MPLAYERC_97"
+msgid "On/Off Subtitle (DVD)"
+msgstr "Legenda Ligada/Desligada (DVD)"
+
+msgctxt "IDS_OSD_DISPLAY_CURRENT_TIME"
+msgid "OSD: Display Current Time"
+msgstr "OSD: Exibir Tempo Atual"
+
+msgctxt "IDS_PPAGEWEBSERVER_0"
+msgid "Select the directory"
+msgstr "Selecione o Diretório"
+
+msgctxt "IDS_FAVORITES_QUICKADDFAVORITE"
+msgid "Quick add favorite"
+msgstr "Adicionar favorito rapidamente"
+
+msgctxt "IDS_DVB_CHANNEL_NUMBER"
+msgid "N"
+msgstr "N"
+
+msgctxt "IDS_DVB_CHANNEL_NAME"
+msgid "Name"
+msgstr "Nome"
+
+msgctxt "IDS_DVB_CHANNEL_FREQUENCY"
+msgid "Frequency"
+msgstr "Frequência"
+
+msgctxt "IDS_DVB_CHANNEL_ENCRYPTION"
+msgid "Encrypted"
+msgstr "Criptografado"
+
+msgctxt "IDS_YES"
+msgid "Yes"
+msgstr "Sim"
+
+msgctxt "IDS_NO"
+msgid "No"
+msgstr "Não"
+
+msgctxt "IDS_DVB_CHANNEL_START_SCAN"
+msgid "Start"
+msgstr "Iniciar"
+
+msgctxt "IDS_DVB_CHANNEL_STOP_SCAN"
+msgid "Stop"
+msgstr "Parar"
+
+msgctxt "IDS_DVB_TVNAV_SEERADIO"
+msgid "Radio stations"
+msgstr "Estações de rádio"
+
+msgctxt "IDS_DVB_TVNAV_SEETV"
+msgid "TV stations"
+msgstr "Estações de TV"
+
+msgctxt "IDS_DVB_CHANNEL_FORMAT"
+msgid "Format"
+msgstr "Formato"
+
+msgctxt "IDS_MAINFRM_2"
+msgid "Focus lost to: %s - %s"
+msgstr "Foco perdido para: %s - %s"
+
+msgctxt "IDS_AG_SUBTITLES_SAVED"
+msgid "Subtitles saved"
+msgstr "Legendas salvas"
+
+msgctxt "IDS_MAINFRM_4"
+msgid "Cannot save subtitles"
+msgstr "Não pôde salvar as legendas"
+
+msgctxt "IDS_AG_FRAMERATE"
+msgid "Frame rate"
+msgstr "Taxa dos frames"
+
+msgctxt "IDS_MAINFRM_6"
+msgid "drawn: %d, dropped: %d"
+msgstr "desenhados: %d, perdidos: %d"
+
+msgctxt "IDS_AG_FRAMES"
+msgid "Frames"
+msgstr "Frames"
+
+msgctxt "IDS_AG_BUFFERS"
+msgid "Buffers"
+msgstr "Buffers"
+
+msgctxt "IDS_MAINFRM_9"
+msgid "Volume: %02lu/%02lu, Title: %02lu/%02lu, Chapter: %02lu/%02lu"
+msgstr "Volume: %02lu/%02lu, Título: %02lu/%02lu, Capítulo: %02lu/%02lu"
+
+msgctxt "IDS_MAINFRM_10"
+msgid "Angle: %02lu/%02lu, %lux%lu %lu Hz %lu:%lu"
+msgstr "Ângulo: %02lu/%02lu, %lux%lu %luHz %lu:%lu"
+
+msgctxt "IDS_MAINFRM_11"
+msgid "%s, %s %u Hz %d bits %d %s"
+msgstr "%s, %s %u Hz %d bits %d %s"
+
+msgctxt "IDS_ADD_TO_PLAYLIST"
+msgid "Add to MPC-HC Playlist"
+msgstr "Adicionar a Lista de Reprodução do MPC-HC"
+
+msgctxt "IDS_OPEN_WITH_MPC"
+msgid "Play with MPC-HC"
+msgstr "Reproduzir com o MPC-HC"
+
+msgctxt "IDS_CANNOT_CHANGE_FORMAT"
+msgid ""
+"MPC-HC does not have sufficient privileges to change file associations. "
+"Please click on the \"Run as administrator\" button."
+msgstr ""
+"O MPC-HC não tem privilégios suficientes pra mudar as associações dos "
+"arquivos. Por favor clique no botão \"Executar como administrador\"."
+
+msgctxt "IDS_APP_DESCRIPTION"
+msgid ""
+"MPC-HC is an extremely light-weight, open source media player for Windows. "
+"It supports all common video and audio file formats available for playback. "
+"We are 100% spyware free, there are no advertisements or toolbars."
+msgstr ""
+"O MPC-HC é um player de mídia de código fonte aberto de peso extremamente "
+"leve para Windows. Ele suporta todos os formatos de arquivo disponíveis de "
+"áudio e vídeo pra playback. Nós somos 100% livres de spyware, não há "
+"anúncios ou barras de ferramentas."
+
+msgctxt "IDS_MAINFRM_12"
+msgid "channel"
+msgstr "canal"
+
+msgctxt "IDS_MAINFRM_13"
+msgid "channels"
+msgstr "canais"
+
+msgctxt "IDS_AG_TITLE"
+msgid "Title %u"
+msgstr "Título %u"
+
+msgctxt "IDS_MAINFRM_16"
+msgid "DVD: Unexpected error"
+msgstr "DVD: Erro inesperado"
+
+msgctxt "IDS_MAINFRM_17"
+msgid "DVD: Copy-Protect Fail"
+msgstr "DVD: Falha da Proteção Contra Cópia"
+
+msgctxt "IDS_MAINFRM_18"
+msgid "DVD: Invalid DVD 1.x Disc"
+msgstr "DVD: Disco do DVD 1.x Inválido"
+
+msgctxt "IDS_MAINFRM_19"
+msgid "DVD: Invalid Disc Region"
+msgstr "DVD: Região de Disco Inválida"
+
+msgctxt "IDS_MAINFRM_20"
+msgid "DVD: Low Parental Level"
+msgstr "DVD: Baixo Nível da Classificação Indicativa"
+
+msgctxt "IDS_MAINFRM_21"
+msgid "DVD: Macrovision Fail"
+msgstr "DVD: Falha do Macrovision"
+
+msgctxt "IDS_MAINFRM_22"
+msgid "DVD: Incompatible System And Decoder Regions"
+msgstr "DVD: Sistema e Decodificador das Regiões Incompatíveis"
+
+msgctxt "IDS_MAINFRM_23"
+msgid "DVD: Incompatible Disc And Decoder Regions"
+msgstr "DVD: Disco e Decodificador das Regiões Incompatíveis"
+
+msgctxt "IDS_D3DFS_WARNING"
+msgid ""
+"This option is designed to avoid tearing. However, it will also prevent MPC-HC from displaying the context menu and any dialog box during playback.\n"
+"\n"
+"Do you really want to activate this option?"
+msgstr ""
+"Esta opção é designada pra evitar rasgos. Contudo, também impedirá o MPC-HC de exibir o menu de contexto e qualquer caixa de dialogo durante o playback.\n"
+"\n"
+"Você realmente quer ativar esta opção?"
+
+msgctxt "IDS_MAINFRM_139"
+msgid "Sub delay: %ld ms"
+msgstr "Atraso das legendas: %ld ms"
+
+msgctxt "IDS_AG_TITLE2"
+msgid "Title: %02d/%02d"
+msgstr "Título: %02d/%02d"
+
+msgctxt "IDS_REALVIDEO_INCOMPATIBLE"
+msgid "Filename contains unsupported characters (use only A-Z, 0-9)"
+msgstr "O nome do arquivo contém caracteres não suportados (só usar A-Z, 0-9)"
+
+msgctxt "IDS_THUMB_ROWNUMBER"
+msgid "Rows:"
+msgstr "Linhas: "
+
+msgctxt "IDS_THUMB_COLNUMBER"
+msgid "Columns:"
+msgstr "Colunas: "
+
+msgctxt "IDS_THUMB_IMAGE_WIDTH"
+msgid "Image width"
+msgstr "Largura da imagem"
+
+msgctxt "IDS_AG_ASPECT_RATIO"
+msgid "Aspect Ratio"
+msgstr "Proporção do Aspecto"
+
+msgctxt "IDS_MAINFRM_37"
+msgid ", Total: %ld, Dropped: %ld"
+msgstr ", Total: %ld, Perdidos: %ld"
+
+msgctxt "IDS_MAINFRM_38"
+msgid ", Size: %I64d KB"
+msgstr ", Tamanho: %I64dKB"
+
+msgctxt "IDS_MAINFRM_39"
+msgid ", Size: %I64d MB"
+msgstr ", Tamanho: %I64dMB"
+
+msgctxt "IDS_MAINFRM_40"
+msgid ", Free: %I64d KB"
+msgstr ", Livre: %I64dKB"
+
+msgctxt "IDS_MAINFRM_41"
+msgid ", Free: %I64d MB"
+msgstr ", Livre: %I64dMB"
+
+msgctxt "IDS_MAINFRM_42"
+msgid ", Free V/A Buffers: %03d/%03d"
+msgstr ", Buffers do V/A Livres: %03d/%03d"
+
+msgctxt "IDS_AG_ERROR"
+msgid "Error"
+msgstr "Erro"
+
+msgctxt "IDS_SUBTITLE_STREAM_OFF"
+msgid "Subtitle: off"
+msgstr "Legenda: desligada"
+
+msgctxt "IDS_SUBTITLE_STREAM"
+msgid "Subtitle: %s"
+msgstr "Legenda: %s"
+
+msgctxt "IDS_MAINFRM_46"
+msgid "Select the path for the DVD/BD:"
+msgstr "Selecione o caminho para o DVD/BD:"
+
+msgctxt "IDS_SUB_LOADED_SUCCESS"
+msgid " loaded successfully"
+msgstr " carregado com sucesso"
+
+msgctxt "IDS_ALL_FILES_FILTER"
+msgid "All files (*.*)|*.*||"
+msgstr "Todos os arquivos (*.*)|*.*||"
+
+msgctxt "IDS_GETDIB_FAILED"
+msgid "GetDIB failed, hr = %08x"
+msgstr "O GetDIB falhou, hr = %08x"
+
+msgctxt "IDS_GETCURRENTIMAGE_FAILED"
+msgid "GetCurrentImage failed, hr = %08x"
+msgstr "O GetCurrentImage falhou, hr = %08x"
+
+msgctxt "IDS_SCREENSHOT_ERROR"
+msgid "Cannot create file"
+msgstr "Não pôde criar o arquivo"
+
+msgctxt "IDS_THUMBNAILS_NO_DURATION"
+msgid "Cannot create thumbnails for files with no duration"
+msgstr "Não pôde criar thumbnails para arquivos com nenhuma duração"
+
+msgctxt "IDS_THUMBNAILS_NO_FRAME_SIZE"
+msgid "Failed to get video frame size"
+msgstr "Falhou em obter o tamanho do frame do vídeo"
+
+msgctxt "IDS_OUT_OF_MEMORY"
+msgid "Out of memory, go buy some more!"
+msgstr "Sem memória, vá comprar mais algumas!"
+
+msgctxt "IDS_THUMBNAILS_INVALID_FORMAT"
+msgid "Invalid image format, cannot create thumbnails out of %d bpp dibs."
+msgstr "Formato de imagem inválido, não pôde criar thumbnails de %d bpp dibs."
+
+msgctxt "IDS_THUMBNAILS_INFO_FILESIZE"
+msgid "File Size: %s (%s bytes)\\N"
+msgstr "Tamanho do Arquivo: %s (%s bytes)\\N"
+
+msgctxt "IDS_THUMBNAILS_INFO_HEADER"
+msgid ""
+"{\\an7\\1c&H000000&\\fs16\\b0\\bord0\\shad0}File Name: %s\\N%sResolution: "
+"%dx%d %s\\NDuration: %02d:%02d:%02d"
+msgstr ""
+"{\\an7\\1c&H000000&\\fs16\\b0\\bord0\\shad0}Nome do Arquivo: "
+"%s\\N%sResolução: %dx%d %s\\NDuração: %02d:%02d:%02d"
+
+msgctxt "IDS_THUMBNAIL_TOO_SMALL"
+msgid ""
+"The thumbnails would be too small, impossible to create the file.\n"
+"\n"
+"Try lowering the number of thumbnails or increasing the total size."
+msgstr ""
+"Os thumbnails seriam muito pequenos, impossível criar o arquivo.\n"
+"\n"
+"Tente diminuir o número de thumbnails ou aumentar o tamanho total."
+
+msgctxt "IDS_CANNOT_LOAD_SUB"
+msgid ""
+"To load subtitles you have to change the video renderer type and reopen the file.\n"
+"- DirectShow: EVR (Custom Presenter), Sync, VMR-9 (renderless), madVR, MPC VR, or Haali VR"
+msgstr ""
+"Pra carregar as legendas você tem que mudar o tipo de renderizador de vídeo e re-abrir o arquivo.\n"
+"- DirectShow: EVR (Apresentador Personalizado), Sync, VMR-9 (sem renderizador), madVR, MPC VR ou Haali VR"
+
+msgctxt "IDS_SUBTITLE_FILES_FILTER"
+msgid "Subtitle files"
+msgstr "Arquivos das legendas"
+
+msgctxt "IDS_MAINFRM_68"
+msgid "Aspect Ratio: %ld:%ld"
+msgstr "Proporção do Aspecto: %ld:%ld"
+
+msgctxt "IDS_MAINFRM_69"
+msgid "Aspect Ratio: Default (DAR)"
+msgstr "Proporção do Aspecto: Padrão (DAR)"
+
+msgctxt "IDS_MAINFRM_70"
+msgid "Audio delay: %I64d ms"
+msgstr "Atraso do Áudio: %I64dms"
+
+msgctxt "IDS_AG_CHAPTER"
+msgid "Chapter %d"
+msgstr "Capítulo %d"
+
+msgctxt "IDS_AG_OUT_OF_MEMORY"
+msgid "Out of memory"
+msgstr "Sem memória!!!"
+
+msgctxt "IDS_MAINFRM_77"
+msgid "Error: Requires Adobe Flash Player for IE with killswitch patch"
+msgstr "Erro: Requer o Adobe Flash Player pro IE com o patch do killswitch"
+
+msgctxt "IDS_MAINFRM_80"
+msgid "Failed to create the filter graph object"
+msgstr "Falhou em criar o objeto do gráfico do filtro"
+
+msgctxt "IDS_MAINFRM_81"
+msgid "Invalid argument"
+msgstr "Argumento inválido"
+
+msgctxt "IDS_MAINFRM_82"
+msgid "Opening aborted"
+msgstr "Abertura abortada"
+
+msgctxt "IDS_MAINFRM_83"
+msgid "Failed to render the file"
+msgstr "Falhou em renderizar o arquivo"
+
+msgctxt "IDS_AG_CHAPTER2"
+msgid "Chapter: "
+msgstr "Capítulo: "
+
+msgctxt "IDS_VOLUME_OSD"
+msgid "Vol: %d%%"
+msgstr "Vol: %d%%"
+
+msgctxt "IDS_BOOST_OSD"
+msgid "Boost: +%u%%"
+msgstr "Aumento: +%u%%"
+
+msgctxt "IDS_BALANCE_OSD"
+msgid "Balance: %s"
+msgstr "Balanço: %s"
+
+msgctxt "IDS_FULLSCREENMONITOR_CURRENT"
+msgid "Current"
+msgstr "Atual"
+
+msgctxt "IDS_MAINFRM_DIR_TITLE"
+msgid "Select Directory"
+msgstr "Selecione o Diretório"
+
+msgctxt "IDS_MAINFRM_DIR_CHECK"
+msgid "Include subdirectories"
+msgstr "Incluir sub-diretórios"
+
+msgctxt "IDS_AG_PAUSE"
+msgid "Pause"
+msgstr "Pausa"
+
+msgctxt "IDS_AG_TOGGLE_CAPTION"
+msgid "Toggle Caption&Menu"
+msgstr "Alternar Menu das &Legendas"
+
+msgctxt "IDS_AG_TOGGLE_SEEKER"
+msgid "Toggle Seek Bar"
+msgstr "Alternar Barra de Busca"
+
+msgctxt "IDS_AG_TOGGLE_CONTROLS"
+msgid "Toggle Controls"
+msgstr "Alternar Controles"
+
+msgctxt "IDS_MAINFRM_84"
+msgid "Invalid file name"
+msgstr "Nome do arquivo inválido"
+
+msgctxt "IDS_MAINFRM_86"
+msgid "Cannot connect the filters"
+msgstr "Não pôde conectar os filtros"
+
+msgctxt "IDS_MAINFRM_87"
+msgid "Cannot load any source filter"
+msgstr "Não pôde carregar qualquer filtro fonte"
+
+msgctxt "IDS_MAINFRM_88"
+msgid "Cannot render the file"
+msgstr "Não pôde renderizar o arquivo"
+
+msgctxt "IDS_MAINFRM_89"
+msgid "Invalid file format"
+msgstr "Formato de arquivo inválido"
+
+msgctxt "IDS_MAINFRM_90"
+msgid "File not found"
+msgstr "Arquivo não encontrado"
+
+msgctxt "IDS_MAINFRM_91"
+msgid "Unknown file type"
+msgstr "Tipo de arquivo desconhecido"
+
+msgctxt "IDS_MAINFRM_92"
+msgid "Unsupported stream"
+msgstr "Faixa não suportada"
+
+msgctxt "IDS_MAINFRM_93"
+msgid "Cannot find DVD directory"
+msgstr "Não pôde achar o diretório do DVD"
+
+msgctxt "IDS_MAINFRM_94"
+msgid "Can't create the DVD Navigator filter"
+msgstr "Não pôde criar o filtro do Navegador do DVD"
+
+msgctxt "IDS_AG_FAILED"
+msgid "Failed"
+msgstr "Falhou"
+
+msgctxt "IDS_MAINFRM_96"
+msgid "Can't create video capture filter"
+msgstr "Não pôde criar o filtro de captura do vídeo"
+
+msgctxt "IDS_MAINFRM_98"
+msgid "No capture filters"
+msgstr "Não há filtros de captura"
+
+msgctxt "IDS_MAINFRM_99"
+msgid "Can't create capture graph builder object"
+msgstr "Não pôde criar o objeto construtor do gráfico da captura"
+
+msgctxt "IDS_MAINFRM_108"
+msgid "Couldn't open any device"
+msgstr "Não pôde abrir qualquer dispositivo"
+
+msgctxt "IDS_AG_SOUND"
+msgid "Sound"
+msgstr "Som"
+
+msgctxt "IDS_MAINFRM_114"
+msgid "%s was not found, please insert media containing this file."
+msgstr "O %s não foi achado, por favor insira a midia contendo este arquivo."
+
+msgctxt "IDS_AG_ABORTED"
+msgid "Aborted"
+msgstr "Abortado"
+
+msgctxt "IDS_MAINFRM_116"
+msgid "&Properties..."
+msgstr "&Propriedades..."
+
+msgctxt "IDS_MAINFRM_117"
+msgid " (pin) properties..."
+msgstr " (pino) propriedades..."
+
+msgctxt "IDS_AG_UNKNOWN_STREAM"
+msgid "Unknown Stream"
+msgstr "Faixa Desconhecida"
+
+msgctxt "IDS_AG_UNKNOWN"
+msgid "Unknown %u"
+msgstr "%u Desconhecido"
+
+msgctxt "IDS_AG_VSYNC"
+msgid "VSync"
+msgstr "VSync"
+
+msgctxt "IDS_MAINFRM_121"
+msgid " (Director Comments 1)"
+msgstr " (Comentário do Diretor 1)"
+
+msgctxt "IDS_MAINFRM_122"
+msgid " (Director Comments 2)"
+msgstr " (Comentário do Diretor 2)"
+
+msgctxt "IDS_DVD_SUBTITLES_ENABLE"
+msgid "Enable DVD subtitles"
+msgstr "Ativar Legendas do DVD"
+
+msgctxt "IDS_AG_ANGLE"
+msgid "Angle %u"
+msgstr "Ângulo %u"
+
+msgctxt "IDS_AG_VSYNCOFFSET_INCREASE"
+msgid "Increase VSync Offset"
+msgstr "Aumentar Deslocamento do VSync"
+
+msgctxt "IDS_AG_DISABLED"
+msgid "Disabled"
+msgstr "Desativado"
+
+msgctxt "IDS_AG_VSYNCOFFSET_DECREASE"
+msgid "Decrease VSync Offset"
+msgstr "Diminuir Deslocamento do VSync"
+
+msgctxt "IDS_MAINFRM_136"
+msgid "MPC-HC D3D Fullscreen"
+msgstr "Tela Cheia em D3D do MPC-HC"
+
+msgctxt "IDS_MAINFRM_137"
+msgid "Unknown format"
+msgstr "Formato desconhecido"
+
+msgctxt "IDS_MAINFRM_138"
+msgid "Sub shift: %ld ms"
+msgstr "Mudança de legenda: %ld ms"
+
+msgctxt "IDS_VOLUME_BOOST_INC"
+msgid "Volume boost increase"
+msgstr "Aumentar ganho do volume"
+
+msgctxt "IDS_VOLUME_BOOST_DEC"
+msgid "Volume boost decrease"
+msgstr "Diminuir ganho do volume"
+
+msgctxt "IDS_VOLUME_BOOST_MIN"
+msgid "Volume boost Min"
+msgstr "Mínimo de ganho do volume"
+
+msgctxt "IDS_VOLUME_BOOST_MAX"
+msgid "Volume boost Max"
+msgstr "Máximo de ganho do volume"
+
+msgctxt "IDS_USAGE"
+msgid "Usage: mpc-hc.exe \"pathname\" [switches]"
+msgstr "Uso: mpc-hc.exe \"pathname\" [switches]"
+
+msgctxt "IDS_UNKNOWN_SWITCH"
+msgid ""
+"Unrecognized switch(es) found in command line string: \n"
+"\n"
+msgstr ""
+"Interruptor(es) não reconhecidos achados na string da linha de comando: \n"
+"\n"
+
+msgctxt "IDS_AG_TOGGLE_INFO"
+msgid "Toggle Information"
+msgstr "Alternar Informação"
+
+msgctxt "IDS_AG_TOGGLE_STATS"
+msgid "Toggle Statistics"
+msgstr "Mostrar Estatísticas"
+
+msgctxt "IDS_AG_TOGGLE_STATUS"
+msgid "Toggle Status"
+msgstr "Alternar Status"
+
+msgctxt "IDS_AG_TOGGLE_SUBRESYNC"
+msgid "Toggle Subresync Bar"
+msgstr "Alternar Barra de Re-Sincronização das Legendas"
+
+msgctxt "IDS_AG_TOGGLE_PLAYLIST"
+msgid "Toggle Playlist Bar"
+msgstr "Alternar Barra da Lista de Reprodução"
+
+msgctxt "IDS_AG_TOGGLE_CAPTURE"
+msgid "Toggle Capture Bar"
+msgstr "Alternar Barra de Captura"
+
+msgctxt "IDS_AG_TOGGLE_DEBUGSHADERS"
+msgid "Toggle Debug Shaders"
+msgstr "Alternar Debug dos Shaders"
+
+msgctxt "IDS_AG_ZOOM_50"
+msgid "Zoom 50%"
+msgstr "Zoom 50%"
+
+msgctxt "IDS_AG_ZOOM_100"
+msgid "Zoom 100%"
+msgstr "Zoom 100%"
+
+msgctxt "IDS_AG_ZOOM_200"
+msgid "Zoom 200%"
+msgstr "Zoom 200%"
+
+msgctxt "IDS_AG_NEXT_AR_PRESET"
+msgid "Next AR Preset"
+msgstr "Próximo RA Pré-Definido"
+
+msgctxt "IDS_AG_VIDFRM_STRETCH"
+msgid "VidFrm Stretch"
+msgstr "Esticar VidFrm"
+
+msgctxt "IDS_AG_VIDFRM_INSIDE"
+msgid "VidFrm Inside"
+msgstr "VidFrm Dentro"
+
+msgctxt "IDS_AG_VIDFRM_OUTSIDE"
+msgid "VidFrm Outside"
+msgstr "VidFrm Fora"
+
+msgctxt "IDS_AG_PNS_RESET"
+msgid "PnS Reset"
+msgstr "Resetar PnS"
+
+msgctxt "IDS_AG_PNS_ROTATEX_P"
+msgid "PnS Rotate X+"
+msgstr "Rotacionar PnS X+"
+
+msgctxt "IDS_TIME_TOOLTIP_ABOVE"
+msgid "Above seek bar"
+msgstr "Acima da barra de busca"
+
+msgctxt "IDS_TIME_TOOLTIP_BELOW"
+msgid "Below seek bar"
+msgstr "Abaixo da barra de busca"
+
+msgctxt "IDS_VIDEO_STREAM"
+msgid "Video: %s"
+msgstr "Vídeo: %s"
+
+msgctxt "IDS_APPLY"
+msgid "Apply"
+msgstr "Aplicar"
+
+msgctxt "IDS_CLEAR"
+msgid "Clear"
+msgstr "Limpar"
+
+msgctxt "IDS_CANCEL"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "IDS_THUMB_THUMBNAILS"
+msgid "Layout"
+msgstr "Composição"
+
+msgctxt "IDS_THUMB_PIXELS"
+msgid "Pixels:"
+msgstr "Pixels:"
+
+msgctxt "IDS_TEXTFILE_ENC"
+msgid "Encoding:"
+msgstr "Codificando:"
+
+msgctxt "IDS_AG_ZOOM_25"
+msgid "Zoom 25%"
+msgstr "Zoom 25%"
+
+msgctxt "IDS_AG_MOUSE_MODIFIER"
+msgid "Mouse Modifier"
+msgstr "Modificador do Mouse"
+
+msgctxt "IDS_AG_MOUSE_FS_MODIFIER"
+msgid "Mouse FS Modifier"
+msgstr "Modificador FS do Mouse"
+
+msgctxt "IDS_AG_VIDFRM_ZOOM1"
+msgid "VidFrm Zoom 1"
+msgstr "Zoom do VidFrm 1"
+
+msgctxt "IDS_AG_VIDFRM_ZOOM2"
+msgid "VidFrm Zoom 2"
+msgstr "Zoom do VidFrm 2"
+
+msgctxt "IDS_AG_VIDFRM_SWITCHZOOM"
+msgid "VidFrm Switch Zoom"
+msgstr "Trocar o Zoom do VidFrm"
+
+msgctxt "IDS_ENABLE_ALL_FILTERS"
+msgid "&Enable all filters"
+msgstr "&Ativar todos os filtros"
+
+msgctxt "IDS_LOGO_AUTHOR"
+msgid "Author unknown. Contact us if you made this logo!"
+msgstr "Autor desconhecido. Contacte-nos se você fez este logo!"
+
+msgctxt "IDS_NO_MORE_MEDIA"
+msgid "No more media in the current folder."
+msgstr "Não há mais mídia na pasta atual."
+
+msgctxt "IDS_FIRST_IN_FOLDER"
+msgid "The first file of the folder is already loaded."
+msgstr "O primeiro arquivo da pasta já está carregado."
+
+msgctxt "IDS_LAST_IN_FOLDER"
+msgid "The last file of the folder is already loaded."
+msgstr "O último arquivo da pasta já está carregado."
+
+msgctxt "IDS_FRONT_LEFT"
+msgid "Front Left"
+msgstr "Frontal Esquerdo"
+
+msgctxt "IDS_FRONT_RIGHT"
+msgid "Front Right"
+msgstr "Frontal Direito"
+
+msgctxt "IDS_FRONT_CENTER"
+msgid "Front Center"
+msgstr "Frontal Centro"
+
+msgctxt "IDS_LOW_FREQUENCY"
+msgid "Low Frequency"
+msgstr "Baixa Frequência"
+
+msgctxt "IDS_BACK_LEFT"
+msgid "Back Left"
+msgstr "Traseiro Esquerdo"
+
+msgctxt "IDS_BACK_RIGHT"
+msgid "Back Right"
+msgstr "Traseiro Direito"
+
+msgctxt "IDS_FRONT_LEFT_OF_CENTER"
+msgid "Front Left of Center"
+msgstr "Frontal a Esquerda do Centro"
+
+msgctxt "IDS_FRONT_RIGHT_OF_CENTER"
+msgid "Front Right of Center"
+msgstr "Frontal a Direita do Centro"
+
+msgctxt "IDS_BACK_CENTER"
+msgid "Back Center"
+msgstr "Traseiro Central"
+
+msgctxt "IDS_SIDE_LEFT"
+msgid "Side Left"
+msgstr "Lado Esquerdo"
+
+msgctxt "IDS_SIDE_RIGHT"
+msgid "Side Right"
+msgstr "Lado Direito"
+
+msgctxt "IDS_TOP_CENTER"
+msgid "Top Center"
+msgstr "Topo Central"
+
+msgctxt "IDS_TOP_FRONT_LEFT"
+msgid "Top Front Left"
+msgstr "Topo Frontal Esquerdo"
+
+msgctxt "IDS_TOP_FRONT_CENTER"
+msgid "Top Front Center"
+msgstr "Topo Frontal Central"
+
+msgctxt "IDS_TOP_FRONT_RIGHT"
+msgid "Top Front Right"
+msgstr "Topo Frontal Direito"
+
+msgctxt "IDS_TOP_BACK_LEFT"
+msgid "Top Back Left"
+msgstr "Topo Traseiro Esquerdo"
+
+msgctxt "IDS_TOP_BACK_CENTER"
+msgid "Top Back Center"
+msgstr "Topo Traseiro Central"
+
+msgctxt "IDS_TOP_BACK_RIGHT"
+msgid "Top Back Right"
+msgstr "Topo Traseiro Direito"
+
+msgctxt "IDS_DISABLE_ALL_FILTERS"
+msgid "&Disable all filters"
+msgstr "&Desativar todos os filtros"
+
+msgctxt "IDS_ENABLE_AUDIO_FILTERS"
+msgid "Enable all audio decoders"
+msgstr "Ativar todos os decodificadores de áudio"
+
+msgctxt "IDS_DISABLE_AUDIO_FILTERS"
+msgid "Disable all audio decoders"
+msgstr "Desativar todos os decodificadores de áudio"
+
+msgctxt "IDS_ENABLE_VIDEO_FILTERS"
+msgid "Enable all video decoders"
+msgstr "Ativar todos os decodificadores de vídeo"
+
+msgctxt "IDS_DISABLE_VIDEO_FILTERS"
+msgid "Disable all video decoders"
+msgstr "Desativar todos os decodificadores de vídeo"
+
+msgctxt "IDS_STRETCH_TO_WINDOW"
+msgid "Stretch To Window"
+msgstr "Esticar Até a Janela"
+
+msgctxt "IDS_TOUCH_WINDOW_FROM_INSIDE"
+msgid "Touch Window From Inside"
+msgstr "Tocar a Janela por Dentro"
+
+msgctxt "IDS_ZOOM1"
+msgid "Zoom 1"
+msgstr "Zoom 1"
+
+msgctxt "IDS_ZOOM2"
+msgid "Zoom 2"
+msgstr "Zoom 2"
+
+msgctxt "IDS_TOUCH_WINDOW_FROM_OUTSIDE"
+msgid "Touch Window From Outside"
+msgstr "Tocar a Janela por Fora"
+
+msgctxt "IDS_AUDIO_STREAM"
+msgid "Audio: %s"
+msgstr "Faixa de Áudio: %s"
+
+msgctxt "IDS_AG_REOPEN"
+msgid "Reopen File"
+msgstr "Re-abrir Arquivo"
+
+msgctxt "IDS_MFMT_AVI"
+msgid "AVI"
+msgstr "AVI"
+
+msgctxt "IDS_MFMT_MPEG"
+msgid "MPEG"
+msgstr "MPEG"
+
+msgctxt "IDS_MFMT_MPEGTS"
+msgid "MPEG-TS"
+msgstr "MPEG-TS"
+
+msgctxt "IDS_MFMT_DVDVIDEO"
+msgid "DVD-Video"
+msgstr "Vídeo-DVD"
+
+msgctxt "IDS_MFMT_MKV"
+msgid "Matroska"
+msgstr "Matroska"
+
+msgctxt "IDS_MFMT_WEBM"
+msgid "WebM"
+msgstr "WebM"
+
+msgctxt "IDS_MFMT_MP4"
+msgid "MP4"
+msgstr "MP4"
+
+msgctxt "IDS_MFMT_MOV"
+msgid "QuickTime Movie"
+msgstr "Filme do QuickTime"
+
+msgctxt "IDS_MFMT_3GP"
+msgid "3GP"
+msgstr "3GP"
+
+msgctxt "IDS_MFMT_3GA"
+msgid "3GA"
+msgstr "3GA"
+
+msgctxt "IDS_MFMT_FLV"
+msgid "Flash Video"
+msgstr "Vídeo em Flash"
+
+msgctxt "IDS_MFMT_OGM"
+msgid "Ogg Media"
+msgstr "Mídia Ogg"
+
+msgctxt "IDS_MFMT_RM"
+msgid "Real Media"
+msgstr "Mídia do RealPlayer"
+
+msgctxt "IDS_MFMT_RT"
+msgid "Real Script"
+msgstr "Script do RealPlayer"
+
+msgctxt "IDS_MFMT_WMV"
+msgid "Windows Media Video"
+msgstr "Vídeo de Mídia do Windows"
+
+msgctxt "IDS_MFMT_BINK"
+msgid "Smacker/Bink Video"
+msgstr "Vídeo Smacker/Bink"
+
+msgctxt "IDS_MFMT_FLIC"
+msgid "FLIC Animation"
+msgstr "Animação FLIC"
+
+msgctxt "IDS_MFMT_DSM"
+msgid "DirectShow Media"
+msgstr "Mídia do DirectShow"
+
+msgctxt "IDS_MFMT_IVF"
+msgid "Indeo Video Format"
+msgstr "Formato de Vídeo do Indeo"
+
+msgctxt "IDS_MFMT_OTHER"
+msgid "Other"
+msgstr "Outros"
+
+msgctxt "IDS_MFMT_SWF"
+msgid "Shockwave Flash"
+msgstr "Shockwave Flash"
+
+msgctxt "IDS_MFMT_OTHER_AUDIO"
+msgid "Other Audio"
+msgstr "Outros Áudios"
+
+msgctxt "IDS_MFMT_AC3"
+msgid "AC-3"
+msgstr "AC-3"
+
+msgctxt "IDS_MFMT_AIFF"
+msgid "AIFF"
+msgstr "AIFF"
+
+msgctxt "IDS_MFMT_ALAC"
+msgid "Apple Lossless"
+msgstr "Apple Lossless"
+
+msgctxt "IDS_MFMT_WAV"
+msgid "WAV"
+msgstr "WAV"
+
+msgctxt "IDS_MFMT_WMA"
+msgid "Windows Media Audio"
+msgstr "Mídia de Áudio de Windows"
+
+msgctxt "IDS_MFMT_WV"
+msgid "WavPack"
+msgstr "WavPack"
+
+msgctxt "IDS_MFMT_OPUS"
+msgid "Opus Audio Codec"
+msgstr "Codec de Áudio de Opus"
+
+msgctxt "IDS_MFMT_DTS"
+msgid "DTS/DTS-HD"
+msgstr "DTS/DTS-HD"
+
+msgctxt "IDS_MFMT_AMR"
+msgid "AMR"
+msgstr "AMR"
+
+msgctxt "IDS_MFMT_APE"
+msgid "Monkey's Audio"
+msgstr "Áudio do Monkey"
+
+msgctxt "IDS_MFMT_AU"
+msgid "AU/SND"
+msgstr "AU/SND"
+
+msgctxt "IDS_MFMT_CDA"
+msgid "Audio CD track"
+msgstr "Faixa de Áudio de CD"
+
+msgctxt "IDS_MFMT_FLAC"
+msgid "FLAC"
+msgstr "FLAC"
+
+msgctxt "IDS_MFMT_M4A"
+msgid "MPEG-4 Audio"
+msgstr "Áudio do MPEG-4"
+
+msgctxt "IDS_MFMT_MIDI"
+msgid "MIDI"
+msgstr "MIDI"
+
+msgctxt "IDS_MFMT_MKA"
+msgid "Matroska audio"
+msgstr "Áudio do Matroska"
+
+msgctxt "IDS_MFMT_MP3"
+msgid "MP3"
+msgstr "MP3"
+
+msgctxt "IDS_MFMT_MPA"
+msgid "MPEG audio"
+msgstr "Áudio do MPEG"
+
+msgctxt "IDS_MFMT_MPC"
+msgid "Musepack"
+msgstr "Musepack"
+
+msgctxt "IDS_MFMT_OFR"
+msgid "OptimFROG"
+msgstr "OptimFROG"
+
+msgctxt "IDS_MFMT_OGG"
+msgid "Ogg Vorbis"
+msgstr "Ogg Vorbis"
+
+msgctxt "IDS_MFMT_RA"
+msgid "Real Audio"
+msgstr "Áudio do RealPlayer"
+
+msgctxt "IDS_MFMT_TAK"
+msgid "TAK"
+msgstr "TAK"
+
+msgctxt "IDS_MFMT_TTA"
+msgid "True Audio"
+msgstr "Áudio Verdadeiro"
+
+msgctxt "IDS_MFMT_PLS"
+msgid "Playlist"
+msgstr "Lista de Reprodução"
+
+msgctxt "IDS_MFMT_BDPLS"
+msgid "Blu-ray playlist"
+msgstr "Lista de Reprodução de Blu-ray"
+
+msgctxt "IDS_MFMT_RAR"
+msgid "RAR Archive"
+msgstr "Arquivo Compactado RAR"
+
+msgctxt "IDS_DVB_CHANNEL_FPS"
+msgid "FPS"
+msgstr "FPS"
+
+msgctxt "IDS_DVB_CHANNEL_RESOLUTION"
+msgid "Resolution"
+msgstr "Resolução"
+
+msgctxt "IDS_DVB_CHANNEL_ASPECT_RATIO"
+msgid "Aspect Ratio"
+msgstr "Proporção do Aspecto"
+
+msgctxt "IDS_OSD_RS_VSYNC_ON"
+msgid "VSync: On"
+msgstr "VSync: Ligado"
+
+msgctxt "IDS_OSD_RS_VSYNC_OFF"
+msgid "VSync: Off"
+msgstr "VSync: Desligado"
+
+msgctxt "IDS_OSD_RS_ACCURATE_VSYNC_ON"
+msgid "Accurate VSync: On"
+msgstr "VSync Preciso: Ligado"
+
+msgctxt "IDS_OSD_RS_ACCURATE_VSYNC_OFF"
+msgid "Accurate VSync: Off"
+msgstr "VSync Preciso: Desligado"
+
+msgctxt "IDS_OSD_RS_SYNC_TO_DISPLAY_ON"
+msgid "Synchronize Video to Display: On"
+msgstr "Sinchronizar o Vídeo com a Exibição: Ligado"
+
+msgctxt "IDS_OSD_RS_SYNC_TO_DISPLAY_OFF"
+msgid "Synchronize Video to Display: Off"
+msgstr "Sinchronizar o Vídeo com a Exibição: Desligado"
+
+msgctxt "IDS_OSD_RS_SYNC_TO_VIDEO_ON"
+msgid "Synchronize Display to Video: On"
+msgstr "Sinchronizar a Exibição com o Vídeo: Ligado"
+
+msgctxt "IDS_OSD_RS_SYNC_TO_VIDEO_OFF"
+msgid "Synchronize Display to Video: Off"
+msgstr "Sinchronizar a Exibição com o Vídeo: Desligado"
+
+msgctxt "IDS_OSD_RS_PRESENT_NEAREST_ON"
+msgid "Present at Nearest VSync: On"
+msgstr "Presente no VSync mais Próximo: Ligado"
+
+msgctxt "IDS_OSD_RS_PRESENT_NEAREST_OFF"
+msgid "Present at Nearest VSync: Off"
+msgstr "Presente no VSync mais Próximo: Desligado"
+
+msgctxt "IDS_OSD_RS_COLOR_MANAGEMENT_ON"
+msgid "Color Management: On"
+msgstr "Gerenciamento das Cores: Ligado"
+
+msgctxt "IDS_OSD_RS_COLOR_MANAGEMENT_OFF"
+msgid "Color Management: Off"
+msgstr "Gerenciamento das Cores: Desligado"
+
+msgctxt "IDS_OSD_RS_INPUT_TYPE_AUTO"
+msgid "Input Type: Auto-Detect"
+msgstr "Tipo de Entrada dos Dados: Auto-detectar"
+
+msgctxt "IDS_OSD_RS_INPUT_TYPE_HDTV"
+msgid "Input Type: HDTV"
+msgstr "Tipo de Entrada dos Dados: HDTV"
+
+msgctxt "IDS_OSD_RS_INPUT_TYPE_SD_NTSC"
+msgid "Input Type: SDTV NTSC"
+msgstr "Tipo de Entrada dos Dados: SDTV NTSC"
+
+msgctxt "IDS_OSD_RS_INPUT_TYPE_SD_PAL"
+msgid "Input Type: SDTV PAL"
+msgstr "Tipo de Entrada dos Dados: SDTV PAL"
+
+msgctxt "IDS_OSD_RS_AMBIENT_LIGHT_BRIGHT"
+msgid "Ambient Light: Bright (2.2 Gamma)"
+msgstr "Luz Ambiente: Brilhante (Gamma 2.2)"
+
+msgctxt "IDS_OSD_RS_AMBIENT_LIGHT_DIM"
+msgid "Ambient Light: Dim (2.35 Gamma)"
+msgstr "Luz Ambiente: Fraca (Gamma 2.35)"
+
+msgctxt "IDS_OSD_RS_AMBIENT_LIGHT_DARK"
+msgid "Ambient Light: Dark (2.4 Gamma)"
+msgstr "Luz Ambiente: Escura (Gamma 2.4)"
+
+msgctxt "IDS_OSD_RS_REND_INTENT_PERCEPT"
+msgid "Rendering Intent: Perceptual"
+msgstr "Intenção da Renderização: Perceptivo"
+
+msgctxt "IDS_OSD_RS_REND_INTENT_RELATIVE"
+msgid "Rendering Intent: Relative Colorimetric"
+msgstr "Intenção da Renderização: Colorimétrico"
+
+msgctxt "IDS_OSD_RS_REND_INTENT_SATUR"
+msgid "Rendering Intent: Saturation"
+msgstr "Intenção da Renderização: Saturação"
+
+msgctxt "IDS_OSD_RS_REND_INTENT_ABSOLUTE"
+msgid "Rendering Intent: Absolute Colorimetric"
+msgstr "Intenção da Renderização: Colorimétrico Absoluto"
+
+msgctxt "IDS_OSD_RS_OUTPUT_RANGE"
+msgid "Output Range: %s"
+msgstr "Faixa de Saída dos Dados: %s"
+
+msgctxt "IDS_OSD_RS_FLUSH_BEF_VSYNC_ON"
+msgid "Flush GPU before VSync: On"
+msgstr "Esvaziar a GPU antes do VSync: Ligado"
+
+msgctxt "IDS_OSD_RS_FLUSH_BEF_VSYNC_OFF"
+msgid "Flush GPU before VSync: Off"
+msgstr "Esvaziar a GPU antes do VSync: Desligado"
+
+msgctxt "IDS_OSD_RS_FLUSH_AFT_PRES_ON"
+msgid "Flush GPU after Present: On"
+msgstr "Esvaziar a GPU após a Apresentação: Ligado"
+
+msgctxt "IDS_OSD_RS_FLUSH_AFT_PRES_OFF"
+msgid "Flush GPU after Present: Off"
+msgstr "Esvaziar a GPU após a Apresentação: Desligado"
+
+msgctxt "IDS_OSD_RS_WAIT_ON"
+msgid "Wait for GPU Flush: On"
+msgstr "Esperar a Descarga da GPU: Ligado"
+
+msgctxt "IDS_OSD_RS_WAIT_OFF"
+msgid "Wait for GPU Flush: Off"
+msgstr "Esperar a Descarga da GPU: Desligado"
+
+msgctxt "IDS_OSD_RS_D3D_FULLSCREEN_ON"
+msgid "D3D Fullscreen: On"
+msgstr "D3D em Tela Cheia: Ligado"
+
+msgctxt "IDS_OSD_RS_D3D_FULLSCREEN_OFF"
+msgid "D3D Fullscreen: Off"
+msgstr "D3D em Tela Cheia: Desligado"
+
+msgctxt "IDS_OSD_RS_NO_DESKTOP_COMP_ON"
+msgid "Disable desktop composition: On"
+msgstr "Desativar composição da área de trabalho: Ligado"
+
+msgctxt "IDS_OSD_RS_NO_DESKTOP_COMP_OFF"
+msgid "Disable desktop composition: Off"
+msgstr "Desativar composição da área de trabalho: Desligado"
+
+msgctxt "IDS_OSD_RS_ALT_VSYNC_ON"
+msgid "Alternative VSync: On"
+msgstr "VSync Alternativa: Ligado"
+
+msgctxt "IDS_OSD_RS_ALT_VSYNC_OFF"
+msgid "Alternative VSync: Off"
+msgstr "VSync Alternativa: Desligado"
+
+msgctxt "IDS_OSD_RS_RESET_DEFAULT"
+msgid "Renderer settings reset to default"
+msgstr "Configurações do renderizador resetadas para o padrão"
+
+msgctxt "IDS_OSD_RS_RESET_OPTIMAL"
+msgid "Renderer settings reset to optimal"
+msgstr "Configurações do renderizador resetadas para o otimizado"
+
+msgctxt "IDS_OSD_RS_D3D_FS_GUI_SUPP_ON"
+msgid "D3D Fullscreen GUI Support: On"
+msgstr "Suporte a GUI em Tela Cheia do D3D: Ligado"
+
+msgctxt "IDS_OSD_RS_D3D_FS_GUI_SUPP_OFF"
+msgid "D3D Fullscreen GUI Support: Off"
+msgstr "Suporte a GUI em Tela Cheia do D3D: Desligado"
+
+msgctxt "IDS_OSD_RS_10BIT_RBG_OUT_ON"
+msgid "10-bit RGB Output: On"
+msgstr "Saída dos Dados do RGB 10 bits: Ligado"
+
+msgctxt "IDS_OSD_RS_10BIT_RBG_OUT_OFF"
+msgid "10-bit RGB Output: Off"
+msgstr "Saída dos Dados do RGB 10 bits: Desligado"
+
+msgctxt "IDS_OSD_RS_10BIT_RBG_IN_ON"
+msgid "Force 10-bit RGB Input: On"
+msgstr "Forçar a Entrada de Dados do RGB 10 bits: Ligado"
+
+msgctxt "IDS_OSD_RS_10BIT_RBG_IN_OFF"
+msgid "Force 10-bit RGB Input: Off"
+msgstr "Forçar a Entrada de Dados do RGB 10 bits: Desligado"
+
+msgctxt "IDS_OSD_RS_FULL_FP_PROCESS_ON"
+msgid "Full Floating Point Processing: On"
+msgstr "Processamento do Ponto Flutuante Completo: Ligado"
+
+msgctxt "IDS_OSD_RS_FULL_FP_PROCESS_OFF"
+msgid "Full Floating Point Processing: Off"
+msgstr "Processamento do Ponto Flutuante Completo: Desligado"
+
+msgctxt "IDS_OSD_RS_HALF_FP_PROCESS_ON"
+msgid "Half Floating Point Processing: On"
+msgstr "Processamento do Meio Ponto Flutuante: Ligado"
+
+msgctxt "IDS_OSD_RS_HALF_FP_PROCESS_OFF"
+msgid "Half Floating Point Processing: Off"
+msgstr "Processamento do Meio Ponto Flutuante: Desligado"
+
+msgctxt "IDS_BRIGHTNESS_DEC"
+msgid "Brightness decrease"
+msgstr "Diminuir brilho"
+
+msgctxt "IDS_CONTRAST_INC"
+msgid "Contrast increase"
+msgstr "Aumentar contraste"
+
+msgctxt "IDS_CONTRAST_DEC"
+msgid "Contrast decrease"
+msgstr "Diminuir contraste"
+
+msgctxt "IDS_HUE_INC"
+msgid "Hue increase"
+msgstr "Aumentar tonalidade"
+
+msgctxt "IDS_HUE_DEC"
+msgid "Hue decrease"
+msgstr "Diminuir tonalidade"
+
+msgctxt "IDS_SATURATION_INC"
+msgid "Saturation increase"
+msgstr "Aumentar saturação"
+
+msgctxt "IDS_SATURATION_DEC"
+msgid "Saturation decrease"
+msgstr "Diminuir saturação"
+
+msgctxt "IDS_RESET_COLOR"
+msgid "Reset color settings"
+msgstr "Resetar configurações das cores"
+
+msgctxt "IDS_USING_LATEST_STABLE"
+msgid ""
+"\n"
+"You are already using the latest stable version."
+msgstr ""
+"\n"
+"Você já está usando a versão estável mais recente."
+
+msgctxt "IDS_USING_NEWER_VERSION"
+msgid ""
+"Your current version is v%s.\n"
+"\n"
+"The latest stable version is v%s."
+msgstr ""
+"Sua versão atual é v%s.\n"
+"\n"
+"A última versão estável é v%s."
+
+msgctxt "IDS_NEW_UPDATE_AVAILABLE"
+msgid ""
+"MPC-HC v%s is now available. You are using v%s.\n"
+"\n"
+"Do you want to visit MPC-HC's website to download it?"
+msgstr ""
+"O MPC-HC v%s está agora disponível. Você está usando v%s.\n"
+"\n"
+"Você quer visitar o site da web do MPC-HC pra baixá-lo?"
+
+msgctxt "IDS_UPDATE_ERROR"
+msgid ""
+"Update server not found.\n"
+"\n"
+"Please check your internet connection or try again later."
+msgstr ""
+"Servidor da atualização não encontrado.\n"
+"\n"
+"Por favor verifique se sua conexão com a internet ou tente de novo mais tarde."
+
+msgctxt "IDS_UPDATE_CLOSE"
+msgid "&Close"
+msgstr "&Fechar"
+
+msgctxt "IDS_OSD_ZOOM"
+msgid "Zoom: %.0lf%%"
+msgstr "Zoom: %.0lf%%"
+
+msgctxt "IDS_OSD_ZOOM_AUTO"
+msgid "Zoom: Auto"
+msgstr "Zoom: Auto"
+
+msgctxt "IDS_CUSTOM_CHANNEL_MAPPING"
+msgid "Toggle custom channel mapping"
+msgstr "Alternar mapeamento personalizado dos canais"
+
+msgctxt "IDS_OSD_CUSTOM_CH_MAPPING_ON"
+msgid "Custom channel mapping: On"
+msgstr "Mapeamento personalizado dos canais: Ligado"
+
+msgctxt "IDS_OSD_CUSTOM_CH_MAPPING_OFF"
+msgid "Custom channel mapping: Off"
+msgstr "Mapeamento personalizado dos canais: Desligado"
+
+msgctxt "IDS_NORMALIZE"
+msgid "Toggle normalization"
+msgstr "Alternar normalização"
+
+msgctxt "IDS_OSD_NORMALIZE_ON"
+msgid "Normalization: On"
+msgstr "Normalização: Ligado"
+
+msgctxt "IDS_OSD_NORMALIZE_OFF"
+msgid "Normalization: Off"
+msgstr "Normalização: Desligado"
+
+msgctxt "IDS_REGAIN_VOLUME"
+msgid "Toggle regain volume"
+msgstr "Alternar recuperação do volume"
+
+msgctxt "IDS_OSD_REGAIN_VOLUME_ON"
+msgid "Regain volume: On"
+msgstr "Recuperar volume: Ligado"
+
+msgctxt "IDS_OSD_REGAIN_VOLUME_OFF"
+msgid "Regain volume: Off"
+msgstr "Recuperar volume: Desligado"
+
+msgctxt "IDS_SIZE_UNIT_BYTES"
+msgid "bytes"
+msgstr "bytes"
+
+msgctxt "IDS_SIZE_UNIT_K"
+msgid "KB"
+msgstr "KBs"
+
+msgctxt "IDS_SIZE_UNIT_M"
+msgid "MB"
+msgstr "MBs"
+
+msgctxt "IDS_SIZE_UNIT_G"
+msgid "GB"
+msgstr "GBs"
+
+msgctxt "IDS_SPEED_UNIT_K"
+msgid "KB/s"
+msgstr "KB/s"
+
+msgctxt "IDS_SPEED_UNIT_M"
+msgid "MB/s"
+msgstr "MB/s"
+
+msgctxt "IDS_BDA_ERROR_CREATE_TUNER"
+msgid "Could not create the tuner."
+msgstr "Não pôde criar o sintonizador."
+
+msgctxt "IDS_BDA_ERROR_CREATE_RECEIVER"
+msgid "Could not create the receiver."
+msgstr "Não pôde criar o receptor."
+
+msgctxt "IDS_BDA_ERROR_CONNECT_NW_TUNER"
+msgid "Could not connect the network and the tuner."
+msgstr "Não pôde se conectar a rede e o sintonizador."
+
+msgctxt "IDS_BDA_ERROR_CONNECT_TUNER_REC"
+msgid "Could not connect the tuner and the receiver."
+msgstr "Não pôde conectar o sintonizador e o receptor."
+
+msgctxt "IDS_BDA_ERROR_CONNECT_TUNER"
+msgid "Could not connect the tuner."
+msgstr "Não pôde conectar o sintonizador."
+
+msgctxt "IDS_BDA_ERROR_DEMULTIPLEXER"
+msgid "Could not create the demultiplexer."
+msgstr "Não pôde criar o demultiplexer."
+
+msgctxt "IDS_GOTO_ERROR_PARSING_TIME"
+msgid "Error parsing the entered time!"
+msgstr "Erro ao analisar o tempo inserido!"
+
+msgctxt "IDS_GOTO_ERROR_PARSING_TEXT"
+msgid "Error parsing the entered text!"
+msgstr "Erro ao analisar o texto inserido!"
+
+msgctxt "IDS_GOTO_ERROR_PARSING_FPS"
+msgid "Error parsing the entered frame rate!"
+msgstr "Erro ao analisar a taxa dos frames inseridos!"
+
+msgctxt "IDS_FRAME_STEP_ERROR_RENDERER"
+msgid "Cannot frame-step, try a different video renderer."
+msgstr "Não pôde pular os frames, tente um renderizador de vídeo diferente."
+
+msgctxt "IDS_SCREENSHOT_ERROR_SHOCKWAVE"
+msgid ""
+"The \"Save Image\" and \"Save Thumbnails\" functions do not work for "
+"Shockwave files."
+msgstr ""
+"As funções \"Salvar Imagem\" e \"Salvar Miniaturas\" não funcionam com "
+"arquivos Shockwave."
+
+msgctxt "IDS_SCREENSHOT_ERROR_OVERLAY"
+msgid ""
+"The \"Save Image\" and \"Save Thumbnails\" functions do not work with the Overlay Mixer video renderer.\n"
+"Change the video renderer in MPC's output options and reopen the file."
+msgstr ""
+"As funções \"Salvar Imagem\" e \"Salvar Miniaturas\" não funcionam com o renderizador de vídeo do Overlay Mixer.\n"
+"Mude o renderizador de vídeo nas opções de saída dos dados do MPC-HC e re-abra o arquivo."
+
+msgctxt "IDS_MB_SHOW_EDL_EDITOR"
+msgid "Do you want to activate the EDL editor?"
+msgstr "Você quer ativar o editor do EDL?"
+
+msgctxt "IDS_CAPTURE_ERROR"
+msgid "Capture Error"
+msgstr "Erro de Captura"
+
+msgctxt "IDS_CAPTURE_ERROR_VIDEO"
+msgid "video"
+msgstr "vídeo"
+
+msgctxt "IDS_CAPTURE_ERROR_AUDIO"
+msgid "audio"
+msgstr "áudio"
+
+msgctxt "IDS_CAPTURE_ERROR_ADD_BUFFER"
+msgid "Can't add the %s buffer filter to the graph."
+msgstr "Não pôde adicionar o filtro do buffer do %s ao gráfico."
+
+msgctxt "IDS_CAPTURE_ERROR_CONNECT_BUFF"
+msgid "Can't connect the %s buffer filter to the graph."
+msgstr "Não pôde conectar o filtro do buffer do %s ao gráfico."
+
+msgctxt "IDS_CAPTURE_ERROR_ADD_ENCODER"
+msgid "Can't add the %s encoder filter to the graph."
+msgstr "Não pôde adicionar o filtro do codificador do %s ao gráfico."
+
+msgctxt "IDS_CAPTURE_ERROR_CONNECT_ENC"
+msgid "Can't connect the %s encoder filter to the graph."
+msgstr "Não pôde conectar o filtro do codificador do %s ao gráfico."
+
+msgctxt "IDS_CAPTURE_ERROR_COMPRESSION"
+msgid "Can't set the compression format on the %s encoder filter."
+msgstr ""
+"Não pôde definir o formato de compressão no filtro do codificador do %s."
+
+msgctxt "IDS_CAPTURE_ERROR_MULTIPLEXER"
+msgid "Can't connect the %s stream to the multiplexer filter."
+msgstr "Não pôde conectar a faixa do %s com o filtro do multiplexer."
+
+msgctxt "IDS_CAPTURE_ERROR_VID_CAPT_PIN"
+msgid "No video capture pin was found."
+msgstr "Nenhum pino de captura de vídeo foi encontrado."
+
+msgctxt "IDS_CAPTURE_ERROR_AUD_CAPT_PIN"
+msgid "No audio capture pin was found."
+msgstr "Nenhum pino de captura de aúdio foi encontrado."
+
+msgctxt "IDS_CAPTURE_ERROR_OUT_FILE"
+msgid "Error initializing the output file."
+msgstr "Erro ao inicializar o arquivo de saída dos dados."
+
+msgctxt "IDS_CAPTURE_ERROR_AUD_OUT_FILE"
+msgid "Error initializing the audio output file."
+msgstr "Erro ao inicializar o arquivo de áudio de saída dos dados."
+
+msgctxt "IDS_SUBRESYNC_TIME_FORMAT"
+msgid "The correct time format is [-]hh:mm:ss.ms (e.g. 01:23:45.678)."
+msgstr "O formato de tempo correto é [-]hh:mm:ss.ms (ex: 01:23:45.678)."
+
+msgctxt "IDS_EXTERNAL_FILTERS_ERROR_MT"
+msgid "This type is already in the list!"
+msgstr "Este tipo já existe na lista!"
+
+msgctxt "IDS_WEBSERVER_ERROR_TEST"
+msgid "You need to apply the new settings before testing them."
+msgstr "Você precisa aplicar as novas configurações antes de testá-las."
+
+msgctxt "IDS_AFTERPLAYBACK_EXIT"
+msgid "After Playback: Exit"
+msgstr "Após o Playback: Sair"
+
+msgctxt "IDS_AFTERPLAYBACK_STANDBY"
+msgid "After Playback: Stand By"
+msgstr "Após o Playback: Aguardar"
+
+msgctxt "IDS_AFTERPLAYBACK_HIBERNATE"
+msgid "After Playback: Hibernate"
+msgstr "Após o Playback: Hibernar"
+
+msgctxt "IDS_AFTERPLAYBACK_SHUTDOWN"
+msgid "After Playback: Shutdown"
+msgstr "Após o Playback: Desligamento"
+
+msgctxt "IDS_AFTERPLAYBACK_LOGOFF"
+msgid "After Playback: Log Off"
+msgstr "Após o Playback: Log Off"
+
+msgctxt "IDS_AFTERPLAYBACK_LOCK"
+msgid "After Playback: Lock"
+msgstr "Após o Playback: Trancar"
+
+msgctxt "IDS_AFTERPLAYBACK_MONITOROFF"
+msgid "After Playback: Turn off the monitor"
+msgstr "Após o Playback: Desligar o monitor"
+
+msgctxt "IDS_AFTERPLAYBACK_PLAYNEXT"
+msgid "After Playback: Play next file in the folder"
+msgstr "Após o Playback: Reproduzir o próximo arquivo na pasta"
+
+msgctxt "IDS_AFTERPLAYBACK_DONOTHING"
+msgid "After Playback: Do nothing"
+msgstr "Após o Playback: Não fazer nada"
+
+msgctxt "IDS_OSD_BRIGHTNESS"
+msgid "Brightness: %s"
+msgstr "Brilho: %s"
+
+msgctxt "IDS_OSD_CONTRAST"
+msgid "Contrast: %s"
+msgstr "Contraste: %s"
+
+msgctxt "IDS_OSD_HUE"
+msgid "Hue: %s°"
+msgstr "Tonalidade: %s°"
+
+msgctxt "IDS_OSD_SATURATION"
+msgid "Saturation: %s"
+msgstr "Saturação: %s"
+
+msgctxt "IDS_OSD_RESET_COLOR"
+msgid "Color settings restored"
+msgstr "Configurações das cores restauradas"
+
+msgctxt "IDS_OSD_NO_COLORCONTROL"
+msgid "Color control is not supported"
+msgstr "O controle das cores não é suportado"
+
+msgctxt "IDS_BRIGHTNESS_INC"
+msgid "Brightness increase"
+msgstr "Aumentar brilho"
+
+msgctxt "IDC_FASTSEEK_CHECK"
+msgid ""
+"If \"latest keyframe\" is selected, seek to the first keyframe before the actual seek point.\n"
+"If \"nearest keyframe\" is selected, seek to the first keyframe before or after the seek point depending on which is the closest."
+msgstr ""
+"Se o \"último keyfame\" estiver selecionado, procure o primeiro keyframe antes do atual ponto de procura.\n"
+"Se o \"keyframe mais próximo\" estiver selecionado, procure o primeiro keyframe antes ou depois do ponto de procura, dependendo de qual é o mais próximo."
+
+msgctxt "IDC_ASSOCIATE_ALL_FORMATS"
+msgid "Associate with all formats"
+msgstr "Associar com todos os formatos"
+
+msgctxt "IDC_ASSOCIATE_VIDEO_FORMATS"
+msgid "Associate with video formats only"
+msgstr "Associar só com os formatos de vídeo"
+
+msgctxt "IDC_ASSOCIATE_AUDIO_FORMATS"
+msgid "Associate with audio formats only"
+msgstr "Associar só com os formatos de áudio"
+
+msgctxt "IDC_CLEAR_ALL_ASSOCIATIONS"
+msgid "Clear all associations"
+msgstr "Limpar todas as associações"
+
+msgctxt "IDS_FILTER_SETTINGS_CAPTION"
+msgid "Settings"
+msgstr "Configurações"
+
+msgctxt "IDS_SUBTITLE_RENDERER_VS_FILTER"
+msgid "VSFilter / DirectVobSub"
+msgstr "VSFilter / DirectVobSub"
+
+msgctxt "IDS_SUBTITLE_RENDERER_XY_SUB_FILTER"
+msgid "XySubFilter"
+msgstr "XySubFilter"
+
+msgctxt "IDS_SUBDL_DLG_PROVIDER_COL"
+msgid "Provider"
+msgstr "Provedor"
+
+msgctxt "IDS_SUBDL_DLG_HI_COL"
+msgid "Hearing Impaired"
+msgstr "Deficiente Auditivo"
+
+msgctxt "IDS_SUBDL_DLG_DOWNLOADS_COL"
+msgid "Downloads"
+msgstr "Downloads"
+
+msgctxt "IDS_SUBDL_DLG_SCORE_COL"
+msgid "Score"
+msgstr "Pontos"
+
+msgctxt "IDS_SUBDL_DLG_FAILED"
+msgid "Online subtitles search failed."
+msgstr "A busca online por legendas falhou."
+
+msgctxt "IDS_SUBDL_DLG_ABORTED"
+msgid "Online subtitles search aborted."
+msgstr "A busca online por legendas foi abortada."
+
+msgctxt "IDS_SUBDL_DLG_FOUND"
+msgid "Online subtitles search completed, %d subtitles found."
+msgstr "Busca online de legendas completada, %d legenda(s) encontrada(s)."
+
+msgctxt "IDS_SUBDL_DLG_NOTFOUND"
+msgid "Online subtitles search completed, no subtitles found."
+msgstr "Busca online de legendas completada, não foram encontradas legendas."
+
+msgctxt "IDS_SUBDL_DLG_TITLE"
+msgid "Download subtitles"
+msgstr "Baixar legendas"
+
+msgctxt "IDS_SUBDL_DLG_SEARCHING"
+msgid "Searching for subtitles online, please wait..."
+msgstr "Procurando legendas online, por favor aguarde..."
+
+msgctxt "IDS_SUBDL_DLG_ABORTING"
+msgid "Online subtitles search aborting..."
+msgstr "Abortando busca de legendas online..."
+
+msgctxt "IDS_SUBUL_DLG_USERNAME_COL"
+msgid "Username"
+msgstr "Nome de usuário"
+
+msgctxt "IDS_SUBUL_DLG_STATUS_COL"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "IDS_SUBUL_DLG_STATUS_READY"
+msgid "Ready..."
+msgstr "Pronto..."
+
+msgctxt "IDS_CMD_PNS"
+msgid "/pns \"name\"\tSpecify Pan & Scan preset name to use"
+msgstr "/pns \"name\"\tEspecifica o nome do Pan & Scan pré-definido pra usar"
+
+msgctxt "IDS_CMD_ICONASSOC"
+msgid "/iconsassoc\tReassociate format icons"
+msgstr "/iconsassoc\tRe-associar os ícones do formato"
+
+msgctxt "IDS_CMD_NOFOCUS"
+msgid "/nofocus\t\tOpen MPC-HC in background"
+msgstr "/nofocus\t\tAbre o MPC-HC em segundo plano"
+
+msgctxt "IDS_CMD_WEBPORT"
+msgid "/webport N\tStart web interface on specified port"
+msgstr "/webport N\tInicia a interface da web na porta especificada"
+
+msgctxt "IDS_CMD_DEBUG"
+msgid "/debug\t\tShow debug information in OSD"
+msgstr "/debug\t\tMostra as informações do debug no OSD"
+
+msgctxt "IDS_CMD_NOCRASHREPORTER"
+msgid "/nocrashreporter\tDisable the crash reporter"
+msgstr "/nocrashreporter\tDesativa o reportador de crashes"
+
+msgctxt "IDS_CMD_SLAVE"
+msgid "/slave \"hWnd\"\tUse MPC-HC as slave"
+msgstr "/slave \"hWnd\"\tUsa o MPC-HC como escravo"
+
+msgctxt "IDS_CMD_HWGPU"
+msgid ""
+"/hwgpu \"index\"\tSet the index of the GPU used for hardware decoding.\n"
+"\t\tOnly available for CUVID and DXVA2 (copy-back)"
+msgstr ""
+"/hwgpu \"index\"\tDefine o índice da GPU usado pra decodificação de hardware\n"
+"\t\tSó disponível pra CUVID e DXVA2 (copy-back)"
+
+msgctxt "IDS_CMD_RESET"
+msgid "/reset\t\tRestore default settings"
+msgstr "/reset\t\tRestaurar configurações padrão"
+
+msgctxt "IDS_CMD_HELP"
+msgid "/help /h /?\tShow help about command line switches"
+msgstr "/help /h /?\tMostra ajuda sobre os Interruptores da linha de comando"
+
+msgctxt "IDS_PPAGEADVANCED_SCORE"
+msgid ""
+"Threshold value for subtitles score which are going to be automatically "
+"downloaded. Higher values means that more accurately matched subtitles will "
+"be loaded, lower values could result in incorrect subtitles being loaded, "
+"but there is no one perfect value. Pick one that works best for you."
+msgstr ""
+"Valor limite pra pontuação de legendas as quais vão ser baixadas "
+"automaticamente. Valores mais altos significam que legendas combinadas "
+"precisamente serão carregadas, valores mais baixos poderiam resultar em "
+"legendas incorretas sendo carregadas mas não existe um valor perfeito. "
+"Escolha um que funciona melhor pra você."
+
+msgctxt "IDS_PPAGE_FS_CLN_AUDIO_DELAY"
+msgid "Audio Delay (ms)"
+msgstr "Atraso do Áudio (ms)"
+
+msgctxt "IDS_PPAGEADVANCED_DEFAULTTOOLBARSIZE"
+msgid "Size in pixels of the default toolbar."
+msgstr "Tamanho em pixels da barra de ferramentas padrão."
+
+msgctxt "IDS_PPAGEADVANCED_USE_LEGACY_TOOLBAR"
+msgid "Use legacy toolbar instead of new vectorized one."
+msgstr "Usar barra de ferramentas antiga no lugar da nova vetorizada."
+
+msgctxt "IDS_SUBTITLE_RENDERER_ASS_FILTER"
+msgid "AssFilter"
+msgstr "AssFilter"
+
+msgctxt "IDS_SUBMENU_COPYURL"
+msgid "Copy URL"
+msgstr "Copiar URL"
+
+msgctxt "IDS_SUBUL_DLG_STATUS_NOTIMPLEMENTED"
+msgid "Not implemented."
+msgstr "Não implementado."
+
+msgctxt "IDS_SUBUL_DLG_STATUS_UPLOADING"
+msgid "Uploading..."
+msgstr "Fazendo upload..."
+
+msgctxt "IDS_SUBUL_DLG_STATUS_UPLOADED"
+msgid "Subtitles uploaded successfully."
+msgstr "Upload das legendas feito com sucesso."
+
+msgctxt "IDS_SUBUL_DLG_STATUS_FAILED"
+msgid "Subtitles upload failed."
+msgstr "O upload das legendas falhou."
+
+msgctxt "IDS_SUBUL_DLG_STATUS_ABORTED"
+msgid "Subtitles upload aborted."
+msgstr "Upload das legendas abortado."
+
+msgctxt "IDS_SUBUL_DLG_STATUS_ALREADYEXISTS"
+msgid "Subtitles already exist."
+msgstr "As legendas já existem."
+
+msgctxt "IDS_SUBUL_DLG_UPLOADING"
+msgid "Uploading subtitles, please wait..."
+msgstr "Fazendo upload das legendas, por favor aguarde..."
+
+msgctxt "IDS_SUBUL_DLG_UPLOADED"
+msgid "Upload finished."
+msgstr "Upload terminado."
+
+msgctxt "IDS_SUBUL_DLG_ABORTED"
+msgid "Upload aborted."
+msgstr "Upload abortado."
+
+msgctxt "IDS_SUBUL_DLG_FAILED"
+msgid "Upload failed."
+msgstr "O upload falhou."
+
+msgctxt "IDS_SUBMENU_DOWNLOAD"
+msgid "Download && Open"
+msgstr "Baixar e&& Abrir"
+
+msgctxt "IDS_SUBMENU_SETUP"
+msgid "Setup"
+msgstr "Configuração"
+
+msgctxt "IDS_SUBMENU_RESET"
+msgid "Reset"
+msgstr "Resetar"
+
+msgctxt "IDS_SUBMENU_MOVEUP"
+msgid "Move Up"
+msgstr "Mover pra Cima"
+
+msgctxt "IDS_SUBMENU_MOVEDOWN"
+msgid "Move Down"
+msgstr "Mover pra Baixo"
+
+msgctxt "IDS_SUBMENU_OPENURL"
+msgid "Open URL"
+msgstr "Abrir URL"
+
+msgctxt "IDS_SUBPP_DLG_LANGUAGES_COL"
+msgid "Languages"
+msgstr "Idiomas"
+
+msgctxt "IDS_SUBPP_DLG_LANGUAGES_ERROR"
+msgid "ERROR: Internet connection could not be established."
+msgstr "ERRO: conexão com a internet não pôde ser estabelecida."
+
+msgctxt "IDS_SUB_CREDENTIALS_TITLE"
+msgid "Enter website credentials"
+msgstr "Insira as credenciais do site da web"
+
+msgctxt "IDS_SUB_CREDENTIALS_MSG"
+msgid "Enter your credentials to connect to: "
+msgstr "Insira suas credenciais pra se conectar a:"
+
+msgctxt "IDS_ASPECT_RATIO_SAR"
+msgid "Aspect Ratio: Assume square pixels (SAR)"
+msgstr "Proporção do Aspecto: Assumir pixels quadrados (SAR)"
+
+msgctxt "IDS_SUBDL_DLG_DOWNLOADED"
+msgid "Downloaded [%s] \"%s\""
+msgstr "Baixadas [%s] \"%s\""
+
+msgctxt "IDS_SUBUL_DLG_TITLE"
+msgid "Upload subtitles"
+msgstr "Fazer upload das legendas"
+
+msgctxt "IDS_SUBUL_DLG_CONFIRM"
+msgid "Are you sure you want to upload the subtitle file \"%s\"?"
+msgstr "Você tem certeza que você quer fazer upload do arquivo de legenda \"%s\"?"
+
+msgctxt "IDS_SUBPP_DLG_FETCHING_LANGUAGES"
+msgid "Fetching supported languages..."
+msgstr "Buscando idiomas suportados..."
+
+msgctxt "IDS_SUB_CREDENTIALS_ERROR"
+msgid ""
+"Failed to log in on subtitle search provider \"%1\" with username \"%2\".\n"
+"\n"
+"Check if your username and password are correct.\n"
+"\n"
+"Failure can also happen when you are temporarily blocked due to too many search requests from your account or IP address."
+msgstr ""
+"Falhou em logar no provedor de busca das legendas \"%1\" com o nome de usuário \"%2\".\n"
+"\n"
+"Verifique se seu nome de usuário e senha estão corretos.\n"
+"\n"
+"A falha também pode acontecer quando você está temporariamente bloqueado devido a muitos pedidos de busca da sua conta ou do seu endereço de IP."
+
+msgctxt "IDS_SUB_AUTODL_IGNORE_TOOLTIP"
+msgid ""
+"Automatic search and download will be disabled for all media files whose path contains any of the patterns entered here.\n"
+"For example, type: \"private dir\\videos|work\\\"."
+msgstr ""
+"A busca e o download automático serão desativados pra todos os arquivos de mídia cujos caminhos contenham quaisquer um dos modelos inseridos aqui.\n"
+"Por exemplo, digite: \"diretório privado\\vídeos|trabalho\\\"."
+
+msgctxt "IDS_CMD_PATHNAME"
+msgid ""
+"\"pathname\"\tThe main file or directory to be loaded\n"
+"\t\t(wildcards allowed, \"-\" denotes standard input)"
+msgstr ""
+"\"nome do caminho\"\tO arquivo ou diretório principal a ser carregado\n"
+"\t\t(wildcards são permitidos, \"-\" indica a entrada de dados padrão)"
+
+msgctxt "IDS_CMD_DUB"
+msgid "/dub \"dubname\"\tLoad an additional audio file"
+msgstr "/dub \"nome_da_dublagem\"\tCarrega um arquivo de áudio adicional"
+
+msgctxt "IDS_CMD_DUBDELAY"
+msgid ""
+"/dubdelay \"file\"\tLoad an additional audio file shifted with XXms\n"
+"\t\t(if the file contains \"...DELAY XXms...\")"
+msgstr ""
+"/dubdelay \"arquivo\"\tCarrega um arquivo de áudio adicional mudado com o Xms\n"
+"\t\t(se o arquivo contém \"...DELAY XXms...\")"
+
+msgctxt "IDS_CMD_D3DFS"
+msgid "/d3dfs\t\tStart rendering in D3D fullscreen mode"
+msgstr "/d3dfs\t\tInicia renderização no modo Tela Cheia do D3D"
+
+msgctxt "IDS_CMD_SUB"
+msgid "/sub \"subname\"\tLoad an additional subtitle file"
+msgstr "/sub \"nome_da_legenda\"\tCarrega um arquivo de legenda adicional"
+
+msgctxt "IDS_CMD_FILTER"
+msgid ""
+"/filter \"filtername\"\tLoad DirectShow filters from a dynamic link library "
+"(wildcards allowed)"
+msgstr ""
+"/filter \"nome_do_filtro\"\tCarrega filtros do DirectShow de uma biblioteca "
+"de link dinâmico (wildcards são permitidos)"
+
+msgctxt "IDS_CMD_DVD"
+msgid "/dvd\t\tRun in DVD mode, \"pathname\" means the DVD folder (optional)"
+msgstr ""
+"/dvd\t\tExecutar no modo DVD, \"nome do caminho\" significa que a pasta do "
+"DVD (opcional)"
+
+msgctxt "IDS_CMD_DVDPOS_TC"
+msgid "/dvdpos T#C\tStart playback at title T, chapter C"
+msgstr "/dvdpos T#C\tInicia o playback no título T, capítulo C"
+
+msgctxt "IDS_CMD_DVDPOS_TIME"
+msgid "/dvdpos T#P\tStart playback at title T, position P (hh:mm:ss)"
+msgstr "/dvdpos T#P\tInicia o playback no título T, na posição P (hh:mm:ss)"
+
+msgctxt "IDS_CMD_CD"
+msgid ""
+"/cd\t\tLoad all the tracks of an Audio CD or (S)VCD,\n"
+"\t\t\"pathname\" means the drive path (optional)"
+msgstr ""
+"/cd\t\tCarrega todas as faixas de um CD de Audio ou (S)VCD\n"
+"\t\t\"nome do caminho\" significa que o caminho do drive (opcional)"
+
+msgctxt "IDS_CMD_DEVICE"
+msgid "/device\t\tOpen the default video device"
+msgstr "/device\t\tAbre o dispositivo de vídeo padrão"
+
+msgctxt "IDS_CMD_OPEN"
+msgid "/open\t\tOpen the file, don't automatically start playback"
+msgstr "/open\t\tAbre o arquivo, não inicia o playback automaticamente"
+
+msgctxt "IDS_CMD_PLAY"
+msgid "/play\t\tStart playing the file as soon the player is launched"
+msgstr ""
+"/play\t\tComeça a reproduzir o arquivo tão breve quanto o player é executado"
+
+msgctxt "IDS_CMD_CLOSE"
+msgid ""
+"/close\t\tClose the player after playback (only works when used with /play)"
+msgstr ""
+"/close\t\tFecha o player após o playback (só funciona quando usado com "
+"/play)"
+
+msgctxt "IDS_CMD_SHUTDOWN"
+msgid "/shutdown\tShutdown the operating system after playback"
+msgstr "/shutdown\tDesliga o sistema operacional após o playback"
+
+msgctxt "IDS_CMD_STANDBY"
+msgid "/standby\t\tPut the operating system in standby mode after playback"
+msgstr "/standby\t\tPõe o sistema operacional no modo de espera após o playback"
+
+msgctxt "IDS_CMD_HIBERNATE"
+msgid "/hibernate\t\tHibernate operating system after playback"
+msgstr "/hibernate\t\tHiberna o sistema operacional após o playback"
+
+msgctxt "IDS_CMD_LOGOFF"
+msgid "/logoff\t\tLog off after playback"
+msgstr "/logoff\t\tFaz o log off após o playback"
+
+msgctxt "IDS_CMD_LOCK"
+msgid "/lock\t\tLock workstation after playback"
+msgstr "/lock\t\tTranca a estação de trabalho após o playback"
+
+msgctxt "IDS_CMD_MONITOROFF"
+msgid "/monitoroff\tTurn off the monitor after playback"
+msgstr "/monitoroff\tDesliga o monitor após o playback"
+
+msgctxt "IDS_CMD_PLAYNEXT"
+msgid "/playnext\t\tOpen next file in the folder after playback"
+msgstr "/playnext\t\tAbre o próximo arquivo na pasta após o playback"
+
+msgctxt "IDS_CMD_VIEWPRESET"
+msgid ""
+"/viewpreset N\tStart with specific preset,\n"
+"\t\twhere N is either \"1\" Minimal, \"2\" Compact or \"3\" Normal"
+msgstr ""
+"/viewpreset N\tInicia com um pré-definido específico,\n"
+"\t\taonde N é ou \"1\" Mínimo, \"2\" Compacto ou \"3\" Normal"
+
+msgctxt "IDS_CMD_MUTE"
+msgid "/mute\t\tMute the audio"
+msgstr "/mute\t\tO áudio fica mudo"
+
+msgctxt "IDS_CMD_VOLUME"
+msgid "/volume N\tSet Volume, where N is a range from 0 to 100"
+msgstr "/volume N\tDefine o Volume, aonde o N é de um alcance de 0 até 100"
+
+msgctxt "IDS_YOUTUBEDL_NOT_FOUND"
+msgid "Youtube-dl failed to launch. Make sure youtube-dl is in PATH."
+msgstr ""
+"Youtube-dl falhou em executar. Tenha certeza que o youtube-dl está no PATH."
+
+msgctxt "IDS_CONTROLS_YOUTUBEDL"
+msgid "Calling youtube-dl..."
+msgstr "Chamando youtube-dl..."
+
+msgctxt "IDS_VERTICAL_ALIGN_VIDEO_TOP"
+msgid "Align Top"
+msgstr "Alinhar no Topo"
+
+msgctxt "IDS_VERTICAL_ALIGN_VIDEO_MIDDLE"
+msgid "Align Middle"
+msgstr "Alinhar no Meio"
+
+msgctxt "IDS_VERTICAL_ALIGN_VIDEO_BOTTOM"
+msgid "Align Bottom"
+msgstr "Alinhar no Rodapé"
+
+msgctxt "IDS_PPAGEADVANCED_USE_YDL"
+msgid ""
+"Process HTTP(s) URLs with Youtube-DL (if available). There is an internal "
+"whitelist/blacklist for URLs that are always/never processed."
+msgstr ""
+"Processar as URLs HTTP(s) com o Youtube-DL (se disponível). Há uma lista-"
+"branca/lista-negra interna pra URLs que sempre/nunca são processadas."
+
+msgctxt "IDS_PPAGEADVANCED_YDL_MAX_HEIGHT"
+msgid ""
+"Can be used to limit the video resolution that is chosen by Youtube-DL by "
+"the given height. Value 0 means it will choose the highest resolution "
+"available."
+msgstr ""
+"Pode ser usado pra limitar a resolução do vídeo que é escolhida pelo "
+"Youtube-DL pela altura dada. O Valor 0 significa que escolherá a maior "
+"resolução disponível."
+
+msgctxt "IDS_PPAGEADVANCED_YDL_VIDEO_FORMAT"
+msgid ""
+"Preferred video format for stream that is selected from Youtube-DL results.\n"
+"0: Automatic\n"
+"1: H.264 30fps\n"
+"2: H.264 60fps\n"
+"3: VP9 30fps\n"
+"4: VP9 60fps\n"
+"5: VP9 Profile2 30fps\n"
+"6: VP9 Profile2 60fps\n"
+"7: AV1 30fps\n"
+"8: AV1 60fps"
+msgstr ""
+"Formato de formato de vídeo preferido pra stream que é selecionado dos resultados do Youtube-DL.\n"
+"0: Automático\n"
+"1: H.264 30fps\n"
+"2: H.264 60fps\n"
+"3: VP9 30fps\n"
+"4: VP9 60fps\n"
+"5: VP9 Profile2 30fps\n"
+"6: VP9 Profile2 60fps\n"
+"7: AV1 30fps\n"
+"8: AV1 60fps"
+
+msgctxt "IDS_PPAGEADVANCED_YDL_AUDIO_ONLY"
+msgid "Instructs Youtube-DL to prefer an audio-only stream (if available)"
+msgstr ""
+"Instrui o Youtube-DL pra preferir um stream só de áudio (se disponível)"
+
+msgctxt "IDS_PPAGEADVANCED_YDL_COMMAND_LINE"
+msgid ""
+"Command line parameters for downloading (\"save a copy\") with youtube-dl.exe\n"
+"Examples:\n"
+"-f best[height<=1080]\n"
+"-f bestvideo+bestaudio\n"
+"-o \"C:\\downloads\\%(title)s.%(ext)s"
+msgstr ""
+"Parâmetros da linha de comando pra baixar (\"salve uma cópia\") com youtube-dl.exe\n"
+"Exemplos:\n"
+"-f best[height<=1080]\n"
+"-f bestvideo+bestaudio\n"
+"-o \"C:\\downloads\\%(title)s.%(ext)s"
+
+msgctxt "IDS_PPAGEADVANCED_SAVEIMAGE_POSITION"
+msgid "Include video position in filename"
+msgstr "Inclui posição do vídeo no nome do arquivo"
+
+msgctxt "IDS_PPAGEADVANCED_SAVEIMAGE_CURRENTTIME"
+msgid "Include current time in filename"
+msgstr "Inclui tempo atual no nome do arquivo"
+
+msgctxt "IDS_PPAGEADVANCED_ALLOW_INACCURATE_FASTSEEK"
+msgid ""
+"When enabled, fast seek (to keyframe) has a maximum inaccuracy of 20 "
+"seconds. When disabled, a smaller inaccuracy is allowed when deciding "
+"between a fast and a normal seek. For example 30% of jump size."
+msgstr ""
+"Quando ativado a procura rápida (pro keyframe) tem uma imprecisão máxima de "
+"20 segundos. Quando desativado uma imprecisão menor é permitida quando "
+"decidir entre uma procura rápida e uma normal. Por exemplo 30% do tamanho do"
+" pulo."
+
+msgctxt "IDS_CMD_FULLSCREEN"
+msgid "/fullscreen\tStart in fullscreen mode"
+msgstr "/fullscreen\tInicia o modo de tela cheia"
+
+msgctxt "IDS_CMD_MINIMIZED"
+msgid "/minimized\tStart in minimized mode"
+msgstr "/minimized\tInicia no modo minimizado"
+
+msgctxt "IDS_CMD_NEW"
+msgid "/new\t\tUse a new instance of the player"
+msgstr "/new\t\tUsa uma nova instância do player"
+
+msgctxt "IDS_CMD_ADD"
+msgid "/add\t\tAdd \"pathname\" to playlist, can be combined with /open and /play"
+msgstr ""
+"/add\t\tAdiciona o \"nome do caminho\" a lista de reprodução, pode ser "
+"combinado com /open e /play"
+
+msgctxt "IDS_CMD_RANDOMIZE"
+msgid "/randomize\tRandomize the playlist"
+msgstr "/randomize\tTorna a lista de reprodução aleatória"
+
+msgctxt "IDS_CMD_REGVID"
+msgid "/regvid\t\tCreate file associations for video files"
+msgstr "/regvid\t\tCria associações de arquivos pra arquivos de vídeo"
+
+msgctxt "IDS_CMD_REGAUD"
+msgid "/regaud\t\tCreate file associations for audio files"
+msgstr "/regaud\t\tCria associações de arquivos pra arquivos de áudio"
+
+msgctxt "IDS_CMD_REGPL"
+msgid "/regpl\t\tCreate file associations for playlist files"
+msgstr ""
+"/regpl\t\tCria associações de arquivos pra arquivos de lista de reprodução"
+
+msgctxt "IDS_CMD_REGALL"
+msgid "/regall\t\tCreate file associations for all supported file types"
+msgstr ""
+"/regall\t\tCria associações de arquivos pra todos os tipos de arquivo "
+"suportados"
+
+msgctxt "IDS_CMD_UNREGALL"
+msgid "/unregall\t\tRemove all file associations"
+msgstr "/unregall\t\tRemove todas as associações de arquivos"
+
+msgctxt "IDS_CMD_START"
+msgid "/start ms\t\tStart playing at \"ms\" (= milliseconds)"
+msgstr "/start ms\t\tInicia a reprodução em \"ms\" (= milissegundos)"
+
+msgctxt "IDS_CMD_STARTPOS"
+msgid "/startpos hh:mm:ss\tStart playing at position hh:mm:ss"
+msgstr "/startpos hh:mm:ss\tInicia a reprodução na posição hh:mm:ss"
+
+msgctxt "IDS_CMD_FIXEDSIZE"
+msgid "/fixedsize w,h\tSet a fixed window size"
+msgstr "/fixedsize w,h\tDefine um tamanho de janela fixo"
+
+msgctxt "IDS_CMD_MONITOR"
+msgid "/monitor N\tStart player on monitor N, where N starts from 1"
+msgstr "/monitor N\tInicia o player no monitor N, aonde o N inicia do 1"
+
+msgctxt "IDS_CMD_AUDIORENDERER"
+msgid ""
+"/audiorenderer N\tStart using audiorenderer N, where N starts from 1 (see "
+"\"Output\" settings)"
+msgstr ""
+"/audiorenderer N\tInicia usando o renderizador de áudio N, aonde o N inicia "
+"do 1 (ver configurações da \"Saída de Dados\")"
+
+msgctxt "IDS_CMD_SHADERPRESET"
+msgid "/shaderpreset \"Pr\"\tStart using \"Pr\" shader preset"
+msgstr "/shaderpreset \"Pr\"\tInicia usando o shader pré-definido \"Pr\""
+
+msgctxt "IDS_MESSAGEBOX_CANCEL"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "IDS_MESSAGEBOX_ABORT"
+msgid "&Abort"
+msgstr "&Abortar"
+
+msgctxt "IDS_MESSAGEBOX_RETRY"
+msgid "&Retry"
+msgstr "&Tentar de novo"
+
+msgctxt "IDS_MESSAGEBOX_IGNORE"
+msgid "&Ignore"
+msgstr "&Ignorar"
+
+msgctxt "IDS_MESSAGEBOX_OK"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "IDS_MESSAGEBOX_CONTINUE"
+msgid "&Continue"
+msgstr "&Continuar"
+
+msgctxt "IDS_AG_TOGGLE_DEFAULT_SUBTITLE_STYLE"
+msgid "Toggle Default Subtitle Style"
+msgstr "Alternar Estilo Padrão da Legenda"
+
+msgctxt "IDS_AG_TOGGLE_MPCTHEME"
+msgid "Toggle Dark Theme"
+msgstr "Alternar Tema Escuro"
+
+msgctxt "IDS_PPAGEADVANCED_LOOP_FOLDER_NEXT_FILE"
+msgid "Loop back to first file in folder after playing the last file."
+msgstr "Voltar ao primeiro arquivo na pasta após reproduzir o último arquivo."
+
+msgctxt "IDS_PPAGEADVANCED_MODERNSEEKBAR"
+msgid ""
+"Requires Dark Theme. When enabled, the time seekbar and volume indicator "
+"don't show a dragger at current position, but instead are filled from left "
+"to right."
+msgstr ""
+"Requer o Tema Escuro. Quando ativado, a barra de procura do tempo e o "
+"indicador de volume não mostram um arrastador na posição atual, mas ao invés"
+" disto são preenchidos da esquerda para direita."
+
+msgctxt "IDS_PPAGEADVANCED_MODERNSEEKBARHEIGHT"
+msgid "Modern seekbar height (at 96dpi, otherwise scaled)"
+msgstr ""
+"Altura da barra de procura moderna (a 96dpi, de outra forma dimensionada)"
+
+msgctxt "IDS_PPAGEADVANCED_FULLSCREEN_DELAY"
+msgid "Delay before showing fullscreen video, to prevent visual glitches."
+msgstr ""
+"Atrasar antes de mostrar o vídeo em tela cheia pra impedir problemas "
+"gráficos."
+
+msgctxt "IDS_PPAGEADVANCED_SNAPSHOTSUBTITLES"
+msgid "Render subtitles onto screenshots"
+msgstr "Renderizar legendas em fotos"
+
+msgctxt "IDS_PPAGEADVANCED_SNAPSHOTKEEPVIDEOEXTENSION"
+msgid ""
+"Keep video file extension as part of snapshot filenames (e.g., file.mkv.png)"
+msgstr ""
+"Manter extensão do arquivo de vídeo como parte de nomes de arquivos das "
+"fotos (ex: file.mkv.png)"
+
+msgctxt "IDS_PRESIZE_SHADERS_ENABLED"
+msgid "Pre-Resize Pixel Shaders: on"
+msgstr "Pré-Redimensionar os Shaders dos Pixels: ligado"
+
+msgctxt "IDS_PRESIZE_SHADERS_DISABLED"
+msgid "Pre-Resize Pixel Shaders: off"
+msgstr "Pré-Redimensionar os Shaders dos Pixels: desligado"
+
+msgctxt "IDS_PRESIZE_SHADERS_TOGGLE"
+msgid "Enable Pre-Resize Pixel Shaders"
+msgstr "Ativar o Pré-Redimensionamento dos Shaders dos Pixels"
+
+msgctxt "IDS_POSTSIZE_SHADERS_ENABLED"
+msgid "Post-Resize Pixel Shaders: on"
+msgstr "Pós-Redimensionar os Shaders dos Pixels: ligado"
+
+msgctxt "IDS_POSTSIZE_SHADERS_DISABLED"
+msgid "Post-Resize Pixel Shaders: off"
+msgstr "Pós-Redimensionar os Shaders dos Pixels: desligado"
+
+msgctxt "IDS_POSTSIZE_SHADERS_TOGGLE"
+msgid "Enable Post-Resize Pixel Shaders"
+msgstr "Ativar o Pós-Redimensionamento dos Shaders dos Pixels"
+
+msgctxt "IDS_PPAGEADVANCED_TIME_REFRESH_INTERVAL"
+msgid "Refresh interval (in milliseconds) of time in status bar"
+msgstr ""
+"Intervalo da atualização (em mili-segundos) do tempo na barra de status"
+
+msgctxt "IDS_PPAGEADVANCED_SHOW_LANG_STATUSBAR"
+msgid "Display current audio and subtitle language in status bar"
+msgstr "Exibir o áudio atual e o idioma da legenda na barra de status"
+
+msgctxt "IDS_PPAGEADVANCED_SHOW_FPS_STATUSBAR"
+msgid "Display current fps and rate in status bar"
+msgstr "Exibir o fps atual e a taxa no barra de status"
+
+msgctxt "IDS_PPAGEADVANCED_ADD_LANGCODE_WHEN_SAVE_SUBTITLES"
+msgid ""
+"When save the subtitles file, the language code (if available) text will be "
+"added to suggested file name by default."
+msgstr ""
+"Quando salvar o arquivo das legendas, o código do idioma (se disponível) o "
+"texto será adicionado ao nome sugerido do arquivo por padrão."
+
+msgctxt "IDS_PPAGEADVANCED_USE_TITLE_IN_RECENT_FILE_LIST"
+msgid "Use title in recent file list."
+msgstr "Usar o título na lista de arquivos recentes."
+
+msgctxt "IDS_PPAGEADVANCED_SHOW_ABMARKS_STATUSBAR"
+msgid "Display current A-B repeat marks in status bar."
+msgstr ""
+
+msgctxt "IDS_PPAGEADVANCED_SHOW_VIDEOINFO_STATUSBAR"
+msgid "Display video info (codec name, resolution) in status bar."
+msgstr ""
+
+msgctxt "IDS_ARS_WASAPI_MODE"
+msgid "WASAPI mode:"
+msgstr ""
+
+msgctxt "IDS_ARS_EXCLUSIVE"
+msgid "Exclusive"
+msgstr ""
+
+msgctxt "IDS_ARS_SHARED"
+msgid "Shared"
+msgstr ""
+
+msgctxt "IDS_ARS_BITEXACT_OUTPUT"
+msgid "Allow bit-exact output"
+msgstr ""
+
+msgctxt "IDS_ARS_SYSTEM_LAYOUT_CHANNELS"
+msgid "Use system layout channels"
+msgstr ""
+
+msgctxt "IDS_ARS_SOUND_DEVICE"
+msgid "Sound Device:"
+msgstr ""
+
+msgctxt "IDS_ARS_RELEASE_DEVICE_IDLE"
+msgid "Release device when idle"
+msgstr ""
+
+msgctxt "IDS_ARS_CROSSFEED"
+msgid "Enable stereo crossfeed (for headphones)"
+msgstr ""
+
+msgctxt "IDS_ARS_DEVICE_PERIOD"
+msgid "Device buffer:"
+msgstr ""
+
+msgctxt "IDS_ARS_CHECK_FORMAT"
+msgid "Do not check format support"
+msgstr ""
+
+msgctxt "IDS_ARS_STATUS"
+msgid "Status"
+msgstr ""
+
+msgctxt "IDS_ARS_DEVICE"
+msgid "Device:"
+msgstr ""
+
+msgctxt "IDS_ARS_MODE"
+msgid "Mode:"
+msgstr ""
+
+msgctxt "IDS_ARS_INPUT"
+msgid "Input"
+msgstr ""
+
+msgctxt "IDS_ARS_OUTPUT"
+msgid "Output"
+msgstr ""
+
+msgctxt "IDS_ARS_FORMAT"
+msgid "Format:"
+msgstr ""
+
+msgctxt "IDS_ARS_SAMPLERATE"
+msgid "Sample rate:"
+msgstr ""
+
+msgctxt "IDS_ARS_CHANNELS"
+msgid "Channels:"
+msgstr ""
+
+msgctxt "IDS_ARS_WASAPI_METHOD"
+msgid "WASAPI method:"
+msgstr ""
+
+msgctxt "IDS_ARS_DUMMY_CHANNELS"
+msgid "Don't fill channels when upmixing"
+msgstr ""
+
+msgctxt "IDS_AG_DEFAULT"
+msgid "Default"
+msgstr ""

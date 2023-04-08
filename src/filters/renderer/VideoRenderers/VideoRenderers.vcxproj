@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FB565A7A-50DC-4A0D-852D-5E7F74DAB82C}</ProjectGuid>
+    <RootNamespace>VideoRenderers</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>VideoRenderers</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="..\..\..\platform.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\common.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\include;..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;NO_VERSION_REV_NEEDED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AllocatorCommon.cpp" />
+    <ClCompile Include="D3DFont.cpp" />
+    <ClCompile Include="Dither.cpp" />
+    <ClCompile Include="DX9AllocatorPresenter.cpp" />
+    <ClCompile Include="DX9RenderingEngine.cpp" />
+    <ClCompile Include="DXRAllocatorPresenter.cpp" />
+    <ClCompile Include="EVRAllocatorPresenter.cpp" />
+    <ClCompile Include="FocusThread.cpp" />
+    <ClCompile Include="IPinHook.cpp" />
+    <ClCompile Include="MacrovisionKicker.cpp" />
+    <ClCompile Include="madVRAllocatorPresenter.cpp" />
+    <ClCompile Include="MPCVRAllocatorPresenter.cpp" />
+    <ClCompile Include="OuterEVR.cpp" />
+    <ClCompile Include="OuterVMR.cpp" />
+    <ClCompile Include="PixelShaderCache.cpp" />
+    <ClCompile Include="PixelShaderCompiler.cpp" />
+    <ClCompile Include="RenderersSettings.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SyncRenderer.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="VMR9AllocatorPresenter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AllocatorCommon.h" />
+    <ClInclude Include="AsyncCallback.h" />
+    <ClInclude Include="D3DFont.h" />
+    <ClInclude Include="Dither.h" />
+    <ClInclude Include="DX9AllocatorPresenter.h" />
+    <ClInclude Include="DX9RenderingEngine.h" />
+    <ClInclude Include="DXRAllocatorPresenter.h" />
+    <ClInclude Include="EVRAllocatorPresenter.h" />
+    <ClInclude Include="FocusThread.h" />
+    <ClInclude Include="IPinHook.h" />
+    <ClInclude Include="IQTVideoSurface.h" />
+    <ClInclude Include="MacrovisionKicker.h" />
+    <ClInclude Include="madVRAllocatorPresenter.h" />
+    <ClInclude Include="MPCVRAllocatorPresenter.h" />
+    <ClInclude Include="OuterEVR.h" />
+    <ClInclude Include="OuterVMR.h" />
+    <ClInclude Include="PixelShaderCache.h" />
+    <ClInclude Include="PixelShaderCompiler.h" />
+    <ClInclude Include="RenderersSettings.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SyncAllocatorPresenter.h" />
+    <ClInclude Include="SyncRenderer.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Variables.h" />
+    <ClInclude Include="VMR9AllocatorPresenter.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

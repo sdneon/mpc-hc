@@ -1,0 +1,229 @@
+diff --git a/catalog.c b/catalog.c
+index effbb2e6..f450c688 100644
+--- a/catalog.c
++++ b/catalog.c
+@@ -77,6 +77,10 @@
+ #endif
+ 
+ #if defined(_WIN32) && defined(_MSC_VER)
++#include <winapifamily.h>
++#if defined(WINAPI_FAMILY_PARTITION) && WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_APP) && !WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_DESKTOP)
++#define getenv(x) NULL
++#endif
+ #undef XML_XML_DEFAULT_CATALOG
+ static char XML_XML_DEFAULT_CATALOG[256] = "file:///etc/xml/catalog";
+ #if defined(_WIN32_WCE)
+@@ -3123,12 +3127,17 @@ xmlInitializeCatalog(void) {
+ 
+ 	catalogs = (const char *) getenv("XML_CATALOG_FILES");
+ 	if (catalogs == NULL)
+-#if defined(_WIN32) && defined(_MSC_VER)
++#if defined(_WIN32) && defined(_MSC_VER) && (!defined(WINAPI_FAMILY_PARTITION) || !WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_APP) || WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_DESKTOP))
+     {
+ 		void* hmodule;
+-		hmodule = GetModuleHandleA("libxml2.dll");
++#   ifdef _DEBUG
++#       define LIBXML2_MODULE L"xml2d.dll"
++#   else
++#       define LIBXML2_MODULE L"xml2.dll"
++#   endif
++        hmodule = GetModuleHandleW(LIBXML2_MODULE);
+ 		if (hmodule == NULL)
+-			hmodule = GetModuleHandleA(NULL);
++			hmodule = GetModuleHandleW(NULL);
+ 		if (hmodule != NULL) {
+ 			char buf[256];
+ 			unsigned long len = GetModuleFileNameA(hmodule, buf, 255);
+diff --git a/nanohttp.c b/nanohttp.c
+index 8e840f58..1777960b 100644
+--- a/nanohttp.c
++++ b/nanohttp.c
+@@ -77,6 +77,13 @@
+ #include <wsockcompat.h>
+ #endif
+ 
++#if defined(_WIN32) && defined(_MSC_VER)
++#include <winapifamily.h>
++#if defined(WINAPI_FAMILY_PARTITION) && WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_APP) && !WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_DESKTOP)
++#define getenv(x) NULL
++#endif
++#endif
++
+ #include <libxml/globals.h>
+ #include <libxml/xmlerror.h>
+ #include <libxml/xmlmemory.h>
+diff --git a/win32/libxml2.def.src b/win32/libxml2.def.src
+index 1e771e85..47ae6a58 100644
+--- a/win32/libxml2.def.src
++++ b/win32/libxml2.def.src
+@@ -11,10 +11,10 @@ __docbDefaultSAXHandler
+ docbDefaultSAXHandler DATA
+ #endif
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ emptyExp DATA
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ forbiddenExp DATA
+ #endif
+ #ifdef LIBXML_THREAD_ENABLED
+@@ -803,61 +803,61 @@ xmlEncodeEntities
+ xmlEncodeEntitiesReentrant
+ xmlEncodeSpecialChars
+ xmlErrMemory
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpCtxtNbCons
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpCtxtNbNodes
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpDump
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpExpDerive
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpFree
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpFreeCtxt
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpGetLanguage
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpGetStart
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpIsNillable
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpMaxToken
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpNewAtom
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpNewCtxt
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpNewOr
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpNewRange
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpNewSeq
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpParse
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpRef
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpStringDerive
+ #endif
+-#ifdef LIBXML_REGEXP_ENABLED
++#ifdef LIBXML_EXPR_ENABLED
+ xmlExpSubsume
+ #endif
+ xmlFileClose
+diff --git a/xmlIO.c b/xmlIO.c
+index 57312b97..e2a879c7 100644
+--- a/xmlIO.c
++++ b/xmlIO.c
+@@ -43,12 +43,20 @@
+ #if defined(_WIN32) && !defined(__CYGWIN__)
+ #define WIN32_LEAN_AND_MEAN
+ #include <windows.h>
++#include <direct.h>
+ #endif
+ 
+ #if defined(_WIN32_WCE)
+ #include <winnls.h> /* for CP_UTF8 */
+ #endif
+ 
++#if defined(_WIN32) && defined(_MSC_VER)
++#include <winapifamily.h>
++#if defined(WINAPI_FAMILY_PARTITION) && WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_APP) && !WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_DESKTOP)
++#define getenv(x) NULL
++#endif
++#endif
++
+ #ifndef S_ISDIR
+ #  ifdef _S_ISDIR
+ #    define S_ISDIR(x) _S_ISDIR(x)
+@@ -3777,11 +3785,13 @@ xmlParserGetDirectory(const char *filename) {
+         if (cur == dir) dir[1] = 0;
+ 	else *cur = 0;
+ 	ret = xmlMemStrdup(dir);
++#if !defined(WINAPI_FAMILY_PARTITION) || !WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_APP) || WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_DESKTOP)
+     } else {
+         if (getcwd(dir, 1024) != NULL) {
+ 	    dir[1023] = 0;
+ 	    ret = xmlMemStrdup(dir);
+ 	}
++#endif
+     }
+     return(ret);
+ #undef IS_XMLPGD_SEP
+diff --git a/xmlmemory.c b/xmlmemory.c
+index c51f49ae..5387917a 100644
+--- a/xmlmemory.c
++++ b/xmlmemory.c
+@@ -56,6 +56,13 @@ static xmlMutexPtr xmlMemMutex = NULL;
+ 
+ void xmlMallocBreakpoint(void);
+ 
++#if defined(_WIN32) && defined(_MSC_VER)
++#include <winapifamily.h>
++#if defined(WINAPI_FAMILY_PARTITION) && WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_APP) && !WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_DESKTOP)
++#define getenv(x) NULL
++#endif
++#endif
++
+ /************************************************************************
+  *									*
+  *		Macros, variables and associated types			*
+diff --git a/xmlmodule.c b/xmlmodule.c
+index 1867a5e1..cf450cc1 100644
+--- a/xmlmodule.c
++++ b/xmlmodule.c
+@@ -314,7 +314,15 @@ xmlModulePlatformSymbol(void *handle, const char *name, void **symbol)
+ static void *
+ xmlModulePlatformOpen(const char *name)
+ {
++#if defined(WINAPI_FAMILY_PARTITION) && WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_APP) && !WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_DESKTOP)
++    WCHAR wlpName[MAX_PATH];
++    if (MultiByteToWideChar(CP_UTF8, 0, name, -1, wlpName, MAX_PATH) == 0) {
++        return NULL;
++    }
++    return LoadPackagedLibrary(wlpName, 0);
++#else
+     return LoadLibraryA(name);
++#endif
+ }
+ 
+ /*

@@ -1,0 +1,93 @@
+# MPC-HC - Strings extracted from string tables
+# Copyright (C) 2002 - 2017 see Authors.txt
+# This file is distributed under the same license as the MPC-HC package.
+# Translators:
+# MPC HC <adiposegithub@gmail.com>, 2020
+# Dogers <dogers@the-marines.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: MPC-HC\n"
+"POT-Creation-Date: 2017-07-30 20:54:11+0000\n"
+"PO-Revision-Date: 2020-01-02 07:46+0000\n"
+"Last-Translator: Dogers <dogers@the-marines.com>, 2020\n"
+"Language-Team: English (United Kingdom) (https://www.transifex.com/mpchc/teams/106126/en_GB/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Messages_WelcomeLabel2"
+msgid ""
+"This will install [name] on your computer.\n"
+"\n"
+"It is recommended that you close all other applications before continuing."
+msgstr ""
+"This will install [name] on your computer.\n"
+"\n"
+"It is recommended that you close all other applications before continuing."
+
+msgctxt "Messages_WinVersionTooLowError"
+msgid "[name] requires Windows Vista or newer to run."
+msgstr "[name] requires Windows Vista or newer to run."
+
+msgctxt "CustomMessages_comp_mpciconlib"
+msgid "Icon Library"
+msgstr "Icon Library"
+
+msgctxt "CustomMessages_comp_mpcresources"
+msgid "Translations"
+msgstr "Translations"
+
+msgctxt "CustomMessages_msg_DeleteSettings"
+msgid ""
+"Do you also want to delete MPC-HC settings?\n"
+"\n"
+"If you plan on installing MPC-HC again then you do not have to delete them."
+msgstr ""
+"Do you also want to delete MPC-HC settings?\n"
+"\n"
+"If you plan on installing MPC-HC again then you do not have to delete them."
+
+msgctxt "CustomMessages_msg_simd_sse2"
+msgid ""
+"This build of MPC-HC requires a CPU with SSE2 extension support.\n"
+"\n"
+"Your CPU does not have those capabilities."
+msgstr ""
+"This build of MPC-HC requires a CPU with SSE2 extension support.\n"
+"\n"
+"Your CPU does not have those capabilities."
+
+msgctxt "CustomMessages_run_DownloadToolbarImages"
+msgid "Visit our Wiki page to download toolbar images"
+msgstr "Visit our Wiki page to download toolbar images"
+
+msgctxt "CustomMessages_tsk_AllUsers"
+msgid "For all users"
+msgstr "For all users"
+
+msgctxt "CustomMessages_tsk_CurrentUser"
+msgid "For the current user only"
+msgstr "For the current user only"
+
+msgctxt "CustomMessages_tsk_Other"
+msgid "Other tasks:"
+msgstr "Other tasks:"
+
+msgctxt "CustomMessages_tsk_ResetSettings"
+msgid "Reset settings"
+msgstr "Reset settings"
+
+msgctxt "CustomMessages_types_DefaultInstallation"
+msgid "Default installation"
+msgstr "Default installation"
+
+msgctxt "CustomMessages_types_CustomInstallation"
+msgid "Custom installation"
+msgstr "Custom installation"
+
+msgctxt "CustomMessages_ViewChangelog"
+msgid "View Changelog"
+msgstr "View Changelog"
