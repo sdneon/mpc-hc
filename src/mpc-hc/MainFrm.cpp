@@ -8719,6 +8719,11 @@ void CMainFrame::SetSubtitleDelay(int delay_ms, bool relative)
     m_OSD.DisplayMessage(OSD_TOPLEFT, strSubDelay);
 }
 
+void CMainFrame::ResetSubtitleDelay() //SD
+{
+    SetSubtitleDelay(0, false);
+}
+
 void CMainFrame::OnPlayChangeAudDelay(UINT nID)
 {
     if (CComQIPtr<IAudioSwitcherFilter> pASF = FindFilter(__uuidof(CAudioSwitcherFilter), m_pGB)) {
@@ -16054,6 +16059,8 @@ bool CMainFrame::SetSubtitle(int i, bool bIsOffset /*= false*/, bool bDisplayMes
             m_OSD.DisplayMessage(OSD_TOPLEFT, GetStreamOSDString(CString(pName), LCID(-1), 2));
         }
         success = true;
+
+        ResetSubtitleDelay(); //SD
     }
 
     return success;

@@ -1159,6 +1159,7 @@ public:
     LPCTSTR     GetDVDAudioFormatName(const DVD_AudioAttributes& ATR) const;
     void        SetAudioDelay(REFERENCE_TIME rtShift);
     void        SetSubtitleDelay(int delay_ms, bool relative = false);
+    void        ResetSubtitleDelay(); //SD
     //void      AutoSelectTracks();
     bool        IsRealEngineCompatible(CString strFilename) const;
     void        SetTimersPlay();
